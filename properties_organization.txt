@@ -1,0 +1,13 @@
+#https://www.wikidata.org/wiki/Wikidata:List_of_properties/Organization
+P159	headquarters location
+P452	industry
+P807	separated from
+P1056	product
+P112	founder
+P740	location of formation
+P169	chief executive officer
+P488	chairperson
+P194	business division
+P355	subsidiary
+P1268	represents organisation
+P1308	officeholder

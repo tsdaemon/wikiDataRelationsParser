@@ -1,0 +1,1 @@
+c:\users\anatoliy\documents\Projects\GetWikidataRelations\GetWikidataRelations\bin\Debug\GetWikidataRelations.exe.config

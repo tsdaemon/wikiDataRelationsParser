@@ -1,0 +1,28 @@
+#https://www.wikidata.org/wiki/Wikidata:List_of_properties/Geographical_feature
+P1464	people born here
+P1465	people died here
+P30	continent
+P17	country
+P131	located in the administrative territorial entity
+P669	located on street
+P36	capital
+P35	head of state
+P194	legislative body
+P150	contains administrative territorial entity
+P1383	contains settlement
+P131	located in the administrative territorial entity
+P1001	applies to jurisdiction
+P6	head of government
+P1336	territory claimed by
+P210	party chief representative
+P47	shares border with
+P500	exclave of
+P501	enclave within
+P190	sister city
+P84	architect
+P631	structural engineer
+P193	main building contractor
+P126	maintained by
+P127	owned by
+P1382	coincident with
+P137	operator
