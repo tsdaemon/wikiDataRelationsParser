@@ -26,3 +26,4 @@ P126	maintained by
 P127	owned by
 P1382	coincident with
 P137	operator
+P61	discoverer or inventor

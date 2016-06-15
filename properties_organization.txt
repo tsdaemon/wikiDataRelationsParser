@@ -1,4 +1,5 @@
 #https://www.wikidata.org/wiki/Wikidata:List_of_properties/Organization
+#https://www.wikidata.org/wiki/Wikidata:List_of_properties/Generic
 P159	headquarters location
 P452	industry
 P807	separated from
@@ -11,3 +12,5 @@ P194	business division
 P355	subsidiary
 P1268	represents organisation
 P1308	officeholder
+P361	part of
+P127	owned by
