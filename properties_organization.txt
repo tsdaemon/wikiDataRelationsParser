@@ -2,8 +2,6 @@
 #https://www.wikidata.org/wiki/Wikidata:List_of_properties/Generic
 P159	headquarters location
 P452	industry
-P807	separated from
-P1056	product
 P112	founder
 P740	location of formation
 P169	chief executive officer

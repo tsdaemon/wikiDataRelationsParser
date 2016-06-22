@@ -1,1 +1,8 @@
 c:\users\anatoliy\documents\Projects\GetWikidataRelations\GetWikidataRelations\bin\Debug\GetWikidataRelations.exe.config
+C:\Users\Anatoliy\documents\Projects\GetWikidataRelations\GetWikidataRelations\bin\Debug\GetWikidataRelations.exe
+C:\Users\Anatoliy\documents\Projects\GetWikidataRelations\GetWikidataRelations\bin\Debug\GetWikidataRelations.pdb
+C:\Users\Anatoliy\documents\Projects\GetWikidataRelations\GetWikidataRelations\obj\Debug\GetWikidataRelations.csprojResolveAssemblyReference.cache
+C:\Users\Anatoliy\documents\Projects\GetWikidataRelations\GetWikidataRelations\obj\Debug\GetWikidataRelations.exe
+C:\Users\Anatoliy\documents\Projects\GetWikidataRelations\GetWikidataRelations\obj\Debug\GetWikidataRelations.pdb
+C:\Users\Anatoliy\documents\Projects\GetWikidataRelations\GetWikidataRelations\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Anatoliy\documents\Projects\GetWikidataRelations\GetWikidataRelations\bin\Debug\Newtonsoft.Json.xml

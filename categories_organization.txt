@@ -1,0 +1,5528 @@
+Q43229	
+Q7275	state
+Q107390	federated state
+Q23058	canton of Switzerland
+Q35657	state of the United States
+Q41162	republic of Russia
+Q261543	state of Austria
+Q465842	state of Nigeria
+Q485258	state of Brazil
+Q496539	state of South Sudan
+Q279479	county of South Sudan
+Q501094	state of Venezuela
+Q746290	state of Sudan
+Q1221156	state of Germany
+Q464235	regional district in Bavaria
+Q5852411	state of Australia
+Q13390680	state of India
+Q15063586	state of Malaysia
+Q15149663	state of Mexico
+Q112099	island nation
+Q123480	landlocked country
+Q133442	city-state
+Q148837	Polis
+Q154547	duchy
+Q171751	Banana republic
+Q185145	great power
+Q188443	micronation
+Q179164	unitary state
+Q190967	Crusader state
+Q208164	puppet state
+Q190354	bantustan
+Q1625987	bantustan of South West Africa
+Q18669740	South African bantustan
+Q208500	principality
+Q165116	grand duchy
+Q853309	Anatolian beylik
+Q1939894	Upper Oka Principalities
+Q3403564	Ecclesiastical principality
+Q463742	Hochstift
+Q24298790	Prince-Bishopric
+Q24305436	abbey-principality
+Q392160	failed state
+Q828218	rogue state
+Q836688	Ancient Chinese state
+Q842112	socialist state
+Q849866	communist state
+Q1138279	associated state
+Q1151405	client state
+Q1250464	realm
+Q217177	Taifa
+Q1311832	Zeta
+Q2561694	city-kingdom of Cyprus
+Q1371288	vassal state
+Q1646605	member state
+Q160016	member state of the United Nations
+Q6688521	permanent member of the United Nations Security Council
+Q185441	member state of the European Union
+Q595841	member state of NATO
+Q628363	member state of UNESCO
+Q1757823	member state of the Commonwealth of Nations
+Q1951661	member state of the Association of Southeast Asian Nations
+Q6814225	member state of OPEC
+Q6814228	member state of the Bolivarian Alliance for the Americas
+Q6814229	member state of the Community of Portuguese Language Countries
+Q6814230	member state of the Cooperation Council for the Arab States of the Gulf
+Q6814231	member state of the Caribbean Community
+Q6814232	member state of the Latin Union
+Q6814233	member state of the International Atomic Energy Agency
+Q6814234	member state of the International Organization of the Francophonie
+Q6814237	member state of the Organization of Ibero-American States
+Q6814239	member state of the Organisation of Islamic Cooperation
+Q6814241	member state of the Venice Commission
+Q6814242	member state of the World Customs Organization
+Q6814244	member state of the World Intellectual Property Organization
+Q6814245	member state of the World Sports Alliance
+Q17093009	member state of Shanghai Cooperation Organisation
+Q2745501	member state of the League of Nations
+Q3055369	member state of the African Union
+Q6316828	member state of the Union of South American Nations
+Q6505795	member state of the Council of Europe
+Q6814224	member state of Mercosur
+Q1763527	constituent country
+Q3336843	country of the United Kingdom
+Q15304003	country of the Kingdom of the Netherlands
+Q3024240	former country
+Q4818345	historical unrecognized state
+Q48349	empire
+Q2495771	nomadic empire
+Q12297902	Arab Caliphate
+Q19202067	global empire
+Q3624078	sovereign state
+Q1309121	Hermit kingdom
+Q39731	Baltic States
+Q179671	nation state
+Q202686	Commonwealth realm
+Q5164076	constituent state
+Q131541	state or territory of India
+Q467745	union territory of India
+Q43263	federal subject of Russia
+Q183342	federal city of Russia
+Q184122	autonomous okrug of Russia
+Q309166	autonomous oblast of Russia
+Q835714	oblast of Russia
+Q831740	krai of Russia
+Q50337	prefecture of Japan
+Q22694468	constituent monarchy
+Q681026	crown land of the Austrian Empire
+Q19833031	emirate of the United Arab Emirates
+Q236036	union republic of the Soviet Union
+Q7396640	sacerdotal state
+Q10007123	Griqua state
+Q13403037	Period of appanages
+Q15622876	multinational state
+Q15634554	state with limited recognition
+Q21512251	self-proclamed state
+Q4204060	Islamic state
+Q131401	caliphate
+Q672729	Islamic republic
+Q31895	anarchy
+Q5341295	educational organization
+Q2385804	educational institution
+Q3914	school
+Q159334	secondary school
+Q9826	high school
+Q624671	Commercial high school
+Q4876006	Beacon high schools in Beijing
+Q6821341	Mesivta
+Q7574916	specialized high schools in New York City
+Q10496911	vocational school
+Q11672707	agricultural high school
+Q17683170	Girls High School
+Q23308777	boys high school
+Q55043	gymnasium
+Q16463	lyceum
+Q1542966	Gymnasium
+Q16969697	Gymnasium
+Q149566	middle school
+Q170087	folk high school
+Q1469420	Adult Education centre
+Q391347	Minor seminary
+Q428602	university-preparatory school
+Q667471	Realschule
+Q11366867	Secondary education school of Japan
+Q12408338	Yeshiva high school
+Q15195840	studio school
+Q17048668	voluntary secondary school
+Q17485224	Dutch secondary school
+Q21995427	Berufsoberschule
+Q675423	Hauptschule
+Q967098	grammar school
+Q1094006	City Technology College
+Q1459186	college
+Q1471069	Mittelschule
+Q1643737	Höhere Technische Lehranstalt
+Q2511322	secondary education in France
+Q3831968	Liceo scientifico
+Q5155054	Community school
+Q7443856	Secondary modern school
+Q7692562	Technology College
+Q7894959	University Technical College
+Q7899050	upper school
+Q10511371	gymnasieskola
+Q206805	Zivildienstschule
+Q218662	customs dog training school
+Q38723	higher education institution
+Q3918	university
+Q265662	national university
+Q875538	public university
+Q576759	Public Ivy
+Q20971972	Original Public Ivy
+Q622358	Indian Institutes of Technology
+Q7603893	state university in India
+Q902104	private university
+Q557206	Catholic university
+Q987075	new university
+Q1321960	law school
+Q1371037	institute of technology
+Q845392	Polytechnic
+Q1384955	veterinary medicine school
+Q1475244	University of the German Federal Armed Forces
+Q1755248	virtual university
+Q1767829	comprehensive university
+Q1902446	plate glass university
+Q1916585	medical university
+Q2120466	Pontifical university
+Q3354859	collegiate university
+Q3520135	deemed university
+Q3551775	universities in France
+Q3412198	Pôle de recherche et d'enseignement supérieur
+Q3998530	ancient university of Scotland
+Q4481793	federal university
+Q5690751	labor universities
+Q7249245	Project Pericles
+Q10829188	international university
+Q15936437	research university
+Q4315006	National Research University
+Q17028020	vocational university
+Q322563	vocational school
+Q277845	police academy
+Q352102	journalism school
+Q446901	nursing school
+Q1631154	hospitality school
+Q1935049	military school
+Q489983	Reserve Officers' Training Corps
+Q3445354	United States Senior Military College
+Q7890755	United States Military Junior College
+Q917182	military academy
+Q54552	Cadet Corps
+Q3269025	school of defense
+Q4698330	air force academy
+Q1522839	staff college
+Q1703660	Kriegsakademie
+Q1898357	Naval academy
+Q1935147	military school
+Q7432476	school of infantry
+Q12622609	Officer Candidate School
+Q2143781	drama school
+Q4393127	vocational school in the Soviet Union
+Q5167149	cooking school
+Q7692354	technical school
+Q1715155	maritime college
+Q11452760	vocational school
+Q346549	Technische Hochschule
+Q383092	art school
+Q380093	film school
+Q23003754	animation school
+Q392376	Kunstgewerbeschule
+Q1056289	École des Beaux-Arts
+Q10273077	architecture school
+Q21540699	design school
+Q847027	grande école
+Q135436	école normale supérieure
+Q3578166	École nationale supérieure
+Q1143635	business school
+Q3578442	École supérieure de commerce
+Q1365560	Fachhochschule
+Q1849445	colleges and universities in the United States
+Q615150	land-grant institution
+Q1188663	Colonial Colleges
+Q1620945	historically black colleges and universities
+Q7638697	sun grant institution
+Q21032617	sea grant institution
+Q21032622	space grant institution
+Q2120173	school of education
+Q2586266	institute for advanced study
+Q2643409	Avans
+Q5259432	dental school
+Q7840326	tribal colleges and universities
+Q12885307	Technological Educational Institute
+Q15456933	Polytechnic
+Q15974764	association of universities and higher education institutions
+Q16710795	specialized higher education institution
+Q4273133	flight school
+Q5146315	college
+Q7248094	professional school
+Q494230	medical school
+Q1074808	German surgical schools of the 18th and 19th centuries
+Q17072837	medical college in India
+Q11391922	public policy school
+Q19152599	university of applied sciences
+Q21028957	Hochschule
+Q22121113	Vysoká škola
+Q118547	cram school
+Q221175	Latin school
+Q269770	boarding school
+Q351113	Laboratory school
+Q423208	private school
+Q837632	private school in Edo-period Japan or China
+Q1972829	public school
+Q3238833	independent school
+Q2418495	independent school
+Q7446325	Segregation academies
+Q16058015	Academy (East Asia)
+Q459760	Junker Schools
+Q572835	international school
+Q627006	normal school
+Q682697	comprehensive school
+Q897403	Language school
+Q1021290	music school
+Q184644	conservatory
+Q2994503	Conservatoire de musique, danse et art dramatique en France
+Q1076052	preschool
+Q1080794	state school
+Q5155053	community school
+Q17063241	state-funded school
+Q4671329	academy school
+Q7940973	voluntary controlled school
+Q18931350	government school
+Q1340098	driver's education
+Q1493752	day school
+Q1574810	Academy of Commerce
+Q1703577	magnet school
+Q2086062	domestic science school
+Q2096101	Ulpan
+Q2292514	Ski school
+Q2576531	Charity school
+Q2860136	Chinese school
+Q3578015	Han school
+Q4128863	Högstadiet
+Q4367464	preparatory school
+Q5474524	foundation school
+Q5908796	hospital school
+Q7447785	selective school
+Q7447787	selective school
+Q7940971	voluntary aided school
+Q8287445	Nihonjin gakkō
+Q10992387	National school
+Q12003722	student factory
+Q12379547	general education school
+Q9842	primary school
+Q513984	Volksschule
+Q2618571	maktab
+Q2667332	Talmud Torah school
+Q3578324	primary school in France
+Q3578542	elementary school in France
+Q15154412	primary school in Norway
+Q15154585	primary school in italy
+Q15155051	elementary school in United States
+Q16974630	Elementary school in England and Wales
+Q13220391	graduate school
+Q16307782	Thairath Witthaya Schools
+Q16895642	philosophical school
+Q17000641	opportunity class
+Q17051687	parochial school
+Q661513	Sunday school
+Q867738	Christian school
+Q1499033	Orthodox Theological Academy
+Q1971849	faith school
+Q1138671	Catholic school
+Q154773	yeshiva
+Q1322161	Hesder
+Q1739398	Jewish seminary
+Q233324	seminary
+Q1322589	Roman College
+Q3738248	theological faculty
+Q14911880	Catholic seminary
+Q20741228	urban planning or urbanism school
+Q21822439	further education college
+Q7533204	sixth form college
+Q22341615	house of life
+Q22713629	female school
+Q3660535	women's college
+Q8031137	Women's colleges in the United States
+Q16147814	Women's colleges in the Southern United States
+Q23005231	performing arts school
+Q23005232	dance school
+Q23005233	ballet school
+Q23714139	bilingual school
+Q23772328	riding school
+Q126807	kindergarten
+Q273556	kindergarten in France
+Q132834	madrasah
+Q174376	Alma mater
+Q278697	Inns of Court
+Q398141	school district
+Q7884983	unified school district
+Q15726209	school district in the United States
+Q15726214	school district of Canada
+Q647882	summer school
+Q23004361	specialized educational institution
+Q828805	vocational school
+Q828973	vocational college in Germany
+Q1792623	arts educational institution
+Q2333778	Station Junger child care for naturalists and technicians
+Q23005184	special admission educational institution
+Q23005223	division of an educational institution
+Q180958	faculty
+Q2791051	school of library and information sciences
+Q3488547	faculty of law
+Q4671274	Academic health science centre
+Q11988196	Faculty of Applied Sciences
+Q16707691	Computer Science Faculty
+Q15407956	university college
+Q5146936	colleges within universities in the United Kingdom
+Q1055028	college of the University of Cambridge
+Q2581649	college of the University of Oxford
+Q5146929	college of the University of Durham
+Q1059324	teaching hospital
+Q1663017	engineering school
+Q17015796	Engineering College
+Q2983860	affiliated school
+Q3338504	Permanent Private Hall
+Q3577730	École centrale (Révolution française)
+Q4119268	youth system
+Q4671277	academic institution
+Q1336920	community college
+Q2983901	community colleges in the United States
+Q162633	academy
+Q414147	academy of sciences
+Q1966910	national academy
+Q189004	college
+Q20990747	Royal College
+Q21013257	seminar college
+Q370258	junior college
+Q576603	Bible college
+Q841248	Colleges of technology in Japan
+Q1110056	CEGEP
+Q1377182	liberal arts college
+Q6540832	liberal arts colleges in the United States
+Q20925702	Colleges That Change Lives
+Q2680291	residential college
+Q5001855	business college
+Q5209099	Daigakkō
+Q11582564	civil college
+Q5897087	honors college
+Q7315473	residential college
+Q7691226	Teacher training college
+Q5502305	French mathematical seminar
+Q7373991	Royal College of Surgeons
+Q7415634	Raudatul athfal
+Q7894996	university college
+Q13233284	Lehrerseminar
+Q15140807	Collegio
+Q21499020	tutoring institute
+Q23002037	public educational institution
+Q23002039	public educational institution of the United States
+Q23002042	private educational institution
+Q23002052	private for-profit educational institution
+Q23002054	private not-for-profit educational institution
+Q23004409	parochial educational institution
+Q2467461	university department
+Q17087022	Reserve Officer Training in Russia
+Q3457065	University networks
+Q5691113	health organization
+Q860447	emergency medical services
+Q6954187	NHS foundation trust
+Q6954197	NHS trust
+Q6954188	NHS hospital trust
+Q6954189	NHS mental health trust
+Q16986400	NHS ambulance services trust
+Q16988141	Community health NHS trust
+Q5971060	club
+Q182391	motorcycle club
+Q1849110	outlaw motorcycle club
+Q998421	book sales club
+Q1524210	Gilde freiheitlicher Bücherfreunde
+Q1137210	country club
+Q2022036	golf club
+Q1236680	gentlemen's club
+Q1415086	film society
+Q1896682	chess club
+Q2013644	Dōjin circle
+Q5522367	garden club
+Q7241637	press club
+Q17148672	social club
+Q2641403	samba school
+Q18811462	science fiction club
+Q20014624	Photo club
+Q6484284	land trust
+Q5054934	Cave conservancy
+Q6498663	fire department
+Q1009262	Bundeswehr-Feuerwehr
+Q1298120	Aircraft rescue and firefighting
+Q3090847	fire service in the United Kingdom
+Q6503186	law commission
+Q47928	circus
+Q48204	voluntary association
+Q281644	Kunstverein
+Q510785	association without lucrative purpose
+Q856564	library association
+Q955214	Mutual organization
+Q955824	learned society
+Q1310653	Swedish Royal Academies
+Q3487850	société d'émulation
+Q7708430	text publication society
+Q11507944	Cooperative Science and Research Body
+Q1021128	community action group
+Q1238998	Booster club
+Q1391145	professional society
+Q748019	scientific society
+Q941221	Chemical Society
+Q4435550	List of ornithological societies
+Q18155967	student organization
+Q264542	students club
+Q877998	students' union
+Q1685451	student society
+Q1779527	Studentenverbindung
+Q174921	Burschenschaft
+Q1001082	Studentenverbindungs in GDR
+Q2367225	university and college sports club
+Q5146544	College Sport Clubs
+Q18558301	college sports team
+Q7896796	university society
+Q22134899	student theatre group
+Q22679796	correspondents' association
+Q24300735	Handel society
+Q1454597	masonic lodge
+Q1454898	voluntary association
+Q2178147	trade association
+Q1139056	livery company
+Q3356159	non-profit association
+Q1474001	heritage society
+Q1549427	Hiking association
+Q1656696	Idealverein
+Q9299236	eingetragener Verein
+Q1734138	carnival association
+Q1797187	artist society
+Q1897098	service club
+Q2867431	unincorporated association
+Q2946459	Celtic circle
+Q5774403	historical society
+Q10729872	health association
+Q11512972	association
+Q7383772	rekisteröity yhdistys
+Q11513034	association under the French law of 1901
+Q15177651	Swiss Verein
+Q15986354	basketball association
+Q16938385	Comparsa
+Q79751	oligarchy
+Q123432	aristocracy
+Q131708	plutocracy
+Q190044	technocracy
+Q191244	kleptocracy
+Q193032	gerontocracy
+Q6813432	staff
+Q495430	general staff
+Q10572199	German General Staff
+Q3495357	Stab
+Q6815100	membership organization
+Q15924535	Wikimedia chapter
+Q6881511	enterprise
+Q6888032	modality
+Q6982432	navigation authority
+Q7210356	political organization
+Q7188	government
+Q2148	Government of the Soviet Union
+Q678116	government-in-exile
+Q1006644	federal government
+Q1190574	Government of Japan
+Q1772721	military junta
+Q14957019	Maharana Pratap University of Agriculture and Technology
+Q1802419	regional government
+Q7603694	state government of the United States
+Q13641126	community and regional governments
+Q1186029	Flemish Government
+Q1186375	Walloon Government
+Q1944068	Government of the French Community
+Q2089784	Government of the German-speaking Community
+Q2991162	Government of Australia
+Q3112578	consensus government in Canada
+Q3112663	caretaker government
+Q3297051	chartered community
+Q5589270	Government of New Hampshire
+Q6501447	local government
+Q7900115	urban district of Sweden
+Q15663836	local administrative unit in Thailand
+Q1155688	Thesaban
+Q13025342	Thesaban Mueang
+Q15141625	subdistrict municipality
+Q15141632	Thesaban Nakhon
+Q7635776	Sukhaphiban
+Q13023500	provincial administrative organization
+Q15140073	subdistrict administrative organization
+Q15634695	Special administrative area of Thailand
+Q15725677	pedanía
+Q19592272	city commission government
+Q21451695	Scottish local authority council
+Q21451686	Scottish unitary authority council
+Q21561328	English unitary authority council
+Q21561350	London borough council
+Q1160920	unitary authority
+Q1136601	unitary authority of England
+Q14762300	single-tier municipality
+Q15060255	council area
+Q2097994	municipal corporation
+Q2154459	New England town
+Q15411479	town of Connecticut
+Q3250999	community of Prince Edward Island
+Q3327870	municipal corporation in the United States
+Q252708	municipality in New Jersey
+Q2911266	borough of New Jersey
+Q2974552	city in New Jersey
+Q7930612	village of New Jersey
+Q751708	village in the United States
+Q7930611	village of Oregon
+Q7930615	village of Vermont
+Q15221242	village of Wisconsin
+Q1093829	city of the United States
+Q604886	charter city of the United States
+Q13218391	charter city
+Q13218382	charter city and county
+Q1266818	independent city
+Q3301053	consolidated city-county
+Q13218357	city of California
+Q15063611	city of New York
+Q15221256	city of Wisconsin
+Q15221304	first-class city
+Q15221310	second-class city
+Q15221370	third-class city
+Q15221373	fourth-class city
+Q21010817	city of Pennsylvania
+Q4946305	borough in the United States
+Q408804	borough of New York City
+Q777120	borough of Pennsylvania
+Q4946304	borough of Connecticut
+Q7900180	urban township of the United States
+Q7900181	urban township of Michigan
+Q7900183	urban township of Ohio
+Q15063142	urban township of Minnesota
+Q15127012	town of the United States
+Q9283961	incorporated town
+Q15411644	town of Virginia
+Q15284	municipality
+Q15334	municipality of Poland
+Q2616791	urban municipality of Poland
+Q3491915	urban-rural municipality of Poland
+Q3504085	rural municipality of Poland
+Q24764	municipality of the Philippines
+Q70208	municipality of Switzerland
+Q179598	Municipalities of the canton of Fribourg
+Q673796	municipality of the canton of Graubünden
+Q685309	former municipality of Switzerland
+Q127448	municipality of Sweden
+Q11722303	rural municipality of Sweden or Finland
+Q203300	municipality of Liechtenstein
+Q262166	municipality of Germany
+Q13558886	city with special status in Germany
+Q15974307	Einheitsgemeinde of Saxony
+Q22338052	Einheitsgemeinde in Lower Saxony
+Q22865	independent city
+Q2327515	city district
+Q114178	Bürgerkommune
+Q134626	district capital
+Q448801	Große Kreisstadt
+Q1232414	Großgemeinde
+Q1548518	Large district town
+Q1548525	large independent city of Lower Saxony
+Q263639	municipality of Puerto Rico
+Q378508	municipality of Angola
+Q484170	commune of France
+Q2989454	commune nouvelle
+Q15074966	commune of New Caledonia
+Q18821702	former commune of France
+Q20899166	regional capital
+Q22927548	commune in merger-association
+Q22927616	French commune with specific status
+Q493522	municipality of Belgium
+Q15273785	Belgian municipality with city privileges
+Q562061	Marktgemeinde
+Q612229	municipality of Estonia
+Q21583365	urban municipality of Estonia
+Q21583366	rural municipality of Estonia
+Q640364	municipiu of Romania
+Q659103	commune of Romania
+Q667509	municipality of Austria
+Q1802801	Landgemeinde
+Q19347965	former municipality of Austria
+Q692680	Ortsgemeinde
+Q755707	municipality of Norway
+Q18663579	former municipality of Norway
+Q856076	municipality of Finland
+Q17468533	former municipality of Finland
+Q856079	municipality of the Faroe Islands
+Q955655	municipality of Iceland
+Q1054813	municipality of Japan
+Q494721	city of Japan
+Q1137833	core city of Japan
+Q1145012	special city of Japan
+Q1749269	city designated by government ordinance
+Q1059478	town of Japan
+Q4174776	village of Japan
+Q18663566	dissolved municipality of Japan
+Q1115575	civil parish in England
+Q1307779	integrated municipality
+Q1363145	municipality of Lithuania
+Q17166803	city municipality of Lithuania
+Q17301072	district municipality of Lithuania
+Q1500350	township of the People's Republic of China
+Q1500352	local municipality
+Q1530824	metropolitan municipality of South Africa
+Q1633408	concelho
+Q13217644	municipality of Portugal
+Q1758856	commune of Mali
+Q1763214	municipio
+Q558330	municipality of Cuba
+Q917092	municipality of Paraguay
+Q1062710	municipality of Bolivia
+Q1410029	List of the municipi of Genoa
+Q1872284	municipality of Guatemala
+Q1952852	municipality of Mexico
+Q2997091	municipality of Tamaulipas
+Q3500558	municipality of Durango
+Q3500564	municipality of Nuevo León
+Q2074737	municipality of Spain
+Q5055981	concejo of Asturias
+Q3685434	municipality of Uruguay
+Q6005581	municipality of the Dominican Republic
+Q2555896	municipality of Colombia
+Q3243765	municipality of Argentina
+Q3327920	municipality of Venezuela
+Q3556889	municipality of El Salvador
+Q1840161	commune of Chile
+Q1849719	municipal formation in Russia
+Q634099	rural settlement of Russia
+Q2115448	Intra-city territory of a federal city
+Q4389092	district of Moscow
+Q2198484	municipal district in Russia
+Q2661988	urban settlement in Russia
+Q13626398	urban okrug in Russia
+Q2039348	municipality of the Netherlands
+Q7265977	former municipality of the Netherlands
+Q2183520	obec
+Q5153359	municipality of the Czech Republic
+Q3721570	municipalities of the Czech Republic (R)
+Q15978299	municipality with town privileges
+Q6784672	municipality of Slovakia
+Q2590631	municipality of Hungary
+Q1214953	large village of Hungary
+Q2716259	metropolitan municipality in Turkey
+Q2785216	municipality section
+Q2597772	district of Antwerp
+Q2936646	township of Canada
+Q23019040	township municipality
+Q2989398	municipality of Algeria
+Q3184121	municipality of Brazil
+Q3327871	district municipality
+Q3327873	local municipality of Quebec
+Q3327899	municipality of Ontario
+Q15210668	Lower-tier municipalities
+Q16295254	upper-tier municipality
+Q14762890	regional municipality of Ontario
+Q14763041	county of Ontario
+Q3685462	commune of Haiti
+Q5154047	commune of Cambodia
+Q6024226	metropolitan municipality
+Q7268568	former grietenij
+Q15129871	municipality of Azerbaijan
+Q15253706	city
+Q18398645	types of towns and cities in Russia
+Q5123997	city of federal subject significance of Russia
+Q16739079	municipality of Cyprus
+Q17067486	Gemeinde
+Q17134625	municipality of Bermuda
+Q19730508	former municipality
+Q666943	associated commune
+Q6621272	former municipality of Sweden
+Q10552196	market town municipality of Sweden
+Q23036513	former municipality of Denmark
+Q20538317	village in Saskatchewan
+Q23831159	West-Bengal municipality
+Q2560047	Administrative county
+Q3112653	local government in England
+Q3153117	intercommunality
+Q204613	regional county municipality
+Q2371398	Regional Service Commission
+Q2707796	intercommunality in France
+Q3591564	Établissement public de coopération intercommunale
+Q3508250	Syndicat intercommunal
+Q21523409	intercommunality of Loiret, France
+Q3154693	city council
+Q3308596	mayor–council government
+Q15813351	municipal council in Canada
+Q15813355	municipal council in Newfoundland and Labrador
+Q15813357	municipal council in Prince Edward Island
+Q15813358	municipal council in New Brunswick
+Q15813361	municipal council in Nova Scotia
+Q15813362	municipal council in Quebec
+Q15813363	municipal council in Ontario
+Q15813367	municipal council in Saskatchewan
+Q15813368	municipal council in Manitoba
+Q15813372	municipal council in British Columbia
+Q15813375	municipal council in Alberta
+Q7278	political party
+Q24649	European political party
+Q49759	bloc party
+Q181924	Uyoku dantai
+Q233591	communist party
+Q354239	Minor party
+Q627189	labour party
+Q639369	Free Voters
+Q766570	political party in Russia
+Q938993	frivolous political party
+Q1030814	big tent
+Q2101512	political parties in Germany
+Q3528251	third party
+Q6579199	third parties in the United States
+Q7785078	third parties in Canada
+Q3664326	Pirate Party
+Q3778417	Green party
+Q4370110	Political party in the Russian Empire
+Q5032604	cannabis political party
+Q5163108	Conservative parties in Newfoundland
+Q5326659	Early Greek Parties
+Q6065085	political party in Spain
+Q7834723	transnational political party
+Q15702004	separatist political party
+Q23702026	liberal party
+Q23702035	former liberal party
+Q35798	executive branch
+Q196321	County Administrative Board
+Q640506	cabinet
+Q112014	Cabinet of the United Kingdom
+Q114793	Minority government
+Q313827	Cabinet of Germany
+Q314729	regional government in Germany
+Q468437	Senate of Bremen
+Q489115	Cabinet of South Korea
+Q529012	Cabinet of Japan
+Q603838	Cabinet of Afghanistan
+Q634678	Cabinet of South Africa
+Q639738	United States Cabinet
+Q695599	Austrian Federal Government
+Q834304	Cabinet of Cuba
+Q873368	Cabinet of Thailand
+Q1338983	Cabinet of Poland
+Q1565931	Cabinet of Vanuatu
+Q1567190	Cabinet of Tonga
+Q1637805	Cabinet of Nauru
+Q1719584	Cabinet of Liberia
+Q1937145	Cabinet of North Korea
+Q2028178	Cabinet of Australia
+Q2137649	Cabinet of Liechtenstein
+Q2137664	Cabinet of the Gambia
+Q2182191	Cabinet of Mexico
+Q2366737	Cabinet of Finland
+Q2421589	Government of the Republic of Estonia
+Q12371708	Otto Tief's cabinet
+Q2458227	Cabinet of Canada
+Q2578249	Cabinet of Israel
+Q19887488	Thirty-fourth government of Israel
+Q2665914	Northern Ireland Executive
+Q2932373	Cabinet of New Zealand
+Q2932382	Cabinet of Tuvalu
+Q2993851	Cabinet of Peru
+Q3058576	Cabinet of Spain
+Q3111812	Cabinet of Libya
+Q3112605	Cabinet of the Dominican Republic
+Q3302931	Cabinet of Albania
+Q3354110	Cabinet of Iceland
+Q3409762	Cabinet of the Philippines
+Q3687318	Cabinet of Italy
+Q4118391	Cabinet of Iraq	
+Q4375974	Cabinet of Moldova
+Q15260617	Cabinet of Greece
+Q16148206	Cabinet of Uganda
+Q16267398	Cabinet of Egypt
+Q16850116	Cabinet of Paraguay
+Q16850120	Cabinet of Portugal
+Q17005906	Cabinet of Ecuador
+Q18210582	Cabinet of Cambodia
+Q23929770	Cabinet of Indonesia
+Q24205227	Cabinet of Hungary
+Q5015487	Cabinet of Algeria
+Q5015488	Cabinet of Angola
+Q5015494	Cabinet of Bahrain
+Q5015496	Cabinet of Belize
+Q5015499	Cabinet of Bolivia
+Q5015501	Cabinet of Brunei
+Q5015504	Cabinet of Dominica
+Q5015506	Cabinet of Burma
+Q5015511	Cabinet of Fiji
+Q5015520	Cabinet of Jamaica
+Q5015525	Cabinet of Kuwait
+Q5015526	Cabinet of Lebanon
+Q5015528	Cabinet of Kenya
+Q5015529	Cabinet of Kiribati
+Q5015531	Cabinet of Malawi
+Q5015535	Cabinet of Namibia
+Q5015536	Cabinet of Morocco
+Q5015537	Cabinet of Niger
+Q5015539	Cabinet of Niue
+Q5015541	Cabinet of Oman
+Q5015542	Cabinet of Nigeria
+Q5015543	Cabinet of Papua New Guinea
+Q5015550	Cabinet of Qatar
+Q5015552	Cabinet of Samoa
+Q5015554	Cabinet of Sierra Leone
+Q5015558	Cabinet of Singapore
+Q5015559	Cabinet of Sudan
+Q5015563	Cabinet of Tanzania
+Q5015568	Cabinet of Tokelau
+Q5015570	Cabinet of Uruguay
+Q5015573	Cabinet of Zambia
+Q5015574	Cabinet of Yemen
+Q5015575	Cabinet of Zimbabwe
+Q5015577	Cabinet of the Bahamas
+Q5015579	Cabinet of the Cook Islands
+Q5015583	Cabinet of the Maldives
+Q5015584	Cabinet of the Solomon Islands
+Q5015587	Cabinet of the Czech Republic
+Q5015588	Cabinet of the United Arab Emirates
+Q12812333	Cabinet of Turkey
+Q897395	executive board
+Q1109105	College van burgemeester en wethouders
+Q20194226	college van burgemeester en wethouders of Amsterdam
+Q20748632	college van burgemeester en wethouders of Zoetermeer
+Q20859378	college van burgemeester en wethouders of Mierlo
+Q20867371	college van burgemeester en wethouders of Gorinchem
+Q20872265	college van burgemeester en wethouders of Boxmeer
+Q20872291	college van burgemeester en wethouders of Almere
+Q20872338	college van burgemeester en wethouders of Woerden
+Q20872376	college van burgemeester en wethouders of Coevorden
+Q20890897	college van burgemeester en wethouders of Eindhoven
+Q20891342	college van burgemeester en wethouders of Deventer
+Q20891437	college van burgemeester en wethouders of Borger-Odoorn
+Q20992491	college van burgemeester en wethouders of Utrecht
+Q21013148	college van burgemeester en wethouders of The Hague
+Q21098176	college van burgemeester en wethouders of Amersfoort
+Q21383347	college van burgemeester en wethouders of Haarlem
+Q21384865	college van burgemeester en wethouders of Rotterdam
+Q4405837	municipal executive board
+Q4683409	administration
+Q31728	public administration
+Q417633	Self-governance
+Q137773	ward of Japan
+Q1103298	Clubhouse Model of Psychosocial Rehabilitation
+Q6621940	local self-government
+Q4291352	Local (municipal) self-governments in Russia
+Q570208	public-law institution
+Q464780	mint
+Q1009216	federal administration
+Q2824584	colonial administration
+Q7257711	Public budgeting
+Q46169	national park
+Q62301	national park of New Zealand
+Q167946	national park of Brazil
+Q221879	national park of Honduras
+Q354009	national park of the United Kingdom
+Q485098	national park of England and Wales
+Q3997444	national park of Scotland
+Q375132	national park of Austria
+Q393259	national park of Indonesia
+Q483423	national park of the Republic of Ireland
+Q497829	national park of South Korea
+Q619483	national park of the Czech Republic
+Q746800	national park of Sweden
+Q851043	national park of Albania
+Q936738	national park of Vietnam
+Q940368	national park of Norway
+Q941143	national park of Mexico
+Q943017	national park of France
+Q1071482	national park of Japan
+Q1095271	national park of Hungary
+Q1125269	national park of India
+Q1296040	national park of Ukraine
+Q1316973	national park of Spain
+Q1317754	national park of Poland
+Q1364273	national park of South Africa
+Q1408593	national park of Zambia
+Q1510355	national park of Italy
+Q1565555	national park of Montenegro
+Q1585158	national park of Denmark
+Q1612885	national park of Panama
+Q1684144	national park of Costa Rica
+Q1752719	national park of Namibia
+Q1847460	national park of Paraguay
+Q1896949	National Park of Canada
+Q1969136	national park of Ghana
+Q1969226	national park of Russia
+Q1969240	national park of Thailand
+Q2404686	national park of Ecuador
+Q2580365	national park of Pakistan
+Q3131754	national park of Guatemala
+Q3220096	national park of the Netherlands
+Q3252908	national park of Western Australia
+Q3252913	national park of Nigeria
+Q4362698	national park of Estonia
+Q4435307	National parks of Azerbaijan
+Q5408678	national parks of the United States
+Q6630197	national park of Dominica
+Q6630198	national park of El Salvador
+Q6630200	national park of Gabon
+Q6630203	national park of Ivory Coast
+Q6630207	national park of Seychelles
+Q6630208	national park of Uruguay
+Q6974775	national park of Argentina
+Q6979643	national park of Rwanda
+Q10594812	national city park
+Q12005215	national park of Tanzania
+Q13058865	national park of Bangladesh
+Q14203022	national park of Israel
+Q14215551	national park of Finland
+Q14545628	IUCN category II: National Park
+Q14906600	list of nature reserves in Romania
+Q16150156	national park of Somalia
+Q18349163	national park of Mauritius
+Q18618819	national park of Australia
+Q18618822	national park of Iran
+Q18618832	national park of Uganda
+Q18618841	national park of Senegal
+Q18618843	national park of Lesotho
+Q20488952	national park of the People's Republic of China
+Q20537078	national park of Croatia
+Q21815132	Nationalpark
+Q239463	Board of governors
+Q1137608	health administration
+Q56061	administrative territorial entity
+Q515	city
+Q5119	capital
+Q62049	county seat
+Q257391	federal capital
+Q1025961	capital of Japan
+Q2937441	European Youth Capital
+Q4442912	capital of Russia
+Q11271835	state capital
+Q14784328	state capital in Germany
+Q21507383	provincial or territorial capital city in Canada
+Q21518270	state or insular area capital in the United States
+Q14770218	cantonal capital of Switzerland
+Q15344922	oblast seat
+Q21877233	Italian Capital of Culture
+Q159313	urban agglomeration
+Q941150	city region
+Q4056979	agglomeration of Russia
+Q17457437	Census agglomeration
+Q57318	Free imperial city
+Q104157	city of the Philippines
+Q159438	Hero City
+Q174844	Megacity
+Q208511	global city
+Q1066984	financial centre
+Q205181	offshore financial centre
+Q254978	Burgh
+Q428986	Linear city
+Q442799	Vorstadt
+Q474164	Boomtown
+Q498604	city in Gabon
+Q537250	federal city
+Q652360	sustainable city
+Q677678	fortified town
+Q810652	Bastide
+Q820254	mining community
+Q896881	city with tens of thousands of inhabitants
+Q925381	city with powiat rights
+Q1094397	autonomous city
+Q17352050	autonomous city of Spain
+Q1180262	residenz
+Q1187811	college town
+Q1381899	municipality of Vietnam
+Q1549591	big city
+Q200250	metropolis
+Q1637706	city with millions of inhabitants
+Q1656724	ideal city
+Q2089229	city in Alberta
+Q2138558	Regiopolis
+Q2235075	centre city
+Q2264924	port city
+Q2974842	lost city
+Q15661340	ancient city
+Q2202509	Roman city
+Q756780	colonia
+Q3199141	city of Indonesia
+Q3249005	provincial city of Vietnam
+Q5107861	Medieval commune
+Q5770918	city of Argentina
+Q6609732	city in Manitoba
+Q12015578	Urban municipality
+Q12102963	city specifically designated in the state plan
+Q12131624	city in Ukraine
+Q12159392	Seven Cities of Delhi
+Q13218690	town in Hungary
+Q681277	city with county rights
+Q14616455	destroyed city
+Q20909618	sunken city
+Q14622485	Bundesstadt
+Q15063600	home rule city of Michigan
+Q15092400	independent city
+Q257978	statutory city
+Q15105893	city of Croatia
+Q15127838	city under state jurisdiction in Latvia
+Q15260353	host city
+Q15584664	city under municipality jurisdiction in Latvia
+Q15647906	city of Portugal
+Q16825568	Caravan city
+Q16858213	city in Romania
+Q18343163	List of cities in the Czech Republic
+Q18477590	list of Brazilian cities that have a second round of municipal elections
+Q18671878	Ciudad Manuel Doblado
+Q21857891	Swedish city
+Q532	village
+Q159350	Rundling
+Q184889	Zeilendorf
+Q356090	Reihendorf
+Q177966	dead end village
+Q351190	Waldhufendorf
+Q505681	linear village
+Q1329068	Moorhufendorf
+Q1361214	Marschhufendorf
+Q1568530	Hagenhufendorf
+Q378636	village with a church
+Q483519	ri
+Q537981	Angerdorf
+Q618995	Sixty-Four Villages East of the River
+Q771444	aul
+Q965568	kelurahan
+Q1134686	frazione of Italy
+Q1317251	fishing village
+Q1529096	köy
+Q17051044	mahalle
+Q1683373	Edo period village
+Q1743100	church village of Sweden
+Q2098891	Platzdorf
+Q2176016	Rundangerdorf
+Q2225945	Satellite village
+Q2473740	Kerkdorp
+Q2514025	slavian village
+Q2974142	circulade
+Q3192808	commune in Madagascar
+Q3558965	Cree village
+Q3558970	village of Poland
+Q4337558	Dorp (Netherlands)
+Q6644747	village in Manitoba
+Q6888356	model village
+Q6957995	villages of Kulp, 1928
+Q7930614	village of Taiwan
+Q12082132	rural village
+Q12082384	urban village
+Q13100073	village-level division in China
+Q11129101	ethnic village
+Q17361402	community of the People's Republic of China
+Q15630849	village of Bulgaria
+Q16832602	Kommuniondorf
+Q17591477	Ringdorf
+Q21672098	village of Ukraine
+Q23827464	Village in the Saudi Arabia
+Q23828039	Village in Lebanon
+Q3957	town
+Q179614	List of towns in the Czech Republic
+Q902814	border town
+Q1269749	town with fewer than 5000 inhabitants
+Q1357964	county town
+Q1968403	post town
+Q2393184	hill station
+Q6643740	town in Manitoba
+Q18511725	market town
+Q10571400	köping
+Q21856567	agro-town
+Q1989945	agro-town
+Q6256	country
+Q132453	developed country
+Q177323	developing country
+Q331644	khanate
+Q1010624	Boer Republics
+Q1323642	transcontinental country
+Q5367717	shinkoku
+Q7695	march
+Q28575	county
+Q47168	county of the United States
+Q11774062	county of Arkansas
+Q11774097	county of Texas
+Q11774149	county of Iowa
+Q11812346	county of Illinois
+Q12037308	county of South Dakota
+Q12178655	county of North Dakota
+Q12178928	county of Wisconsin
+Q12262532	county of Minnesota
+Q13212489	county of California
+Q13217186	county of Arizona
+Q13410400	county of Alabama
+Q13410403	county of Colorado
+Q13410411	county of Delaware
+Q13410422	county of Florida
+Q13410428	county of Georgia
+Q13410431	county of Hawaii
+Q13415370	county of West Virginia
+Q13415371	county of Wyoming
+Q13410433	county of Idaho
+Q13410438	county of Indiana
+Q13410444	county of Kansas
+Q13410447	county of Kentucky
+Q13410454	county of Maine
+Q13410464	county of Maryland
+Q13410485	county of Massachusetts
+Q13410496	county of Michigan
+Q13410508	county of Mississippi
+Q13410520	county of Missouri
+Q13414354	county of Connecticut
+Q13414358	county of Montana
+Q13414361	county of Nebraska
+Q13414369	county of Nevada
+Q13414753	county of New Hampshire
+Q13414754	county of New Jersey
+Q13414755	county of New Mexico
+Q13414757	county of New York
+Q13414758	county of North Carolina
+Q13414759	county of Ohio
+Q13414760	county of Oklahoma
+Q13414761	county of Oregon
+Q13414763	county of Pennsylvania
+Q13414764	county of Rhode Island
+Q13414765	county of South Carolina
+Q13415365	county of Utah
+Q13415366	county of Tennessee
+Q13415367	county of Vermont
+Q13415368	county of Virginia
+Q13415369	county of Washington
+Q57053	county of Croatia
+Q180673	ceremonial county of England
+Q1317848	county of Northern Ireland
+Q2991489	County palatine
+Q15979307	principal area of Wales
+Q20974973	county of Australia
+Q5177126	county of Victoria
+Q15643559	county of Western Australia
+Q15643578	county of New South Wales
+Q15643599	county of Queensland
+Q15643615	county of South Australia
+Q15643694	county of the Northern Territory
+Q34876	province
+Q5098	province of Indonesia
+Q24746	province of the Philippines
+Q44753	province of Argentina
+Q48336	province of Turkey
+Q50198	province of Thailand
+Q70252	province of Kenya
+Q83116	province of Belgium
+Q8218604	province of Wallonia
+Q15051068	province of Flanders
+Q115291	province of Cuba
+Q134390	province of the Netherlands
+Q158683	province of Afghanistan
+Q162620	province of Spain
+Q182547	Roman province
+Q191093	province of South Africa
+Q193556	historical province of Sweden
+Q202156	province of Ireland
+Q209495	historical province of France
+Q217691	province of Finland
+Q240601	province of Algeria
+Q329028	province of Angola
+Q476075	province of Burundi
+Q509686	province of Peru
+Q574299	province of Prussia
+Q653596	province of Gabon
+Q654140	province of the Democratic Republic of the Congo
+Q695469	province of Mozambique
+Q719987	province of Ecuador
+Q842420	region of Uzbekistan
+Q847299	province of Vanuatu
+Q852151	province of Burkina Faso
+Q860290	province of Japan
+Q864133	province of Madagascar
+Q867597	province of Equatorial Guinea
+Q871217	province of Rwanda
+Q913337	province of the Dominican Republic
+Q1025116	province of the Solomon Islands
+Q1053630	province of Papua New Guinea
+Q1062593	province of Bolivia
+Q1153408	province of Chile
+Q1344695	province of Iran
+Q1382893	province of Panama
+Q1615742	province of China
+Q1669071	province of New Zealand
+Q3064474	province of Fiji
+Q3110808	province of Ethiopia
+Q3408487	province of Colombia
+Q7252588	province of Bhutan
+Q7252589	province of Cambodia
+Q7252594	province of Venezuela
+Q15629582	province of Morocco
+Q15629585	province of Austrian Lombardy
+Q15629587	province of the Kingdom of Lombardy-Venetia
+Q41691	demilitarized zone
+Q42132	eup
+Q24024845	eup of North Korea
+Q24024848	eup of South Korea
+Q130360	Lugar
+Q149621	district
+Q7688	raion
+Q15068450	district of Moldova
+Q20719675	raion of the Soviet Union
+Q1267632	raion of Ukraine
+Q1840504	national raion
+Q2043199	district of Belarus
+Q2643128	district of Kazakhstan
+Q364858	Abay District
+Q2983893	urban district
+Q253019	ortsteil
+Q163301	Ortsbezirk of Germany
+Q15632166	city part of Cologne
+Q374614	urban district
+Q779426	urban district of Hungary
+Q1671086	District of the City of Winterthur
+Q2333944	statistical city district
+Q15830667	Quarter of  Hamburg
+Q18600387	Quarter of Dresden
+Q2779745	urban district of the Netherlands
+Q15079751	submunicipality of Amsterdam
+Q3413331	district of Copenhagen
+Q3565075	Raions of cities in Ukraine
+Q4286337	city district
+Q30059	arrondissement
+Q91028	administrative arrondissement of Belgium
+Q194203	arrondissement of France
+Q1665357	arrondissement of Haiti
+Q3623867	arrondissement of Benin
+Q205549	Zipserei
+Q462667	administrative territorial entity of Moscow
+Q4057820	administrative okrug of Moscow
+Q4373614	settlement of Moscow
+Q4456179	territorial unit with special status
+Q627253	working class quarter
+Q894343	Bos en Lommer
+Q1434401	dzielnica
+Q1808877	Deelgemeente
+Q1985797	municipal unit of Greece
+Q2740635	Stadtbezirk
+Q253270	borough of Munich
+Q278976	borough of Hamburg
+Q317669	district of Düsseldorf
+Q821435	district of Berlin
+Q1852178	district of Düsseldorf
+Q15632133	city district of Cologne
+Q15727673	city district of Hanover
+Q17278423	district of Bremen
+Q18600372	borough of Dresden
+Q3032114	district of Madrid
+Q13582281	circoscrizione di decentramento comunale in Italy
+Q610625	zone of Milan
+Q1584957	Borough of Palermo
+Q3677930	quarter of Messina
+Q3867179	municipalità of Naples
+Q3867183	municipalità of Venice
+Q3927244	borough of Bologna
+Q3927247	borough of Florence
+Q16751551	borough of Brescia
+Q16751788	circoscrizione of Vicenza
+Q16761595	circoscrizione of Treviso
+Q17137839	circoscrizione of Verona
+Q14242187	city district of Nizhny Novgorod
+Q15195406	city district in Russia
+Q18559008	district of São Paulo
+Q21851888	District of the city
+Q4353479	Districts of Sweden
+Q5034569	urban district of China
+Q10638782	Primärområde
+Q15921300	sector of Bucharest
+Q16965368	quarter of Venice
+Q21682724	municipal district of Finland
+Q3926693	district of Turku
+Q5283513	district of Espoo
+Q15715406	neighbourhood of Helsinki
+Q17468479	district of Oulu
+Q23541388	city district of Lappeenranta
+Q4389100	district of Kyrgyzstan
+Q7553685	district of Sofia
+Q13417250	district of Azerbaijan
+Q59136	district of Cyprus
+Q123266	district of Albania
+Q193560	district of Israel
+Q216888	district of Luxembourg
+Q319796	district of Nauru
+Q475061	Amphoe
+Q505830	district of Sudan
+Q545769	district of Ghana
+Q585444	administrative district of Prague
+Q662914	district in Switzerland
+Q628993	district of the canton of Valais
+Q2864107	administrative district of the canton of Bern
+Q2864207	constituency of the canton of Lucerne
+Q3032116	district of the canton of Aargau
+Q3032119	district of the canton of Basel-Land
+Q3032122	district of the canton of Fribourg
+Q3032124	district of the canton of Schwyz
+Q3032126	district of the canton of Neuchâtel
+Q3032131	district of the canton of Solothurn
+Q3032137	district of the canton of Ticino
+Q3032139	district of the canton of Jura
+Q3091916	district of the canton of Graubünden
+Q15644465	district of the canton of Zürich
+Q17276572	constituency of the canton of St. Gallen
+Q17278014	former district of Switzerland
+Q692561	district of the canton of St. Gallen
+Q3032123	district of the canton of Lucerne
+Q3777387	former district of the canton of Bern
+Q17277366	former district of the canton of Vaud
+Q17277998	district of the canton of Schaffhausen
+Q17312348	former subdistrict of the canton of Ticino
+Q690840	district of Ethiopia
+Q1065118	district of China
+Q1045593	county-controlled district
+Q2301018	special district
+Q4259749	Forestry District
+Q4314954	ethnic district
+Q10911501	city-controlled district
+Q17361228	forestry district
+Q1122846	district of Japan
+Q1147395	district of Turkey
+Q1149652	district of India
+Q2243284	district of Uttar Pradesh
+Q2451316	district of Gujarat
+Q2668657	district of Jharkhand
+Q1229776	district of Bhutan
+Q1230110	district of Sri Lanka
+Q1649296	district of Suriname
+Q2379075	district of Pakistan
+Q2421044	district of Liberia
+Q2537537	district of Nepal
+Q2631599	district of Uzbekistan
+Q3539870	district of Uganda
+Q3556789	district of Madagascar
+Q4117798	district of Iraq	
+Q4200298	district of Indonesia
+Q5283559	district of the Democratic Republic of the Congo
+Q5438907	İlçe
+Q6617100	district of Yemen
+Q10355978	Quatinga
+Q15618465	district of American Samoa
+Q15630906	rural district
+Q27002	selsoviet
+Q4414033	rural council of Ukraine
+Q15071808	selsaviet of Belarus
+Q15982377	selsoviet of Russia
+Q106658	rural district of Germany
+Q17302772	district of Saxony-Anhalt
+Q20738676	rural district of Baden-Württemberg
+Q20738811	district of North Rhine-Westphalia
+Q20738945	district of Thuringia
+Q247073	county of Poland
+Q1754946	rural district of England, Wales, and Ireland
+Q4745825	Amersham Rural District
+Q5283531	district of Prussia
+Q12121054	Small rural settlements Ukraine
+Q15633191	distrito
+Q2179958	district of Peru
+Q2292572	district of Costa Rica
+Q3032103	district of Colombia
+Q3710488	district of Panama
+Q17377631	district of Mexico
+Q15642599	city district
+Q15901936	district of South Korea
+Q15634846	district of Seoul
+Q17364572	district of Northern Ireland
+Q17601336	district of the United Kingdom
+Q349084	district of England
+Q211690	London borough
+Q1002812	metropolitan borough
+Q1187580	non-metropolitan district
+Q22671115	district of Tonga
+Q23925379	Prefecture of Arrondissement
+Q24045719	San Ramón
+Q171308	oblast
+Q209325	region of Belarus
+Q499720	autonomous oblast of a union republic of the Soviet Union
+Q3348196	oblast of Ukraine
+Q7075127	oblast of the Russian Empire
+Q836672	region of Kazakhstan
+Q1048652	autonomous oblast
+Q20867284	autonomous oblast of the Russian Soviet Federative Socialist Republic
+Q1906268	municipality of Bulgaria
+Q183366	territory
+Q161243	dependent territory
+Q46395	British Overseas Territory
+Q133156	colony
+Q16148626	dominion of Sweden
+Q179023	French colonial empire
+Q1351282	Crown colony of the British Empire
+Q3407580	proprietary colony
+Q7201599	plantation
+Q7448101	self-governing colony
+Q185086	British crown dependency
+Q783733	unincorporated territory
+Q15379753	British Dependent Territory
+Q223832	dominion
+Q719487	overseas collectivity
+Q3078827	overseas country of France
+Q189898	emirate
+Q218631	customs territory
+Q1621034	Historical territory
+Q2216973	territory of Mexico
+Q15239622	disputed territory
+Q192611	constituency
+Q184188	canton of France (until March 2015)
+Q589282	ward or electorial division of the United Kingdom
+Q7969215	ward of the City of London
+Q688718	administrative territorial entity of Quebec
+Q578521	borough of Montreal
+Q1989278	administrative region in Quebec
+Q3518817	equivalent territory
+Q2991491	historic county of Quebec
+Q6302972	judicial district of Quebec
+Q15235045	metropolitan community of Quebec
+Q19905455	borough
+Q1080224	state electoral district
+Q3032154	electoral district of New South Wales
+Q5356187	electoral district of Victoria
+Q1154445	federal electoral district of Mexico
+Q1195098	ward
+Q3444249	ward of Zimbabwe
+Q2064521	constituency of the United Kingdom
+Q7437892	region or constituency of the Scottish Parliament
+Q7894997	university constituency
+Q2316164	riding
+Q2349866	Stimmkreis
+Q2540340	electoral district of Malta
+Q2631496	constituency of the European Parliament
+Q2713747	division of the Australian House of Representatives
+Q2973938	electoral district of Canada
+Q5030865	provincial electoral district in Canada
+Q2973931	provincial electoral district of Quebec
+Q4711861	provincial electoral district of Alberta
+Q6564784	provincial electoral district of British Columbia
+Q6591764	provincial electoral district of New Brunswick
+Q6592593	provincial electoral district of Nova Scotia
+Q6593033	provincial electoral district of Ontario
+Q6596424	provincial electoral district of Saskatchewan
+Q19823486	provincial electoral district of Prince Edward Island
+Q15896168	territorial electoral district of the Northwest Territories
+Q17202187	federal electoral district of Canada
+Q5774261	Historical federal electoral districts of Canada
+Q21815201	Parliament of Ireland constituency
+Q22692216	State Assembly constituency
+Q23983335	district of the House of Representatives of Japan
+Q2973941	French legislative constituency
+Q15620943	constituency of the French Fifth Republic
+Q22911580	constituency of Paris
+Q2973947	geographical constituency
+Q20000955	geographical constituency
+Q3032149	electoral district of Lower Canada
+Q3382900	New Zealand electorate
+Q3429959	Constituency of the Lok Sabha
+Q3635538	base
+Q5153957	communal constituency
+Q5356184	electoral district of Queensland
+Q5356185	electoral district of South Australia
+Q5356189	electoral district of Western Australia
+Q5357209	electorate of the Australian Capital Territory
+Q7048605	Nominated members of Seanad Éireann
+Q18043388	nominated member of the 14th Seanad
+Q7058519	Northern Ireland parliamentary constituency
+Q7096347	open constituency
+Q7687464	Tasmanian Legislative Council electoral division
+Q11703715	federal electoral district of Germany
+Q11703950	constituency of the London Assembly
+Q11774263	Vidhan Sabha constituency
+Q18226756	Landtag electoral district
+Q18524218	canton of France (starting March 2015)
+Q19409201	Republic of China legislative election district
+Q19802341	constituency of the Northern Ireland Assembly
+Q19999028	Hong Kong Legislative Council constituency
+Q205723	circary of the Premonstratensian Order
+Q213204	territorial waters
+Q223573	barony
+Q853565	barony
+Q253326	cadastral municipality
+Q17376095	cadastral municipality of Austria
+Q20871353	cadastral area in the Czech Republic
+Q253836	judicial district
+Q6302924	judicial district of Peru
+Q7892488	United States federal judicial district
+Q15052846	judicial district of Spain
+Q15687338	judicial district of Austria
+Q269528	unincorporated area
+Q7885245	unincorporated urban community of Canada
+Q15974311	unincorporated area in Germany
+Q17343829	unincorporated community
+Q7885247	unincorporated communities in Dunn County, Wisconsin
+Q7885248	unincorporated communities in Eau Claire County, Wisconsin
+Q17366755	hamlet in Alberta
+Q313354	hundred
+Q22668995	hundred of Delaware
+Q315023	Amtsbezirk
+Q353344	countship
+Q399445	amt
+Q478847	Amt
+Q475050	federal district
+Q130343	Federal Dependencies of Venezuela
+Q14192199	territory of Australia
+Q14192234	mainland territory of Australia
+Q14192252	external territory of Australia
+Q486972	human settlement
+Q22674925	former settlement
+Q350895	abandoned village
+Q74047	ghost town
+Q21751582	deserted medieval village
+Q22674930	destroyed settlement
+Q22674939	sunken settlement
+Q39463	trading post
+Q123705	neighborhood
+Q55116	quarter of Monaco
+Q61878	barangay
+Q75848	gated community
+Q152018	ghetto
+Q2583015	ghettos in Nazi-occupied Europe
+Q2917049	Jewish ghetto in Europe
+Q6190055	Jewish ghettos in German-occupied Poland
+Q201759	slum
+Q7366200	Rookery
+Q490329	dong
+Q604435	microdistrict
+Q738570	central business district
+Q1050303	downtown
+Q748198	gay village
+Q790344	Districts of Barcelona
+Q851110	districts in Budapest
+Q860582	community area in Chicago
+Q904319	Koreatown
+Q1017546	districts and neighborhoods of Los Angeles
+Q1067867	Sestiere of Venice
+Q1128906	medina quarter
+Q3413345	neighbourhood of Toulouse
+Q3610510	ethnic enclave
+Q202509	Chinatown
+Q1544543	Greektown
+Q9016264	Jewish quarter
+Q3710552	cultural district
+Q1797194	arts district
+Q4057659	subdivision of Kiev
+Q4298922	mixed-use development
+Q245027	Temporary Use
+Q5571369	quarter of a city in Italy
+Q3927245	quarter of Brescia
+Q3927259	quarter of Reggio Calabria
+Q3927261	quarter of Naples
+Q17135847	quarter of Genoa
+Q17279532	Quarter of Verona
+Q18608436	quarter of Florence
+Q6970525	give way in sneek
+Q3394564	Quarters of Luxembourg City
+Q3413329	Neighborhoods in Boston
+Q2755753	area of London
+Q2795367	Neighborhoods in Utrecht
+Q2841546	neighborhood of Utrecht
+Q2943502	Neighborhoods in Miami
+Q2210336	Districts and neighbourhoods of Dalfsen
+Q7551933	mahallah
+Q8049262	courtyard neighborhood
+Q12063697	neighborhood of Washington
+Q13644398	List of communities and neighborhoods of San Diego
+Q15058012	residential area
+Q16837104	bairro
+Q10377702	bairro of Uberlândia
+Q18475442	list of neighbourhoods in Barra da Tijuca
+Q19658107	neighbourhood of Brazil
+Q19886692	neighbourhood of São Paulo
+Q20683285	neighbourhood in Rio de Janeiro
+Q17015330	Neighborhoods of Minneapolis
+Q17278559	Quarter of Bremen
+Q20968646	neighborhood of historical district of Moscow
+Q2492021	Wijken en buurten in Steenwijkerland
+Q1468524	city centre
+Q676050	old town
+Q1761572	barrio
+Q17276937	ward of Madrid
+Q10267336	ward of Madrid
+Q1807124	Neighborhood in Heiloo
+Q1810565	Neighborhood in Maasgouw
+Q1816359	Neighborhood in Geldrop-Mierlo
+Q1829505	Tuindorp
+Q1940624	Banlieue
+Q1969642	neighborhood in San Francisco
+Q161387	kibbutz
+Q188509	suburb
+Q687312	Vorort
+Q6028003	Industrial suburb
+Q6035676	inner suburb
+Q7632428	suburb of Canberra
+Q23010647	suburb of Perth
+Q192601	oppidum
+Q317548	resort town
+Q130003	ski resort
+Q4946461	spa town
+Q990488	Luftkurort
+Q1450779	Kneippkurort
+Q1595408	Climatic health resort
+Q6882870	location with spa
+Q456075	Pueblos jóvenes
+Q498162	census designated place
+Q505963	artificial dwelling hill
+Q14947481	Wierde
+Q509028	ranch
+Q519630	township
+Q581830	carfree city
+Q582706	Israeli settlement
+Q2908791	Israeli outpost
+Q587144	Census town
+Q620509	Military town
+Q622499	refugee camp
+Q17507358	Syrian refugee camps
+Q627236	company town
+Q4012861	mill town
+Q674950	residential area
+Q10715540	Residential Zone
+Q702492	urban area
+Q245260	conurbation
+Q471822	Megalopolis
+Q1479822	urban unit
+Q2989457	urban-type settlement
+Q2599457	urban-type settlement in Belarus
+Q4436080	city with a population of more than 10,000 inhabitants in Russia
+Q7216840	urban-type settlement in Ukraine
+Q15078955	urban-type settlements in Russia
+Q6566301	urban area in Sweden
+Q12304704	urban area in Danmark
+Q12813115	urban area of Sweden
+Q15092344	urban area in Norway
+Q17457202	population centre
+Q707813	Hanseatic city
+Q748331	stanitsa
+Q4437001	stanitsa in Russia
+Q763590	vicus
+Q815324	Belde
+Q866623	Olympic Village
+Q917146	moshav
+Q956214	chef-lieu
+Q1306755	administrative centre
+Q15303838	municipality seat
+Q4994447	Ducal
+Q1074523	planned community
+Q1130491	Sloboda
+Q1198413	military camp
+Q88205	castrum
+Q89477	castellum
+Q14520137	winter camp
+Q1294703	shanty town
+Q4804181	asentamiento
+Q1348006	city block
+Q12816129	béguinage
+Q1372205	Dispersed settlement
+Q1501046	Community settlement
+Q1507736	torp
+Q1669338	Ortslage
+Q1708422	archaeological settlement
+Q1782540	railway town
+Q1907114	metropolitan area
+Q691960	satellite city
+Q1132300	metropolitan region in Germany
+Q1768043	Metropolitan Statistical Area
+Q2342385	Metropolitan Area
+Q3931970	metropolitan region in Brazil
+Q22091865	Communal Section
+Q1962175	Nahal settlement
+Q2191999	Pogost
+Q2519150	Displaced city
+Q3055118	single entity of population
+Q3257686	locality
+Q3835961	località
+Q18587469	residential community
+Q985488	residential community of the People's Republic of China
+Q2373919	intentional community
+Q2945522	nudist community
+Q3374262	bourgade
+Q3497366	Whaling Station
+Q3558430	villa
+Q3559019	urban village
+Q3744870	alevik
+Q4632675	dwelling place
+Q1021360	place of origin
+Q1852859	cadastral populated place in the Netherlands
+Q4668360	Aboriginal community in Western Australia
+Q5154611	community
+Q2630741	community
+Q6636519	resort village in Saskatchewan
+Q7180622	phantom settlement
+Q7930989	city
+Q11723820	jednostka osadnicza
+Q11732217	Flecken
+Q13539802	place with town rights and privileges
+Q14601169	human fortified settlement
+Q5228121	dava
+Q14788575	rural settlement
+Q5084	hamlet
+Q1484611	buurtschap
+Q17318027	rural commune of Morocco
+Q131596	farm
+Q3068961	city farm
+Q3354019	Seat farm
+Q5844636	model farm
+Q18663765	stud farm
+Q108696	horse stud farm
+Q25691	alligator farm
+Q188913	plantation
+Q22715	vineyard
+Q236371	orchard
+Q243882	Zwerchhof
+Q2116450	manor estate
+Q1922419	Kishlak
+Q2023000	khutor
+Q6148126	jamoat of Tajikistan
+Q7963016	Walled village
+Q14839548	småort
+Q20738855	urban area with a population of 150-199
+Q15921247	constituent locality
+Q15975450	Smallholding
+Q16942708	Cardu
+Q18632459	ulus
+Q20019082	work settlement
+Q20202352	locality of Mexico
+Q20541692	settlement in Galicia, Spain
+Q515716	prefecture
+Q15623950	prefecture of Morocco
+Q817477	tehsil
+Q18670606	tehsil of Pakistan
+Q7694924	Tehsils of Punjab, Pakistan
+Q572975	opština
+Q57058	municipality of Croatia
+Q328584	municipality of Slovenia
+Q646793	municipality of the Republic of Macedonia
+Q783930	municipality of Serbia
+Q17166802	city municipality of Serbia
+Q838549	municipality of Montenegro
+Q2706302	municipality of Bosnia and Herzegovina
+Q933340	municipality of Republika Srpska
+Q17268368	municipality of the Federation of Bosnia and Herzegovina
+Q2989682	municipality of Kosovo
+Q580112	Military district
+Q13366014	military district of Russia
+Q589596	Contado
+Q629870	län
+Q662296	shire
+Q15643757	shire of Western Australia
+Q665487	diocese
+Q285181	eparchy
+Q2288631	archeparchy
+Q373074	suffragan diocese
+Q1282276	patriarchate
+Q2072238	archdiocese
+Q2902010	episcopal see
+Q3146899	diocese of the Catholic Church
+Q1184788	suburbicarian diocese
+Q3732788	apostolic exarchate
+Q3732792	archiepiscopal exarchate
+Q15217609	Titular see
+Q3732793	patriarchal exarchate
+Q5278881	Diocese of Fredericton
+Q16028021	Diocese of the Église constitutionnelle in France
+Q17305527	prelature
+Q1455927	personal prelature
+Q2633744	territorial Prelature
+Q18917976	Anglican diocese
+Q20060955	episcopal diocese
+Q19884415	diocese of the Macedonian Orthodox Church
+Q1021233	Bürgermeisterei
+Q1048835	political territorial entity
+Q2879	province or territory of Canada
+Q13218404	province of Canada
+Q13218406	territory of Canada
+Q10742	autonomous community of Spain
+Q15089	province of Italy
+Q3924474	former provinces of Italy
+Q16110	region of Italy
+Q1710033	autonomous region with special statute
+Q22721	Regierungsbezirk
+Q829277	government region of North Rhine-Westphalia
+Q38911	region of the Czech Republic
+Q83057	region of Belgium
+Q89934	community of Belgium
+Q155239	Indian reserve in Canada
+Q17290932	Cree reserved land
+Q193512	region of Finland
+Q200547	county of Sweden
+Q261023	district of Vienna
+Q643815	metropolitan or non-metropolitan county of England
+Q769603	non-metropolitan county
+Q769628	metropolitan county
+Q734818	condominium
+Q837766	local authority
+Q583865	French territorial collectivity
+Q3408484	province of New Caledonia
+Q18763431	metropolis
+Q36784	region of France
+Q28332	overseas region
+Q20719642	current region of France
+Q22670030	former French region
+Q6465	department of France
+Q202216	overseas department of France
+Q3044799	department of France in Algeria
+Q702842	municipal arrondissement
+Q679388	arrondissement of Paris
+Q2845944	former arrondissement of Paris
+Q702869	arrondissement of Lyon
+Q702875	arrondissement of Marseille
+Q5150900	combined authority
+Q19414242	English metropolitan district council
+Q21561306	English non-metropolitan district council
+Q855451	administrative territorial entity of Poland
+Q150093	voivodeship of Poland
+Q479053	gromada of Poland
+Q6576413	landscape park of Poland
+Q9305463	water region of Poland
+Q9309832	nature reserve in Poland
+Q1131296	freguesia of Portugal
+Q1140229	political union
+Q1352230	territory of the United States
+Q1620919	organized incorporated territory
+Q1394476	civil township of the United States
+Q7132722	paper township of Ohio
+Q5251732	defunct township of Cuyahoga County, Ohio
+Q7830213	township of New Jersey
+Q9035798	township of Pennsylvania
+Q15219655	town of Wisconsin
+Q17198524	civil township of South Dakota
+Q17198545	township of Illinois
+Q17198620	township of Ohio
+Q17201685	township of Indiana
+Q17205621	township of Iowa
+Q17205735	township of Kansas
+Q17205774	township of Michigan
+Q17351697	township of New Hampshire
+Q1798622	governorate
+Q86622	governorate of the Russian Empire
+Q331130	governorate of Yemen
+Q3712125	governorate of Italian East Africa
+Q5589761	governorate of the Spanish Empire
+Q2029618	Markaz (country subdivision)
+Q2177636	municipality of Denmark
+Q2533461	autonomous administrative territorial entity
+Q1977835	autonomous republic
+Q17147642	autonomous community
+Q779415	special administrative region
+Q782614	autonomous region
+Q2919801	municipality of Luxembourg
+Q3266850	comune
+Q7830262	township of Burma
+Q15704514	municipality of Sweden
+Q28111	township in the United States
+Q5086782	charter township of Michigan
+Q6270791	township of Missouri
+Q6643832	township of North Carolina
+Q7647102	survey township
+Q747074	comune of Italy
+Q2566190	department
+Q3327874	rural municipality of Canada
+Q4925355	province of South Korea
+Q12084012	province level division of the Republic of China
+Q2225003	special municipality
+Q9319988	province of the Republic of China
+Q12356456	viceroyalty
+Q4312761	viceroyalty of the Russian Empire
+Q20203507	viceroyalty of the Spanish Empire
+Q16263503	intendancy of the Spanish Empire
+Q5650347	intendancy of Chile
+Q20724789	general governorate
+Q671370	general governorate of the Russian Empire
+Q20724791	general governorate of the anti-Napoleon coalition
+Q20724797	general governorate of the Central Powers
+Q20724849	general governorate of Nazi Germany
+Q20860035	sultanate
+Q21272231	county council area
+Q1175512	county town
+Q1367821	subprefecture
+Q16481846	subprefecture in France
+Q1464870	pieve
+Q1499928	Gemarkung
+Q1549534	Greater Region
+Q1702612	Oberamt
+Q1799794	administrative territorial entity of a specific level
+Q163359	local administrative unit in the NUTS system
+Q11618279	LAU 1
+Q15630827	LAU 1 of Germany
+Q2513995	Verbandsgemeinde
+Q2520755	Verwaltungsverband of Saxony
+Q15725618	administrative community
+Q314097	municipality association of Germany
+Q447523	Samtgemeinde
+Q1500932	administrative territorial entity of Saxony-Anhalt
+Q1780389	special municipality association of Germany
+Q715398	subregion of Hungary
+Q762882	subregion of Finland
+Q842100	region of Iceland
+Q11618417	LAU 2
+Q2298305	eldership of Lithuania
+Q6988101	neighborhood of Kaunas
+Q6988120	neighborhood of Vilnius
+Q14292916	municipality of San Marino
+Q406957	First-level NUTS of the European Union
+Q10864048	first-level administrative country subdivision
+Q845820	region of Tanzania
+Q846327	region of Mauritania
+Q847667	region of Senegal
+Q24279	parish of Andorra
+Q859869	region of Niger
+Q861184	region of Peru
+Q861559	Province of Sri Lanka
+Q867094	region
+Q867545	province of Tajikistan
+Q867606	governorate of Bahrain
+Q27448	department of Guatemala
+Q868893	department of the Republic of the Congo
+Q869042	region of Cameroon
+Q874223	region of Eritrea
+Q874821	county of Liberia
+Q878040	division of Bangladesh
+Q1044181	state of Palau
+Q1054403	region of Guinea-Bissau
+Q1057504	region of Ethiopia
+Q1058387	district of Malawi
+Q1067116	region of Guinea
+Q1075520	province of Costa Rica
+Q1145005	province of Sierra Leone
+Q48242	district of Libya
+Q50399	province of Mongolia
+Q56059	department of Uruguay
+Q57368	district of Botswana
+Q50464	state or federal territory of Malaysia
+Q1008803	federal territory of Malaysia
+Q50495	governorate of the Palestinian National Authority
+Q1230132	district of the Bahamas
+Q62127	department of Haiti
+Q62326	region of Denmark
+Q74063	region of Saudi Arabia
+Q1149621	district of Seychelles
+Q1202812	region of Djibouti
+Q1405085	parish of Dominica
+Q104251	county of Albania
+Q1750854	parish of Saint Kitts and Nevis
+Q1753792	quarter of Saint Lucia
+Q1776764	județ
+Q1870831	parish of Saint Vincent and the Grenadines
+Q1462047	vilayet of the Ottoman Empire
+Q2800279	Six vilayets
+Q1507115	Imperial State
+Q1631888	parish of Barbados
+Q178712	state or territory of Australia
+Q179872	county of Ireland
+Q188604	county of Hungary
+Q189672	county of Estonia
+Q3076685	region of Uganda
+Q3345345	municipality of Latvia
+Q3648563	public body of the Netherlands
+Q156246	county of Iceland
+Q11774746	atoll of the Maldives
+Q12014176	Regions of Turkmenistan
+Q13012657	Klum Changwat
+Q13220372	district of Abkhazia
+Q13396669	province-level division
+Q57362	autonomous region of the People's Republic of China
+Q1208802	direct-controlled municipality
+Q15057583	region of Slovakia
+Q15058985	province of Pakistan
+Q15059108	region of Somalia
+Q5007997	special region of Indonesia
+Q5124045	city with special status
+Q7309296	Regions of Malta
+Q7574798	Special cities of North Korea
+Q7574799	special city of South Korea
+Q11279677	special self-governing province of South Korea
+Q2087773	region of Guyana
+Q2824648	province of Vietnam
+Q2915243	district of Kosovo
+Q3032141	district of Portugal
+Q15646510	region of the Gambia
+Q15646524	division of Fiji
+Q15673297	province of Laos
+Q16181672	special autonomous city in South Korea
+Q17291456	canton of the Helvetic Republic
+Q17373496	language area of Belgium
+Q17484900	Outer islands of Mauritius
+Q20717263	district of Ivory Coast
+Q20740204	division of Tonga
+Q22696381	region of Equatorial Guinea
+Q192299	county of Norway
+Q15072454	region of Burma
+Q15313730	province of Zambia
+Q15620174	province of North Korea
+Q15623448	department of the Duchy of Warsaw
+Q15629146	autonomous province of Serbia
+Q15630525	subregion of Portugal
+Q15630895	district of East Germany
+Q209824	province of Bulgaria
+Q215655	department of Colombia
+Q204910	governorate of Egypt
+Q207299	administrative region of Greece
+Q250050	department of Bolivia
+Q273789	county of Lithuania
+Q462778	insular area
+Q475214	department of El Salvador
+Q482821	metropolitan city of South Korea
+Q492042	province of Zimbabwe
+Q514860	region of Armenia
+Q4057728	district of Yerevan
+Q517351	governorate of Syria
+Q531645	parish of Grenada
+Q590080	region of Chile
+Q608843	region of Namibia
+Q641078	governorate of Oman
+Q648681	district of Serbia
+Q685320	municipality of Qatar
+Q690084	governorate of Tunisia
+Q693039	region of Kyrgyzstan
+Q719592	local council of Malta
+Q728145	department of Honduras
+Q741821	district of East Timor
+Q743074	region of Mali
+Q753113	region of Brazil
+Q765865	district of Belize
+Q792929	department of Benin
+Q815068	department of Paraguay
+Q822715	department of Nicaragua
+Q844531	district of Lesotho
+Q844713	governorate of Lebanon
+Q845643	regions of Morocco
+Q13220204	second-level administrative country subdivision
+Q13360155	county or county-equivalent
+Q1188782	county-equivalent
+Q13410522	borough of Alaska
+Q13410524	parish of Louisiana
+Q14846916	provincial municipality of Cambodia
+Q14846918	district of Cambodia
+Q15634531	district of Bangkok
+Q15896596	curazia
+Q18285142	oblast of a union republic of the Soviet Union
+Q18285132	oblast of the Russian Soviet Federative Socialist Republic
+Q18534049	county of North Korea
+Q20683484	municipality of the Federated States of Micronesia
+Q20683493	krai of a union republic of the Soviet Union
+Q21608359	urban district of Vietnam
+Q18279	canton of the Federation of Bosnia and Herzegovina
+Q152732	district of Bangladesh
+Q219875	zone of Ethiopia
+Q308891	special wards of Tokyo
+Q318727	municipality of Nicaragua
+Q496825	district of Afghanistan
+Q655851	department of Gabon
+Q788046	autonomous soviet socialist republic of a union republic of the Soviet Union
+Q850450	subprefecture of Japan
+Q851830	region of Côte d'Ivoire
+Q867014	dungkhag
+Q971831	region of Madagascar
+Q1139753	district or dependency of Mauritius
+Q2387050	district of Mauritius
+Q1146429	canton of Luxembourg
+Q1298632	district of Sierra Leone
+Q1349648	municipality of Greece
+Q1394653	prefecture of Guinea
+Q1504917	district of the Gambia
+Q1512109	administrative post of East Timor
+Q1518096	district of Mongolia
+Q1539014	resort of Suriname
+Q1589568	district municipality of South Africa
+Q1724017	canton of Ecuador
+Q1780506	commune of Benin
+Q2068214	district of Mozambique
+Q2112349	district-level town of Vietnam
+Q2264478	district of Slovakia
+Q2306813	department of Cameroon
+Q2409750	district of Tanzania
+Q2577184	parish of Latvia
+Q2602693	municipality of Honduras
+Q2614970	district of Algeria
+Q2655841	muncipality of Georgia
+Q2693910	district of Lebanon
+Q2744064	district of Zambia
+Q2914501	department of Niger
+Q2915776	district of Syria
+Q3075872	neighbourhood democratic council of Guyana
+Q3191695	Regency of Indonesia
+Q3250615	Provinces of Oman
+Q3263368	department of Mauritania
+Q3312607	region of Egypt
+Q3487904	Processus
+Q3685430	municipality of Armenia
+Q20724701	city or town in Armenia
+Q3931963	region of Republika Srpska
+Q3976634	city of the Federated States of Micronesia
+Q4866996	Basic People's Congress
+Q5123999	city of regional significance of Ukraine
+Q5163951	constituency of Belize
+Q5283500	district of Burma
+Q5283544	district of Turkmenistan
+Q5283558	district of Zimbabwe
+Q7444736	sector of Guinea-Bissau
+Q9316670	prefecture-level division of the People's Republic of China
+Q788104	autonomous prefecture
+Q4056396	Sub-provincial autonomous prefecture
+Q1045608	prefecture
+Q17361234	municipality
+Q50256	district of Hong Kong
+Q250811	sub-province-level division
+Q1050126	State-level new areas of the People's Republic of China
+Q17361204	sub-province-level prefecture
+Q288653	league of the People's Republic of China
+Q748149	prefecture-level city
+Q13221722	third-level administrative country subdivision
+Q179233	administrative post of Mozambique
+Q605291	municipality of Niger
+Q617807	department of Ivory Coast
+Q620471	upazila of Bangladesh
+Q766277	comarque of the Valencian Community
+Q937876	comarca of Catalonia
+Q1077097	tambon
+Q1345234	comarca of Spain
+Q671715	comarca of Extremadura
+Q1215981	comarca of Biscay
+Q1549234	comarca of Aragon
+Q1997506	comarca of Palencia Province
+Q2000429	comarca of Murcia Province
+Q2469744	comarca of Navarre
+Q2984694	comarca of Burgos Province
+Q3141478	comarca of Andalusia
+Q3321400	comarcas of Cantabria
+Q3573632	historic comarca of Rosellón
+Q3573839	comarca of Soria Province
+Q5150550	comarca of Galicia
+Q5150552	comarca of Madrid
+Q5150553	comarca of the Basque Country
+Q11914866	comarca of Ciudad Real
+Q12254339	comarca of Asturias
+Q1388464	regional municipality in Canada
+Q1668607	canton of El Salvador
+Q1841580	commune of Angola
+Q1853398	subprefecture of Guinea
+Q1990968	Divisional Secretariats of Sri Lanka
+Q2579179	parish of Ecuador
+Q12083042	county level division of the Republic of China
+Q83020	provincial city
+Q706447	county of Taiwan
+Q16755104	county-level division
+Q17361230	autonomous banner of the People's Republic of China
+Q17361329	parish
+Q806869	banner
+Q1070990	county-level city
+Q1289426	county
+Q1336099	autonomous county
+Q18691601	ward of Tanzania
+Q22044663	suco of East Timor
+Q4389116	comarca of Salamanca Province
+Q4414032	selski okrug of Kazakhstan
+Q4466899	thromde
+Q5097104	chiefdom of Sierra Leone
+Q5153984	commune-level subdivision of Vietnam
+Q687188	ward of Vietnam
+Q1070942	commune-level town of Vietnam
+Q2389082	rural commune of Vietnam
+Q5177124	county of Uganda
+Q6936383	municipality of Lebanon
+Q7631052	subdivision of India
+Q7703797	territory of the Democratic Republic of the Congo
+Q14757767	fourth-level administrative country subdivision
+Q525504	municipio
+Q824650	canton of Bolivia
+Q1368879	Muban
+Q7630601	sub-county of Uganda
+Q16725943	township-level division
+Q17361311	ethnic sumu
+Q582525	ethnic township
+Q735428	town in China
+Q986065	subdistrict of the People's Republic of China
+Q2365159	sumu
+Q20981165	Sub-prefectures of Ivory Coast
+Q15640612	fifth-level administrative country subdivision
+Q3076994	commune of Cameroon
+Q22683078	parish of Uganda
+Q2679157	commune of Ivory Coast
+Q22927291	sixth-level administrative country subdivision
+Q2113743	Magiri
+Q2140699	wine-producing region
+Q166247	American Viticultural Area
+Q2269077	historical province of Slovenia
+Q2378595	Publiekrechtelijke Bedrijfsorganisatie
+Q13138621	water board
+Q702081	water board in the Netherlands
+Q18089214	water board in Belgium
+Q2401504	darugha
+Q4976993	civil parish
+Q2140214	parish of Jersey
+Q3333265	parroquia
+Q12397176	parish of Galacia
+Q3365965	parish of Guernsey
+Q3910694	civil parish in Ireland
+Q6063801	parish of Venezuela
+Q4996207	bailiwick
+Q5124670	civil parish
+Q5195043	borough
+Q1006876	borough in the United Kingdom
+Q1770467	borough of Oslo
+Q4272761	city administration in Indonesia
+Q4946361	Boroughs of Canada
+Q23953065	local urban district
+Q5214867	federal territory
+Q2576151	daïra
+Q2738486	krai
+Q2998465	exarchate
+Q946136	exarchate of the Byzantine Empire
+Q5853012	exarchat
+Q3397866	poor law union
+Q3485795	Seat
+Q4439316	stan
+Q20973698	stan of the Russian Empire
+Q4891503	Cora
+Q5394548	Tingslag
+Q5422193	extractive reserve
+Q5639312	voivodeship
+Q19698023	former voivodeships of Lithuania
+Q5982983	jurisdiction
+Q6073798	irrigation district
+Q7225125	political subdivison
+Q10915529	Administrative divisions of Taiwan under Japanese rule
+Q12121341	marz
+Q12225020	islah
+Q12778511	vicariate
+Q13410445	rione
+Q22085013	eparchy
+Q23012917	village of Burkina Faso
+Q23795302	administrative territorial entity of the European Union
+Q3320166	Outermost region
+Q15621274	enclave or exclave
+Q171441	enclave
+Q3347229	Dohogram Unino
+Q645659	Indo-Bangladesh enclaves
+Q933394	exclave
+Q15642566	non-political administrative territorial entity
+Q12143	time zone
+Q17272482	time zone named for a UTC offset
+Q17272692	IANA time zone
+Q17280916	seasonal time zone
+Q62687	forestry agency
+Q20119979	Forest range
+Q473972	protected area
+Q174945	Area of Outstanding Natural Beauty
+Q179049	nature reserve
+Q295404	Ecopark
+Q759421	Naturschutzgebiet
+Q3457526	local nature reserve
+Q3457689	nature reserve in France
+Q3457472	natural reserves of Corsica
+Q15089606	Réserve naturelle régionale
+Q19656847	réserve naturelle nationale
+Q4306036	Museum-Reserve
+Q5333253	ecological reserve
+Q1614512	ecological reserve of Quebec
+Q8545897	national nature reserve in the Czech Republic
+Q13470232	nature reserve in Belarus
+Q18379650	national nature reserve
+Q6974552	National Nature Reserve
+Q338112	recreation area
+Q422211	Site of Special Scientific Interest
+Q509827	United States National Grassland
+Q544008	strict nature reserve
+Q7623619	Strict nature reserves of Finland
+Q612741	United States National Forest
+Q728904	nature park
+Q20354035	Naturpark
+Q759882	protected landscape area
+Q21503788	Landschaftsschutzgebiet
+Q841646	national preserve of the United States
+Q893775	National Monument of the United States
+Q936257	conservation area
+Q5162949	conservation areas of India
+Q941043	List of United States national lakeshores and seashores
+Q955236	transboundary protected area
+Q20537528	international park
+Q1132998	National Recreation Area
+Q1258086	National Historic Site
+Q203676	National Military Park
+Q1367500	marine protected area
+Q4315021	National Marine Conservation Area
+Q1377575	wildlife refuge
+Q1410668	National Wildlife Refuge
+Q1484173	Zapovednik
+Q1627961	Naturschutzgebiet
+Q1714375	game reserve
+Q1749279	protected area of Nepal
+Q1761072	state park
+Q2006279	provincial park
+Q1277221	protected park of Manitoba
+Q3364923	national park of Quebec
+Q3364927	protected area of Prince Edward Island
+Q3364928	protected area of Nova Scotia
+Q3364929	protected area of Ontario
+Q3364930	protected areas of Saskatchewan
+Q15222729	provincial park
+Q16879715	Historical Class Parks
+Q16023747	state park of the United States
+Q1790016	National park of Colombia
+Q1803820	landscape park
+Q1863876	protected area of Nicaragua
+Q1959314	protected area of Russia
+Q1967454	National Memorial of the United States
+Q2108855	presidential memorial in the United States
+Q1969187	protected area of Mozambique
+Q2303963	protected area of Tasmania
+Q2445527	wilderness area
+Q5754395	High-Biodiversity Wilderness Area
+Q2498169	protected area of New Zealand
+Q2828309	protected area of France
+Q2828312	protected area of Canada
+Q337807	national wildlife area of Canada
+Q2828314	protected area of Quebec
+Q3457686	wildlife reserve of Quebec
+Q3575773	Zone d'exploitation contrôlée
+Q16509826	exceptional forest eco-system of Quebec
+Q2828315	protected area of New Brunswick
+Q3575969	protected natural area of New Brunswick
+Q3423162	migratory bird sanctuary of Canada
+Q14916958	special place
+Q2828718	protected area of India
+Q2828720	protected area of Sri Lanka
+Q2919841	protected area of Brazil
+Q2975935	protected area of Portugal
+Q139424	protected area of the Azores
+Q3031290	Antarctic Specially Protected Area
+Q3564598	protected area of Poland
+Q3622102	protected area of Finland
+Q3622110	protected area of Estonia
+Q3622113	protected area of South Africa
+Q3936950	Riserve naturali regionali d'Italia
+Q4771003	Antarctic Protected Area
+Q21013851	Historic Site or Monument
+Q6063204	regional park
+Q6401073	khawr of the Salalah Coast Reserve
+Q6978068	National Reserve
+Q6978245	National Scenic Area
+Q7212557	zakaznik
+Q4433777	zakaznik of Belarus
+Q20071160	Hydrology reserve
+Q7246237	Private protected areas of India
+Q7251263	protected area of Albania
+Q7251264	protected area of Bihar
+Q7251265	protected area of Cameroon
+Q20488229	natural park in Cameroon
+Q7251266	protected area of China
+Q7251270	protected area of Johor
+Q7251271	protected area of Indonesia
+Q7251276	protected area of Kyrgyzstan
+Q20602715	state nature national park of Kyrgyzstan
+Q7251277	protected area of Libya
+Q7251279	protected area of Pakistan
+Q7251280	protected area of Norway
+Q7251281	protected area of Singapore
+Q7251283	protected area of Swaziland
+Q7251284	protected area of Turkmenistan
+Q7251289	protected area of West Bengal
+Q7251290	protected area of the European Union
+Q7251292	protected area of the United States
+Q7251293	protected area of United Kingdom
+Q7251287	protected area of Wales
+Q8001309	Wildlife Management Area
+Q10977433	protected area of Ukraine
+Q20588555	landscape park of Ukraine
+Q13020522	forest park in Thailand
+Q14621125	protected area of Assam
+Q14748878	conservation area of Costa Rica
+Q15069452	Natura 2000 protected area
+Q1191622	Special Area of Conservation
+Q629829	Special Areas of Conservation in the Netherlands
+Q2463705	Special Protection Area
+Q15707454	non-hunting area in Thailand
+Q15831594	protected area of Vietnam
+Q16153818	protected area of Chile
+Q20625120	national reserve of Chile
+Q16966008	protected forest
+Q1689678	Schonwald
+Q7315273	reserve forest
+Q17000624	protected area of Australia
+Q5162993	conservation park of Australia
+Q5478580	protected area of Queensland
+Q7251282	protected area of South Australia
+Q7251288	protected area of Victoria
+Q17042132	protected area of Suriname
+Q17084125	protected area of Namibia
+Q17334112	Historical park of Thailand
+Q20268591	wildlife reserve
+Q20268453	faunal reserve
+Q20268756	biosphere reserve
+Q158454	biosphere reserve
+Q17374430	Transboundary Biosphere Reserves
+Q16141341	biosphere reserve in Mexico
+Q17005601	biosphere reserve in Singapore
+Q20290500	protected landscape area of the Czech Republic
+Q20296613	protected area of Germany
+Q1518285	geschützter Landschaftsbestandteil
+Q1968322	Nationales Naturmonument
+Q21573182	Naturdenkmal in Germany
+Q20486433	quasi-national park of Japan
+Q20488347	national park of Peru
+Q20489089	protected area of Madagascar
+Q20489083	national park of Madagascar
+Q20489120	strict nature reserve of Madagascar
+Q20489225	special reserve of Madagascar
+Q20588567	protected area of Slovakia
+Q3848936	protected landscape area of Slovakia
+Q20626607	protected area of Kenya
+Q5616099	census division
+Q1053463	census geographic unit of Canada
+Q3248567	county of Prince Edward Island
+Q17457753	Census subdivision
+Q18810091	census division of Canada
+Q2292592	census division of Manitoba
+Q15646667	administrative territorial entity of more than one country
+Q153026	Euroregion
+Q518553	Eurodistrict
+Q1307754	Single Euro Payments Area
+Q17126688	International Telecommunication Union region
+Q15916867	administrative territorial entity of a single country
+Q41156	administrative territorial entity of South Korea
+Q17143371	county of South Korea
+Q18545121	district of Busan
+Q18545295	district of Incheon
+Q20850379	gu
+Q483515	myeon
+Q6763949	beopjeongdong
+Q16756709	special-status city of South Korea
+Q41386	administrative territorial entity of North Korea
+Q18544917	district of North Korea
+Q50199	administrative territorial entity of Laos
+Q5283521	district of Laos
+Q50201	administrative territorial entity of Cambodia
+Q50202	administrative territorial entity of Vietnam
+Q2582669	district of Vietnam
+Q3455658	region of Vietnam
+Q15645212	administrative territorial entity of Ecuador
+Q2363197	autonomous region of Ecuador
+Q15646492	administrative territorial entity of British India
+Q15646485	division of British India
+Q15646712	province of British India
+Q17319258	presidency of British India
+Q15646706	administrative territorial entity of Liberia
+Q15646733	administrative territorial entity of Monaco
+Q23901112	reserved sector
+Q23901114	scheduled district
+Q15647212	administrative territorial entity of Barbados
+Q5283497	district of Barbados
+Q15647218	constituency of the Parliament of Barbados
+Q15647606	administrative territorial entity of Antigua and Barbuda
+Q514450	city in Antigua and Barbuda
+Q1647142	parish or dependency of Antigua and Barbuda
+Q14630046	parish of Antigua and Barbuda
+Q15647623	administrative territorial entity of the Marshall Islands
+Q15621294	municipality of the Marshall Islands
+Q15665504	administrative territorial entity of Mandatory Palestine
+Q5283522	district of Mandatory Palestine
+Q15665395	subdistrict of Mandatory Palestine
+Q15726223	administrative territorial entity of the Kingdom of Hungary
+Q852231	county of the Kingdom of Hungary
+Q15728794	administrative territorial entity of Eritrea
+Q3729800	subregion of Eritrea
+Q3924463	province of Eritrea
+Q5283496	administration of Asmara
+Q15728798	populated places in Eritrea
+Q15729138	administrative territorial entity of the Faroe Islands
+Q15895907	administrative territorial entity of the Achaemenid Empire
+Q3950801	satrapy of the Achaemenid Empire
+Q15980675	administrative territorial entity of Jersey
+Q1923855	vingtaine
+Q16766456	administrative territorial entity of Vanuatu
+Q3917124	administrative territorial entity of Costa Rica
+Q953822	canton of Costa Rica
+Q3976636	administrative territorial entity of Brunei
+Q50427	district of Brunei
+Q60047	mukim of Brunei
+Q3976641	administrative territorial entity of Kenya
+Q269218	county of Kenya
+Q3239205	district of Kenya
+Q4893522	division of Kenya
+Q7630574	sub-county of Kenya
+Q3976643	administrative territorial entity of Rwanda
+Q1841634	district of Rwanda
+Q3058029	sector of Rwanda
+Q3558954	village of Rwanda
+Q3976645	administrative territorial entity of Angola
+Q3502496	administrative territorial entity of Senegal
+Q369385	rural community of Senegal
+Q751030	department of Senegal
+Q2424478	arrondissement of Senegal
+Q2989649	commune of Senegal
+Q3507889	administrative territorial entity of the Czech Republic
+Q548611	district of the Czech Republic
+Q691899	kraj
+Q3557016	administrative territorial entity of Equatorial Guinea
+Q3645512	administrative territorial entity of Mongolia
+Q546989	düüreg of Mongolia
+Q2223411	Khoroo
+Q3750285	administrative territorial entity of Canada
+Q290649	List of communities in British Columbia
+Q1850674	regional district of British Columbia
+Q6609673	city in British Columbia
+Q6616960	district municipality in British Columbia
+Q6643724	town in British Columbia
+Q6644703	village in British Columbia
+Q609723	community in Nunavut
+Q2543447	region of Nunavut
+Q3518810	unorganized area of Canada
+Q3788231	Municipal government in Canada
+Q5283563	district of the Northwest Territories
+Q15618485	administrative territorial entity of Prince Edward Island
+Q3252931	parish in Prince Edward Island
+Q15068900	town in Prince Edward Island
+Q16211218	Indian settlement
+Q956318	designated place of Canada
+Q1536372	census division of Ontario
+Q4204495	former county of Ontario
+Q6593035	separated municipality in Ontario
+Q14763130	district of Ontario
+Q17344046	unorganized area of Ontario
+Q2218838	List of communities in Nova Scotia
+Q1838006	county of Nova Scotia
+Q5532181	General Service Area
+Q6643749	town in Nova Scotia
+Q15731904	municipal district of Nova Scotia
+Q2416047	List of communities in Alberta
+Q6641762	summer village in Alberta
+Q6644696	village in Alberta
+Q7574919	specialized municipality in Alberta
+Q14762205	municipal district of Alberta
+Q15219391	town in Alberta
+Q15234658	improvement district of Alberta
+Q18285253	Alberta special area
+Q3111821	list of communities in New Brunswick
+Q603715	county of New Brunswick
+Q2989369	rural community of New Brunswick
+Q3032041	local service district
+Q3252927	parish in New Brunswick
+Q6609748	city of New Brunswick
+Q6644759	village of New Brunswick
+Q3252517	List of communities in Newfoundland and Labrador
+Q50218	administrative territorial entity of the Republic of China
+Q12081657	township level division of the Republic of China
+Q705296	district of Taiwan
+Q713146	county-controlled city
+Q2367508	township of Taiwan
+Q12039044	urban township of Taiwan
+Q12039539	rural township of Taiwan
+Q50231	administrative territorial entity of the People's Republic of China
+Q517267	commandery of China
+Q1044880	subprefecture-level city
+Q1208927	autonomous administrative territorial entity of China
+Q4237448	greater administrative area of China
+Q8501237	large city
+Q11081538	new area of China
+Q15911903	state-level new area of the People's Republic of China
+Q12809484	Chinese locality
+Q137413	administrative territorial entity of Azerbaijan
+Q2610712	economic region of Azerbaijan
+Q4057700	administrative territorial entity of Baku
+Q156772	administrative territorial entity of Afghanistan
+Q50298	freguesias or municipality of Macau
+Q50513	administrative territorial entity of Singapore
+Q2090900	urban planning area in Singapore
+Q2091262	region of Singapore
+Q55292	administrative territorial entity of East Germany
+Q15849374	rural district of East Germany
+Q57354	administrative territorial entity of Botswana
+Q58017	subdistrict of Botswana
+Q112865	administrative territorial entity of Mexico
+Q2734310	Mexico City delegacion
+Q5393378	region of Oaxaca
+Q5662027	region of Tabasco
+Q9067642	region of Jalisco
+Q15977928	department of Mexico
+Q16933860	intrastate region of Mexico
+Q17378017	subregion of Tabasco
+Q20528428	federative entity of Mexico
+Q4494320	administrative territorial entity of Australia
+Q17054562	region of the Northern Territory
+Q1867183	local government area of Australia
+Q252861	local government area of South Australia
+Q648607	local government area of New South Wales
+Q1459673	local government area of the Northern Territory
+Q1772834	local government area of Queensland
+Q1849126	local government area of Victoria
+Q1850785	local government area of Western Australia
+Q1867166	local government area of Tasmania
+Q4215166	lands administrative division of Australia
+Q6485012	lands administrative division of New South Wales
+Q6485014	lands administrative division of Queensland
+Q6485018	lands administrative division of Western Australia
+Q4683538	administrative territorial entity of Niger
+Q4683555	administrative territorial entity of South Africa
+Q1716280	district of South Africa
+Q4683558	administrative territorial entity of Tajikistan
+Q7482775	district of Tajikistan
+Q5283489	administrative territorial entity of Mauritius
+Q5937006	administrative territorial entity of Seychelles
+Q17147618	administrative territorial entity of Guernsey
+Q17147946	administrative territorial entity of the First Mexican Empire
+Q15977968	intendency of the First Mexican Empire
+Q17147964	administrative territorial entity of the Spanish Empire
+Q17259945	province of the Spanish Empire
+Q17279557	administrative territorial entity of the Dominican Republic
+Q17297664	administrative territorial entity of the Duchy of Livonia
+Q17297663	voivodeship of the Duchy of Livonia
+Q17308849	administrative territorial entity of the Batavian Republic
+Q15631887	department of the Batavian Republic
+Q17308973	administrative territorial entity of the Kingdom of Holland
+Q17308967	department of the Kingdom of Holland
+Q17309235	administrative territorial entity of the Helvetic Republic
+Q17310396	administrative territorial entity of the Russian Empire
+Q4147444	city municipality of the Russian Empire
+Q4379644	province of the Russian Empire
+Q18867465	uyezd of the Russian Empire
+Q20732405	volost of the Russian Empire
+Q20733701	rural community of the Russian Empire
+Q20973705	ulus of the Russian Empire
+Q17310912	administrative territorial entity of Dominica
+Q17315728	administrative territorial entity of Saint Kitts and Nevis
+Q17319162	administrative territorial entity of the British Raj
+Q1336152	princely state of the British Raj
+Q4691986	agency of the British Raj
+Q17319161	princely estate of the British Raj
+Q18324095	administrative territorial entity of the Palestinian National Authority
+Q18330719	administrative territorial entity of the Second Polish Republic
+Q18330720	county of the Second Polish Republic
+Q18559091	administrative territorial entity of Prussia
+Q1850612	government region of Prussia
+Q18592528	administrative territorial entity of Grenada
+Q18592540	constituency of Grenada
+Q19904526	administrative territorial entity of Guyana
+Q20477540	administrative territorial entity of the Holy Roman Empire
+Q460338	imperial circle of the Holy Roman Empire
+Q20683316	zent of the Holy Roman Empire
+Q192287	administrative territorial entity of Russia
+Q484215	federal district of Russia
+Q565410	economic region of Russia
+Q20867225	volost of Russia
+Q604885	administrative territorial entity of the Republic of Dagestan
+Q904526	Administrative divisions of the Republic of Bashkortostan
+Q905577	administrative territorial entity of Tuva
+Q6838968	Kozhuun
+Q2381977	inter-settlement territory
+Q2520666	Administrative divisions of Perm Krai
+Q2578772	inhabited locality in Russia
+Q187768	cities and towns in Russia
+Q4436777	rural locality with a population of more than 10,000 inhabitants in Russia
+Q4057732	administrative territorial entity of Crimea
+Q192498	territorial division of France
+Q203396	overseas France
+Q2327385	overseas territory
+Q17361823	special collectivity
+Q219890	Zone d'études et d'aménagement du territoire
+Q546080	administrative territorial entity of New Caledonia
+Q19593666	quarter of Nantes
+Q1229713	district of France 1790-1800
+Q1255087	revolutionary section of Paris
+Q2828716	customary area of New-Caledonia
+Q3148120	Igamie
+Q3757179	parçan of Occitania
+Q20683371	amt of Duchy of Berg
+Q20683403	amt of the Principality of Brunswick-Wolfenbüttel
+Q20724760	administrative territorial entity of Czechoslovakia
+Q20732236	administrative territorial entity of Trinidad and Tobago
+Q1996198	regional corporation or municipality of Trinidad and Tobago
+Q5177123	county of Trinidad and Tobago
+Q20732239	regional corporation of Trinidad and Tobago
+Q20734774	administrative territorial entity of Samoa
+Q1070167	district of Samoa
+Q20825640	canton of Rojava
+Q20973135	administrative territorial entity of the Kingdom of Hanover
+Q20973143	administrative territorial entity of the First Spanish Republic
+Q20825630	canton of the First Spanish Republic
+Q21073990	administrative territorial entity of the Comoros
+Q20732232	autonomous island of the Comoros
+Q23019193	rural commune
+Q24206782	province of Lombardo-Veneto
+Q3976655	administrative territorial entity of Denmark
+Q743544	administrative territorial entity of Greenland
+Q16511251	municipality of Greenland
+Q20732358	municipality of Greenland
+Q876730	county of Denmark
+Q1523821	socken
+Q12323657	village of Denmark
+Q3976660	administrative territorial entity of Zimbabwe
+Q4057706	administrative territorial entity of the Great Duchy of Lithuania
+Q4115671	administrative territorial entity of Morocco
+Q2943476	Caïdat
+Q2989400	commune of Morocco
+Q3327862	Municipalitie
+Q23019196	Circle
+Q23925382	arrondissement
+Q23925390	Centre
+Q23925393	douar
+Q4161597	administrative territorial entity of the Republic of the Congo
+Q1958165	district of the Republic of the Congo
+Q5154054	commune of the Republic of the Congo
+Q4204491	administrative territorial entity of the Soviet Union
+Q2037172	administrative territorial entity of the Ukrainian SSR
+Q4266755	okruha of the Ukrainian SSR
+Q16934408	okrug of the Ukrainian SSR
+Q4212660	canton of the Soviet Union
+Q15733039	governorate of the Russian Soviet Federative Socialist Republic
+Q18071983	okrug of the Soviet Union
+Q18227833	administrative territorial entity of the Azerbaijani SSR
+Q18227834	administrative territorial entity of the NKAO
+Q4282697	Martuni District
+Q7505461	Shusha District
+Q18285135	administrative territorial entity of the Russian Soviet Federative Socialist Republic
+Q18285133	okrug of the Russian Soviet Federative Socialist Republic
+Q21073970	volost of the Russian Soviet Federative Socialist Republic
+Q18867064	uyezd of the Soviet Union
+Q21758148	national district of the Soviet Union
+Q203323	administrative territorial entity of Ukraine
+Q200209	cities of Ukraine
+Q12131640	city of district significance
+Q21674689	administrative territorial entity of a subnational entity of Ukraine
+Q1850577	Administrative divisions of Dnipropetrovsk Oblast
+Q4456205	Administrative and municipal divisions of Sevastopol
+Q12076839	Administrative divisions of Ivano-Frankivsk Oblast
+Q12076867	Administrative divisions of Volyn Oblast
+Q12076929	Administrative divisions of Luhansk Oblast
+Q16691275	administrative divisions of Zhytomyr Oblast
+Q16691299	Administrative divisions of Kirovohrad Oblast
+Q16691259	Administrative divisions of Vinnytsia Oblast
+Q21683299	settlement council  in Ukraine
+Q213918	administrative territorial entity of Bolivia
+Q7631066	administrative territorial entity of Namibia
+Q1853630	constituency of Namibia
+Q7631073	administrative territorial entity of Sudan
+Q7631075	administrative territorial entity of Switzerland
+Q1547548	large region of Switzerland
+Q7631098	administrative territorial entity of the canton of Bern
+Q17277414	administrative region of the canton of Berne
+Q7631099	administrative territorial entity of the canton of Solothurn
+Q17277975	Amtei of the canton of Solothurn
+Q7631100	administrative territorial entity of the canton of St. Gallen
+Q7631101	administrative territorial entity of the canton of Valais
+Q7631103	administrative territorial entity of the canton of Vaud
+Q3032132	district of the canton of Vaud
+Q11917419	administrative territorial entity of the canton of Ticino
+Q3927250	quarter of the city of Lugano
+Q17276480	subdistrict of the canton of Ticino
+Q14811181	area not part of a municipality of Switzerland
+Q14872996	territory shared by several municipalities of Switzerland
+Q17276485	subdistrict of the canton of Graubünden
+Q17297182	administrative territorial entity of the canton of Lucerne
+Q17297222	administrative territorial entity of the canton of Schwyz
+Q17297280	administrative territorial entity of the canton of Zürich
+Q674546	administrative territorial entity of the city of Zurich
+Q19644409	Kreis (city of Zürich)
+Q19644586	statistical neighborhood of Zürich
+Q17297402	administrative territorial entity of the canton of Thurgau
+Q3032133	district of Canton Thurgau
+Q23013985	region of Graubünden
+Q7631079	administrative territorial entity of Tunisia
+Q1184072	delegation of Tunisia
+Q15732355	commune of Tunisia
+Q7631083	administrative territorial entity of Uzbekistan
+Q7551583	mahalla of Uzbekistan
+Q15630934	district of Tashkent
+Q7631084	administrative territorial entity of Togo
+Q139228	region of Togo
+Q828485	prefecture of Togo
+Q361733	administrative territorial entity of Austria
+Q23244	Zählsprengel
+Q262882	statuatory city of Austria
+Q871419	district of Austria
+Q1500572	Gemeindeverband in Austria
+Q1852119	district of Graz
+Q380230	administrative territorial entity of Portugal
+Q17297619	region of Portugal
+Q19833170	town of Portugal
+Q21528797	reitoria of Portugal
+Q24206770	province of Portugal
+Q2914565	Autonomous Region of Portugal
+Q243669	administrative territorial entity of Slovakia
+Q244339	administrative territorial entity of Georgia
+Q620865	administrative territorial entity of Abkhazia
+Q1210300	mkhare
+Q270496	administrative territorial entity of Pakistan
+Q2592651	union council
+Q4814017	division of Pakistan
+Q5123154	city district of Pakistan
+Q6642438	talukas of Sindh
+Q17166730	agency of Pakistan
+Q387917	administrative territorial entity of Germany
+Q23006	Verbandsgemeinde
+Q1561418	municipal association in Baden-Württemberg, Germany
+Q1570561	planning region of Germany
+Q2098419	planning region of Bavaria
+Q1690124	Verwaltungsgemeinschaft of Schleswig-Holstein
+Q13405470	Gemeindeverband
+Q1317260	municipal association in Thuringia, Germany
+Q15631850	districts and some cities of Germany
+Q16522751	Erfüllende Gemeinde of Thuringia
+Q17266843	directorate district of Saxony
+Q20724715	regional center of Germany
+Q253030	major regional center
+Q1401585	medium regional center
+Q1432253	small regional center
+Q21782630	administrative territorial entity of the Residual Poland General Governorate
+Q533309	administrative territorial entity of Norway
+Q369639	region of Norway
+Q379158	district of Norway
+Q542797	administrative territorial entity of Moldova
+Q4229812	commune of Moldova
+Q15068469	county of Moldavia
+Q7631092	administrative territorial entity of the Central African Republic
+Q843886	prefecture of the Central African Republic
+Q20732250	economic prefecture of the Central African Republic
+Q7631093	administrative territorial entity of the Gambia
+Q2054441	Local government areas of The Gambia
+Q8435708	administrative territorial entity of Cyprus
+Q9301005	administrative territorial entity of Libya
+Q7252591	province of Libya
+Q15630943	governorate of Libya
+Q15650103	municipality of Libya
+Q10374501	administrative territorial entity of Bulgaria
+Q17297723	planning region of Bulgaria
+Q10374541	administrative territorial entity of Northern Cyprus
+Q2603776	district of Northern Cyprus
+Q558941	administrative territorial entity of Yemen
+Q646728	administrative territorial entity of Finland
+Q3177944	administrative territorial entity of Helsinki
+Q3735314	administrative territorial entity of Oulu
+Q650605	administrative territorial entity of Zambia
+Q697379	administrative territorial entity of Romania
+Q6052753	administrative territorial entity of the Bahamas
+Q21601225	former district of the Bahamas
+Q6052783	administrative territorial entity of Tuvalu
+Q6418772	subdivision of the Byzantine Empire
+Q6697142	administrative territorial entity of Uganda
+Q7631046	administrative territorial entity of Gabon
+Q7631050	administrative territorial entity of Guinea-Bissau
+Q17325066	autonomous sector of Guinea-Bissau
+Q18592472	province of Guinea-Bissau
+Q7631058	administrative territorial entity of Malawi
+Q3271886	region of Malawi
+Q7631060	administrative territorial entity of Mauritania
+Q2989470	commune of Mauritania
+Q11183787	Ortschaft
+Q13058055	administrative territorial entity of Armenia
+Q13358528	financial district
+Q14921981	administrative territorial entity of Belarus
+Q16724476	town of Belarus
+Q19953754	protected area of Belarus
+Q14925259	administrative territorial entity of Iraq	
+Q841753	governorate of Iraq	
+Q15042137	administrative territorial entity of the Netherlands
+Q15044339	administrative territorial entity of Egypt
+Q15044747	administrative territorial entity of Chad
+Q640262	region of Chad
+Q2711758	department of Chad
+Q3307748	prefecture of Chad
+Q7630629	subprefecture of Chad
+Q20683492	special statute region of Chad
+Q15045746	administrative territorial entity of Ghana
+Q1052743	region of Ghana
+Q15052056	administrative territorial entity of Brazil
+Q1503450	mesoregion of Brazil
+Q1878343	administrative territorial entity of Paraíba
+Q1969297	administrative territorial entity of Goiás
+Q1992122	administrative territorial entity of Rio Grande do Sul
+Q2218748	administrative territorial entity of Rondônia
+Q2381005	administrative territorial entity of Pará
+Q2440055	administrative territorial entity of Pernambuco
+Q2477831	administrative territorial entity of Paraná
+Q2495729	administrative territorial entity of Santa Catarina
+Q2495826	administrative territorial entity of Sergipe
+Q2577252	administrative territorial entity of Maranhão
+Q2585182	administrative territorial entity of Rio Grande do Norte
+Q2599685	administrative territorial entity of Mato Grosso do Sul
+Q2673124	administrative territorial entity of Rio de Janeiro
+Q2691373	administrative territorial entity of Espírito Santo
+Q3148000	administrative territorial entity of the Federal District
+Q3624938	district of Brazil
+Q4683593	administrative region of Brazil
+Q1767691	administrative region of the Federal District
+Q3976665	administrative region of Rio de Janeiro
+Q14469624	administrative territorial entity of Alagoas
+Q14469625	administrative territorial entity of Amapá
+Q14469627	administrative territorial entity of Bahia
+Q14469628	administrative territorial entity of Ceará
+Q21326003	administrative territorial entity of Fortaleza
+Q14469630	administrative territorial entity of Mato Grosso
+Q14469631	administrative territorial entity of Piauí
+Q18592633	district of Santa Maria
+Q19868886	administrative territorial entity of Acre
+Q19868901	administrative territorial entity of Tocantins
+Q19868903	administrative territorial entity of São Paulo State
+Q1007114	administrative territorial entity of São Paulo City
+Q19886676	subprefecture of São Paulo
+Q19886742	zone of São Paulo
+Q19868905	administrative territorial entity of Minas Gerais
+Q19868907	administrative territorial entity of Amazonas
+Q19868909	administrative territorial entity of Roraima
+Q717478	administrative territorial entity of the United Kingdom
+Q171634	administrative territorial entity of England
+Q48091	region of England
+Q171809	county of England
+Q1138494	historic county of England
+Q7897276	unparished area of England
+Q461231	administrative territorial entity of Scotland
+Q202435	lieutenancy area of Scotland
+Q383493	local government area of Scotland 1975 to 1996
+Q2138167	Scottish region (1975 to 1996)
+Q6083725	Islands council areas of Scotland
+Q21457810	Scottish district (1975 to 1996)
+Q1350181	shire of Scotland
+Q7309443	registration county
+Q7209568	police burgh of Scotland
+Q683738	administrative subdivision of Wales
+Q630638	preserved county of Wales
+Q1857731	historic county of Wales
+Q1049540	administrative territorial entity of Northern Ireland
+Q21497886	district of Northern Ireland (1973 to 2015)
+Q1137272	county borough of the United Kingdom
+Q2462304	administrative territorial entity of Bermuda
+Q3403338	community council
+Q4752944	ancient borough
+Q21503295	district with city status
+Q750277	administrative territorial entity of Latvia
+Q840019	district of Latvia
+Q3085683	planning region of Latvia
+Q7604410	statistical region of Latvia
+Q772123	administrative territorial entity of Lithuania
+Q24036024	apylinkė
+Q842412	administrative territorial entity of Turkmenistan
+Q17309773	province of Turkmenistan
+Q17309849	city district of Turkmenistan
+Q15055297	administrative territorial entity of Nepal
+Q26561	development region of Nepal
+Q876102	zone of Nepal
+Q1530705	village development committee
+Q15055414	administrative territorial entity of Panama
+Q3685463	corregimiento of Panama
+Q15055419	administrative territorial entity of Sierra Leone
+Q15055423	administrative territorial entity of Bhutan
+Q831889	dzongkhag
+Q1352019	gewog of Bhutan
+Q4515638	chiwog of Bhutan
+Q15055433	administrative territorial entity of East Timor
+Q15063053	administrative territorial entity of Algeria
+Q3044792	department of Algeria
+Q15063057	administrative territorial entity of Mozambique
+Q15063111	administrative territorial entity of Burkina Faso
+Q15063123	administrative territorial entity of Benin
+Q15063160	administrative territorial entity of New Zealand
+Q216712	region of New Zealand
+Q941036	territorial authority of New Zealand
+Q2881272	district of New Zealand
+Q15078732	unitary authority of New Zealand
+Q15063167	administrative territorial entity of Syria
+Q12249051	subdistrict of Syria
+Q15072596	administrative territorial entity of Kazakhstan
+Q843555	administrative territorial entity of the United Arab Emirates
+Q843752	administrative territorial entity of Bosnia and Herzegovina
+Q19849064	administrative territorial entity of Republika Srpska
+Q852446	administrative territorial entity of the United States
+Q610237	special-purpose district of the United States
+Q5154933	community college district
+Q7138164	park district
+Q16860836	library district
+Q17108296	water management district in Florida
+Q17344561	water district in the United States
+Q1053448	census county division
+Q1550680	unorganized territory
+Q1620797	historic district in the United States
+Q20856087	National Register Historic District
+Q1995480	minor civil division
+Q2710679	administrative territorial entity of American Samoa
+Q3677932	barrio of Puerto Rico
+Q5283494	district or subdistrict of the United States Virgin Islands
+Q20830236	sub-district of the United States Virgin Islands
+Q5398059	Indian reservation of the United States
+Q5645450	hamlet of Clackamas County in Oregon
+Q6664398	local government in New Hampshire
+Q6664400	local government in New Jersey
+Q7829892	town of New Jersey
+Q6664406	local government in Pennsylvania
+Q5888666	home rule municipality of Pennsylvania
+Q7268334	quadrant of Washington, D.C.
+Q7309312	region of the San Diego metropolitan area
+Q7604380	statistical area of the United States
+Q2985090	Combined Statistical Area
+Q5170155	Core Based Statistical Area
+Q3270419	Micropolitan Statistical Area
+Q7893171	Primary Statistical Area
+Q15613737	municipality of the Northern Mariana Islands
+Q15646701	administrative territorial entity of American Samoa
+Q15629617	unorganized atoll of American Samoa
+Q17166756	United States congressional district
+Q17361443	administrative territorial entity of a state of the United States
+Q17361351	administrative territorial entity of Arkansas
+Q24027556	township of Arkansas
+Q17361393	administrative territorial entity of Alaska
+Q17361640	administrative territorial entity of New Hampshire
+Q17379815	administrative territorial entity of Missouri
+Q17379817	administrative territorial entity of North Dakota
+Q6643834	township of North Dakota
+Q17379818	administrative territorial entity of North Carolina
+Q17379821	administrative territorial entity of Nebraska
+Q6591661	township of Nebraska
+Q17379825	administrative territorial entity of Utah
+Q17351862	township of Utah
+Q17379829	administrative territorial entity of Minnesota
+Q4079161	watershed district of Minnesota
+Q21074401	administrative territorial entity of California
+Q6565550	economic region of California
+Q47682	administrative territorial entity of New York
+Q4683520	administrative territorial entity of Connecticut
+Q4683534	administrative territorial entity of Michigan
+Q6614407	List of county subdivisions in Michigan
+Q7251278	protected area of Michigan
+Q4683541	administrative territorial entity of Rhode Island
+Q7225123	administrative territorial entity of Virginia
+Q7225124	administrative territorial entity of Wisconsin
+Q18578749	area codes in the United States
+Q18654693	subsectors of Puerto Rico
+Q22065637	Municipalities of Puerto Rico
+Q867371	administrative territorial entity of Tanzania
+Q15092269	administrative territorial entity of Paraguay
+Q15097620	administrative territorial entity of Honduras
+Q15126920	administrative territorial entity of El Salvador
+Q15126956	administrative territorial entity of Nicaragua
+Q15313532	administrative territorial entity of Sri Lanka
+Q15620020	administrative territorial entity of Uruguay
+Q877127	administrative territorial entity of Burma
+Q7448010	self-administered zone of Burma
+Q17303212	self-administered division of Burma
+Q17303255	union territory of Burma
+Q17315624	state of Burma
+Q878116	administrative territorial entity of Somalia
+Q18555638	district of Somalia
+Q884030	administrative territorial entity of Venezuela
+Q17260369	district of Zulia State
+Q17260827	canton of Venezuela
+Q7309309	region of Venezuela
+Q15620181	administrative territorial entity of Estonia
+Q15956397	administrative district of Tallinn
+Q18551781	subdistrict of Tallinn
+Q618299	populated places in Estonia
+Q15621887	administrative territorial entity of the Kingdom of Saxony
+Q481184	Amtshauptmannschaft
+Q21782627	Kreishauptmannschaft of Saxony
+Q15623251	administrative territorial entity of Andorra
+Q244836	city of Andorra
+Q15623253	administrative territorial entity of Malaysia
+Q1994931	district of Malaysia
+Q4329280	division of Malaysia
+Q7448465	city in Malaysia
+Q15623255	administrative territorial entity of Saudi Arabia
+Q3247681	governorate of Saudi Arabia
+Q15728204	province of Saudi Arabia
+Q902647	administrative territorial entity of the Federated States of Micronesia
+Q910919	administrative territorial entity of Cape Verde
+Q12712989	concelho of Cape Verde
+Q12712991	freguesia of Cape Verde
+Q914262	administrative territorial entity of Sweden
+Q13420058	Municipalsamhälle in Sweden
+Q18333556	Registration districts in Sweden
+Q856976	city district of Stockholm
+Q1754161	county council of Sweden
+Q16111869	regional council in Sweden
+Q2261863	stad in Sweden
+Q8100472	secondary municipality of Sweden
+Q10677154	Stadsdelsnämndsområde
+Q924986	administrative territorial entity of Kiribati
+Q17305516	island group of Kiribati
+Q15623264	administrative territorial entity of Belgium
+Q5034016	canton of Belgium
+Q838185	community, region or language area of Belgium
+Q15623923	administrative territorial entity of Liechtenstein
+Q15623929	administrative division of South Sudan
+Q15623945	administrative territorial entity of Cuba
+Q15623956	administrative territorial entity of Belize
+Q15623961	administrative territorial entity of Suriname
+Q15623966	administrative territorial entity of Qatar
+Q15623974	administrative territorial entity of Kyrgyzstan
+Q20733617	rural community of Kyrgyzstan
+Q15623978	administrative territorial entity of Palau
+Q15627846	administrative territorial entity of São Tomé and Príncipe
+Q911736	district of São Tomé and Príncipe
+Q1051411	province of São Tomé and Príncipe
+Q15629195	administrative territorial entity of Montenegro
+Q15631694	administrative territorial entity of Malta
+Q15640280	administrative territorial entity of Jamaica
+Q936955	parish of Jamaica
+Q15640371	administrative territorial entity of Nauru
+Q2712218	constituency of Nauru
+Q15641022	administrative territorial entity of Saint Vincent and the Grenadines
+Q15642555	administrative territorial entity of the Turks and Caicos Islands
+Q2487479	district of the Turks and Caicos Islands
+Q15643925	administrative territorial entity of the Solomon Islands
+Q1057589	administrative territorial entity of Kosovo
+Q1062445	administrative territorial entity of Fiji
+Q1077333	administrative territorial entity of Thailand
+Q456876	Khwaeng
+Q867459	region of Thailand
+Q4945514	boriwen
+Q6519277	King Amphoe
+Q15253857	Chumchon
+Q15695218	Tambon Council
+Q1087635	administrative territorial entity of Madagascar
+Q15644782	administrative territorial entity of Oman
+Q18592743	region of Oman
+Q15644788	administrative territorial entity of Kuwait
+Q842876	governorate of Kuwait
+Q15644791	administrative territorial entity of Lebanon
+Q15644813	administrative territorial entity of Jordan
+Q867567	governorate of Jordan
+Q2892813	nahia of Jordan
+Q6980979	nature reserve in Jordan
+Q15644823	administrative territorial entity of Bahrain
+Q15644881	administrative territorial entity of the Byzantine Empire
+Q379817	theme of the Byzantine Empire
+Q15644911	administrative territorial entity of the Roman Empire
+Q1235532	diocese of the Roman Empire
+Q15645060	administrative territorial entity of Saint Lucia
+Q1142056	administrative territorial entity of the Duchy of Warsaw
+Q1143175	administrative territorial entity of Iceland
+Q5436494	farthing of Iceland
+Q1151887	administrative territorial entity of the Maldives
+Q18592110	province of the Maldives
+Q1188183	Subdivisions of Djibouti
+Q2982272	district of Djibouti
+Q1196054	administrative territorial entity of Ethiopia
+Q1293536	administrative territorial entity of Serbia
+Q1267939	statistical region of Serbia
+Q16150831	former administrative territorial entity of Serbia
+Q210516	city in Serbia
+Q1342205	administrative territorial entity of Peru
+Q304564	region of Peru
+Q5260575	department of Peru
+Q1344042	administrative territorial entity of Tonga
+Q1350310	administrative territorial entity of the Philippines
+Q24698	region of the Philippines
+Q3397335	legislative district of the Philippines
+Q5283507	district of Davao City
+Q15634883	district of Manila
+Q1365122	administrative territorial entity of Chile
+Q5803078	department of Chile
+Q1434505	administrative territorial entity of Indonesia
+Q2690033	proposed province of Indonesia
+Q3700011	district of Indonesia
+Q882149	Nagari
+Q2225692	administrative village of Indonesia
+Q4285979	gampong
+Q12488911	kampung
+Q12488913	kampung
+Q24659756	kampung
+Q15281004	Mukim
+Q1550119	administrative territorial entity of Israel
+Q2762194	Local government in Israel
+Q1022469	regional council of Israel
+Q1288520	local council in Israel
+Q3505887	City council
+Q15207523	Local committee
+Q6573597	subdistrict of Israel
+Q1670189	administrative territorial entity of Greece
+Q202595	prefecture of Greece
+Q1234255	regional unit of Greece
+Q1860467	province of Greece
+Q3559207	decentralized administration of Greece
+Q12876091	municipal/local community
+Q19889844	municipality or community of Greece
+Q1779026	administrative territorial entity of Haiti
+Q1814009	administrative territorial entity of Albania
+Q1781058	komuna
+Q2008050	municipality of Albania
+Q768307	bashki
+Q16888151	prefecture of Albania
+Q1850442	administrative territorial entity of Japan
+Q5327369	chōchō
+Q1993723	administrative territorial entity of the Ottoman Empire
+Q44565	eyalet of the Ottoman Empire
+Q330425	sanjak of the Ottoman Empire
+Q2072997	administrative territorial entity of the Nagorno-Karabakh Republic
+Q17379685	region of the Nagorno-Karabakh Republic
+Q2271985	administrative territorial entity of Bangladesh
+Q3812392	union council of Bangladesh
+Q14777355	mahalla of Bangladesh
+Q15068311	village of Bangladesh
+Q15619375	ward of Bangladesh
+Q15891740	List of Municipal Corporations of Bangladesh
+Q19832617	thana of Bangladesh
+Q2300219	administrative territorial entity of the Polish–Lithuanian Commonwealth
+Q2365748	administrative territorial entity of India
+Q1230708	division of India
+Q5284626	division of Uttar Pradesh
+Q2322432	Nagar Panchayat
+Q2385925	Provinces of India
+Q2732840	Gram panchayat
+Q2775236	community development block in India
+Q7251273	protected area of Kerala
+Q7694920	Tehsils of India
+Q14917565	Panchayat Samiti
+Q16861595	Town Municipal Council
+Q16861604	cities and towns in India
+Q6936225	Municipal Corporations in India
+Q6958514	nagar palika
+Q7130304	panchayat town
+Q16830604	census town of India
+Q16830702	municipal board
+Q16861602	Municipal Council
+Q18127771	Mandals of Andhra Pradesh
+Q2490986	administrative territorial entity of San Marino
+Q2520520	administrative territorial entity of Hungary
+Q254450	planning and statistical region of Hungary
+Q1162835	district of Hungary
+Q2520541	administrative territorial entity of Mali
+Q2115792	cercle of Mali
+Q2635421	administrative territorial entity of Transnistria
+Q20683379	district of the Pridnestrovian Moldavian Republic
+Q2679154	administrative territorial entity of Côte d'Ivoire
+Q2695008	administrative territorial entity of Luxembourg
+Q2715909	administrative territorial entity of Swaziland
+Q1069042	district of Swaziland
+Q2280192	inkhundla
+Q17316289	region of Swaziland
+Q2726038	administrative territorial entity of Iran
+Q15125752	rural district of Iran
+Q11353	district of Iran
+Q137535	Counties of Iran
+Q2824644	administrative territorial entity of Colombia
+Q15701038	subregion of Antioquia Department
+Q336172	vereda of Colombia
+Q2997887	corregimiento departamental of Colombia
+Q5172823	corregimiento of Colombia
+Q5780443	comuna of Colombia
+Q5978208	locality of Colombia
+Q6089033	province of Boyacá Department
+Q6089035	province of Cundinamarca Department
+Q2824645	administrative territorial entity of Italy
+Q15110	metropolitan municipality of Italy
+Q905929	mountain community of Italy
+Q1019982	Administrative subdivision of Rome
+Q1074955	quartiere of Rome
+Q3677604	circondario of the Kingdom of Italy
+Q3689085	district of Legnano
+Q2836357	administrative territorial entity of Guatemala
+Q2878104	administrative territorial entity of Lesotho
+Q2878183	administrative territorial entity of Gran Colombia
+Q17304098	province of Gran Colombia
+Q17305515	canton of Gran Colombia
+Q20973604	department of Gran Colombia
+Q17260562	department of Gran Colombia
+Q17260649	department of Gran Colombia
+Q2904292	administrative territorial entity of Burundi
+Q1577513	commune of Burundi
+Q3253485	administrative territorial entity of the Democratic Republic of the Congo
+Q5097099	chiefdom or sector of the Democratic Republic of the Congo
+Q7250392	Former provinces of the Democratic Republic of the Congo (pre-1966)‎
+Q8798096	Former provinces of the Democratic Republic of the Congo (1966–2015)‎
+Q15633137	district of Kinshasa
+Q3330995	administrative territorial entity of Nigeria
+Q509300	Federal Capital Territory
+Q1639634	local government area of Nigeria
+Q18920569	traditional state in Nigeria
+Q3356092	administrative territorial entity of Ireland
+Q2151232	townland
+Q3074936	Local government in the Republic of Ireland
+Q13455645	administrative city in the Republic of Ireland
+Q13455770	town council in the Republic of Ireland
+Q3356100	administrative territorial entity of Slovenia
+Q1474320	statistical region of Slovenia
+Q6960199	city municipality of Slovenia
+Q3360771	administrative territorial entity of Cameroon
+Q2916486	administrative territorial entity of Turkey
+Q1328578	region of Turkey
+Q3042547	administrative territorial entity of Argentina
+Q13997861	partido of Buenos Aires
+Q20045441	administrative territorial entity of Buenos Aires
+Q851517	neighborhood of Buenos Aires
+Q5780448	commune of Buenos Aires
+Q952274	department of Argentina
+Q3455647	geographic region of Argentina
+Q6104028	integrated region of Argentina
+Q3098609	administrative territorial entity of Papua New Guinea
+Q2568951	region of Papua New Guinea
+Q3032144	district or LLG of Papua New Guinea
+Q14942893	district of Papua New Guinea
+Q14942894	LLG of Papua New Guinea
+Q3183364	administrative territorial entity of Spain
+Q2578201	metropolitan area in Spain
+Q18674678	subcomarca of Spain
+Q20220333	electoral district of the Spanish Congress
+Q2989421	council
+Q3049264	Cabildo Canaries
+Q3054037	merindad of Navarra
+Q5811416	district in Spain
+Q6353994	mancomunidad of Castilla y León
+Q6853104	military region of Spain
+Q8188408	local government in Spain
+Q8776398	collective population entity of Spain
+Q9053034	administrative territorial entity of Alicante
+Q10854310	administrative territorial entity below municipality in Spain
+Q2070206	parish of Asturias
+Q3333989	minor local entity of Spain
+Q6554043	decentralized municipal entity
+Q8776404	autonomous local entity of Andalusia
+Q17037161	administrative territorial entity of Madrid
+Q3395432	administrative territorial entity of the Republic of Macedonia
+Q1416863	statistical region of Macedonia
+Q19884342	village of the Republic of Macedonia
+Q3435941	administrative territorial entity of Croatia
+Q3502438	administrative territorial entity of Guinea
+Q3502463	administrative territorial entity of the Isle of Man
+Q3764344	district of the Isle of Man
+Q12780138	parish of the Isle of Man
+Q12883402	sheading
+Q19832712	historical administrative division
+Q19953632	former administrative territorial entity
+Q21130185	former municipal village of Finland
+Q2358894	former administrative territorial entity of Romania
+Q1763194	plasă
+Q1763545	ținut
+Q15623456	administrative territorial entity of a defunct state
+Q672490	deme
+Q20257582	neutral zone
+Q20856058	landgraviate
+Q20860015	prince-archbishopric
+Q6866562	ministry
+Q211201	soviet
+Q848197	parliamentary group
+Q779079	political groups of the European Parliament
+Q1509758	Bundestag parliamentary group
+Q1776543	club
+Q1092773	Thermidorians
+Q1393724	political faction
+Q1718043	K-Group
+Q2493450	political youth organization
+Q2716508	political international
+Q6138528	political coalition
+Q388602	electoral alliance
+Q1307777	United front
+Q1855859	popular front
+Q7210362	political party committee
+Q7649559	Sustainability organizations
+Q8207109	housing association
+Q79913	non-governmental organization
+Q1194093	international non-governmental organization
+Q1920810	Human rights group
+Q15811092	Non-governmental federation
+Q16949845	colectivo
+Q431603	advocacy group
+Q2358057	Stubengesellschaft
+Q170161	guild
+Q744544	Guilds of Florence
+Q627272	employers' organization
+Q1163643	Classification society
+Q138796	resistance movement
+Q15034469	movement of the french resistance
+Q155271	think tank
+Q157031	foundation
+Q786194	Open Society Foundations
+Q1021488	Community foundation
+Q7246201	private foundation
+Q7246202	private foundation (US)
+Q15731190	Esperanto foundation
+Q19605764	stichting
+Q19629395	charitable foundation
+Q1792630	arts foundation
+Q3151910	Institut d'aménagement et d'urbanisme de la région d'Ile-de-France‏
+Q20819803	Institut d'aménagement et d'urbanisme de la Région parisienne‏
+Q23900274	Forum Gut Gödelitz
+Q9078534	honor society
+Q9261468	organizational subdivision
+Q176799	military unit
+Q4508	navy
+Q865132	merchant navy
+Q3746796	Brown-water navy
+Q5504484	Frigate navy
+Q7068153	nuclear navy
+Q19323605	auxiliary navy
+Q19344622	naval reserve force
+Q24238457	submarine forces
+Q1909309	Royal Netherlands Navy Submarine Service
+Q5778452	Argentine Submarine Force
+Q7373762	Submarine Force
+Q7374559	Royal Navy Submarine Service
+Q7631652	Submarines in the United States Navy
+Q5150451	ComSubPac
+Q16147999	ComSubLant
+Q7631653	Submarines of the People's Liberation Army Navy
+Q29171	infantry
+Q18177009	Air force infantry and special forces units
+Q130263	Janissary
+Q207063	squad
+Q315316	jäger
+Q506246	fireteam
+Q595732	line infantry
+Q1053481	mechanized infantry
+Q1598759	light infantry
+Q1898583	marines
+Q45364	wing
+Q18145580	ala
+Q19828534	Wing
+Q19937943	Fleet Air Wing
+Q24047712	wing
+Q47315	cavalry
+Q112330	Patrouillenreiter
+Q523562	heavy cavalry
+Q44865	cuirassier
+Q538498	companion cavalry
+Q665121	Draconarius
+Q912949	light cavalry
+Q191713	hussar
+Q1564383	Musketeers of the Guard
+Q1936719	chevau-léger
+Q2943222	Polish cavalry
+Q1999748	Towarzysz pancerny
+Q3730946	Equites cataphractarii
+Q14891584	horse chasseur
+Q18409242	Taurian Cavalry Regiment
+Q51977	field army
+Q20642099	ancient army
+Q23905083	cavalry army
+Q52371	regiment
+Q4828661	aviation regiment
+Q14755054	cavalry regiment
+Q3455362	cavalry regiment of France
+Q5054827	cavalry regiment of the British Army
+Q14869485	armoured regiment
+Q6600858	U.S. Army armored cavalry regiment
+Q17146090	rifle regiment
+Q23905107	infantry regiment
+Q3455196	French Infantry Regiment
+Q16847526	Infantry Regiment
+Q102538	company
+Q188497	corps
+Q24047495	air corps
+Q208109	army group
+Q252280	squadron
+Q315329	Waffen-SS foreign volunteers and conscripts
+Q477983	carrier air wing
+Q880637	armoured reconnaissance
+Q899192	front
+Q1040374	group
+Q19828538	Group
+Q24046083	group
+Q1060409	honor guard
+Q1080137	troop
+Q1353040	coast guard
+Q1384330	expeditionary force
+Q1427705	chasseur
+Q1637368	task force
+Q17165317	Joint Task Force
+Q2050638	battlegroup
+Q1276346	EU Battlegroup
+Q1434110	carrier battle group
+Q4307465	carrier strike group
+Q2069238	tactical formation
+Q179583	line
+Q549276	flotilla
+Q5457373	Flanders U-boat flotillas
+Q10585845	Mine Warfare Flotilla
+Q10669537	Naval Warfare Flotilla
+Q10723813	surface warfare flotilla
+Q14749819	destroyer squadron
+Q21073100	bivouac
+Q2663712	subdivision
+Q202167	cohort
+Q2387115	Cohors amicorum
+Q3682428	cohors peditata
+Q15205937	cohors quinquagenaria peditata
+Q3690045	cohors equitata
+Q5776580	cohors quinquagenaria equitata
+Q15205918	cohors milliaria equitata
+Q593875	Maniple
+Q6382533	battalion
+Q4179435	Women's Battalion
+Q4869671	battalion
+Q9333205	separate battalion
+Q10408303	Amphibious Battalion
+Q15704239	infantry battalion
+Q17622327	Battalions of territorial defense in Ukraine
+Q3078933	Troupes de marine
+Q3625329	division
+Q3906877	Poczet
+Q4005763	air force unit
+Q679165	squadron
+Q6981984	naval air squadron
+Q19939068	Fleet Air Squadron
+Q19828539	Squadron
+Q24047813	squadron
+Q13583449	flight unit
+Q4005772	major military unit
+Q864306	airborne forces
+Q9392615	high-level military unit
+Q102356	brigade
+Q7649718	sustainment brigade
+Q23901273	armored brigade
+Q22115622	panzerbrigade
+Q23905051	infantry brigade
+Q23905067	cavalry brigade
+Q169534	division
+Q329484	Luftwaffe Field Division
+Q868698	Air Division
+Q3032351	armored division
+Q1779157	Panzer division
+Q19344578	naval reserve division
+Q23905058	cavalry division
+Q23905117	infantry division
+Q24047611	air division
+Q5446873	Field Ambulance
+Q10267490	Navy division
+Q10501606	Joint Military Unit
+Q12093113	unit
+Q14825551	cavalry unit
+Q1517243	Yeomanry
+Q14869273	armoured unit
+Q15077604	platoon
+Q15199248	Roman military unit
+Q493289	numerus
+Q163323	Roman legion
+Q17074763	escadrille
+Q18515478	military aviation unit
+Q7097768	operational conversion unit
+Q18517815	fighter unit
+Q18518737	aerial reconnaissance unit
+Q18518738	airlift unit
+Q19828273	airborne early warning and control unit
+Q18647956	armored unit
+Q19806499	escadre
+Q19814569	nuclear strike unit
+Q19823424	escadron
+Q19828544	flight
+Q19828542	Flight
+Q19829681	provisional military unit
+Q19829726	Named Establishment
+Q19829729	Named Unit
+Q20749395	naval unit
+Q12674224	Sungari Flotilla
+Q21506450	military unit size class
+Q23905071	military unit type-size class
+Q23905052	infantry unit
+Q23905069	military unit type class
+Q334453	division
+Q2400699	Sub-subunit
+Q4992061	Police district
+Q10332876	Revolutionary movement
+Q10655196	National Federation
+Q10711413	Home Guard Training Group
+Q10861173	University system
+Q11000047	health system
+Q245992	Healthcare in Italy
+Q918396	National Health Service
+Q10669269	hospital district
+Q11424270	Regional Area Forecast Centre
+Q12569864	economic entity
+Q13243303	anarchist federation
+Q13473501	collective
+Q742421	theatre company
+Q805233	ballet company
+Q2393314	dance troupe
+Q3917621	Chorus line
+Q2416217	theatre troupe
+Q15728825	street theatre company
+Q19314966	theatre comedy group
+Q19334262	cabaret ensemble
+Q19850092	Epigonentheater
+Q22661798	theater
+Q1400264	artist collective
+Q1258583	Dresdner Sezession
+Q1483341	Chamber of rhetoric
+Q1690980	writers collective
+Q5256141	demogroup
+Q2818964	various authors
+Q2992826	athletic conference
+Q7930709	Village communities
+Q179076	exchange
+Q11691	stock exchange
+Q295791	green energy exchange
+Q2298435	futures exchange
+Q15265344	broadcaster
+Q14350	radio station
+Q877017	pirate radio
+Q1179112	community radio
+Q1349167	ground station
+Q1436229	campus radio
+Q1868541	local radio station
+Q3416955	Offshore radio
+Q13580903	international broadcasting
+Q26398	public broadcasting
+Q141683	broadcast network
+Q1061197	radio network
+Q1254874	television network
+Q5009242	cable channel
+Q5051836	Category A service
+Q5051837	Category B services
+Q5051840	Category C services
+Q7892363	United States cable news
+Q24581379	podcast network
+Q15285626	organization established by the United Nations
+Q15343039	établissement public
+Q3591586	Établissement public à caractère scientifique, culturel et professionnel
+Q1542938	grand établissement
+Q15494038	Esperanto organization
+Q15731547	specialized Esperanto association
+Q15899789	principal organ of the United Nations
+Q15911314	association
+Q2379033	Sängerbund
+Q7315176	research program
+Q6058937	National Antarctic Program
+Q16873390	supraorganization
+Q124964	coalition
+Q18744396	land association
+Q447877	alumni association
+Q497893	literary society
+Q745456	business cluster
+Q3412193	Business cluster in France
+Q7315048	Research-Intensive Clusters
+Q879961	residents' association
+Q913541	Political club
+Q1363715	League of towns
+Q1531833	sport association
+Q21281028	rowing federation
+Q16055034	undenominationalism
+Q16207572	Chabad affiliated organizations
+Q16528361	Archdeaconry
+Q16886804	council
+Q51645	ecumenical council
+Q5154647	Community Boards of New York City
+Q15055408	Riksråd
+Q15258291	Iranian overseeing council
+Q16714010	District council of Ukraine
+Q16947820	Design firm
+Q16981758	Genootschap
+Q17127659	terrorist organization
+Q163740	nonprofit organization
+Q113603	food bank
+Q240625	501(c) organization
+Q18325436	501(c)(3) organization
+Q18325460	501(c)(6) organisation
+Q18325483	501(c)(4) organisation
+Q708676	charitable organization
+Q5420001	exempt charity
+Q7257704	public benefit organization
+Q20767252	Bank van Lening
+Q22337472	Wikimedia user group
+Q24524653	Wikimedia thematic organization
+Q3152598	Institut supérieur des métiers
+Q3269648	community organization
+Q4056382	autonomous non-commercial organization
+Q4801520	arts council
+Q6944143	Mutual-benefit nonprofit corporation
+Q7062022	not-for-profit arts organization
+Q7257283	public-benefit nonprofit corporation
+Q7311343	religious corporation
+Q12782082	state corporation (Russia)
+Q19369202	cultural organisation
+Q178079	meritocracy
+Q15631459	meritocratic adhocraty
+Q178706	institution
+Q40357	prison
+Q18050	juvenile detention center
+Q152081	Concentration camp
+Q328468	Nazi concentration camp
+Q153813	extermination camp
+Q15727645	transit camp
+Q227691	House of correction
+Q1140316	penal colony
+Q1498174	prison island
+Q1498429	secret prison
+Q1711250	Youth detention center
+Q2462834	F-type Prisons
+Q3279218	Maison d'arrêt
+Q5732340	Her Majesty's Young Offender Institution
+Q14916829	internment camp
+Q344836	supermax prison
+Q427276	debtors' prison
+Q594128	penitentiary
+Q628505	labor camp
+Q4204206	prison labour camp
+Q683992	military prison
+Q855613	prison in Hungary
+Q1006048	federal prison
+Q1925849	Metropolitan Detention Center
+Q5440522	federal detention center
+Q1070290	prisoner-of-war camp
+Q708586	Stalag
+Q43501	zoo
+Q1886911	butterfly house
+Q1995305	bird park
+Q3363934	zoological park
+Q4876617	Bear pit
+Q161448	gulag
+Q294163	public institution
+Q7257916	public institution of the United States
+Q748720	institution of the European Union
+Q1030034	Galleries, Libraries, Archives, and Museums
+Q166118	archive
+Q355358	nobility archive
+Q604177	municipal archive
+Q1352795	Cinematheque
+Q2860410	cantonal archives
+Q2860456	département archives
+Q8727648	regional state archives
+Q15303967	national archives
+Q17109505	Maryland State Archives
+Q17301324	Geograph
+Q1752649	total institution
+Q3152824	Institution culturelle
+Q4677712	actor
+Q10756188	treasury
+Q19967364	treasury
+Q15782973	Amt
+Q18287076	plenary session
+Q18413105	Kameralamt
+Q18810687	political institution
+Q2532278	representative assembly
+Q675911	Voivodeship sejmik
+Q729730	Kreistag
+Q1398920	General council
+Q19758733	departmental council
+Q2915100	political institutions of ancient Rome
+Q17149090	armed organization
+Q8473	military
+Q986764	national armed forces
+Q1091265	moira
+Q204310	gendarmerie
+Q210815	military police
+Q2540029	Military Police
+Q1673189	irregular military
+Q207320	paramilitary
+Q153936	militia
+Q1863899	People's Militia
+Q1975176	Schutterij
+Q2336248	Minutemen
+Q5888413	Home Guard
+Q6122963	Jagunço
+Q2438715	death squad
+Q6128777	Ghazw
+Q20642011	guerrilla movement
+Q20642019	urban guerrilla group
+Q15627509	military organization
+Q61883	air force
+Q919160	Imperial Russian Air Service
+Q1144991	military reserve force
+Q21528930	network or movement of the French Resistance
+Q772547	armed forces
+Q1047699	Mexican Armed Forces
+Q781132	military branch
+Q37726	army
+Q1114493	Roman army
+Q1261096	regular army
+Q64418	artillery
+Q167682	rocket artillery
+Q602517	Nuclear artillery
+Q672365	Horse artillery
+Q1358324	coastal artillery
+Q3088481	15 cm SK L/45
+Q1426835	anti-aircraft artillery
+Q9141613	aerotonon
+Q9160878	heavy artillery
+Q9160882	large-caliber artillery
+Q9160892	fortress artillery
+Q9160897	conventional artillery
+Q9160909	small-caliber artillery
+Q9160914	general headquarters reserve artillery
+Q9160923	attached artillery
+Q9160935	reinforcing artillery
+Q9160939	medium artillery
+Q234497	special forces
+Q15885502	Spetsnaz GRU
+Q277188	Spetsnaz
+Q939304	OMON
+Q324563	SWAT team
+Q1586127	Jagdkommando
+Q7574626	Special Mission Unit
+Q15304229	Stormtrooper
+Q1593564	army aviation service
+Q5150602	combat arms
+Q6667200	medical corps
+Q17597793	air defense force
+Q17812472	submarine service
+Q18204617	Catapult centres
+Q19862851	Massive online open course provider
+Q19869268	medical society
+Q20635181	student debating society
+Q20873950	Women's rights organizations
+Q21104425	specialized agency of the United Nations
+Q21747520	interdenominational organization
+Q21973915	organization related to nonviolence
+Q22950320	collective head of state
+Q936648	diarchy
+Q13436425	coregency
+Q1552880	Guardian of Scotland
+Q2523556	directorial system
+Q2599614	Directorate of Ukraine
+Q83204	triumvirate
+Q219817	French Directory
+Q23541247	waste disposal organization
+Q7972817	Waste disposal authority
+Q23809253	Gene Ontology Consortium
+Q23955632	catholic organization
+Q194166	consortium
+Q1377654	European economic interest grouping
+Q3118017	Groupement d'intérêt économique
+Q20857129	university system
+Q1075106	state university system
+Q196776	certificate authority
+Q213283	diplomatic mission
+Q18414273	high commission
+Q4824242	Australian High Commission
+Q620045	Apostolic Nunciature
+Q2737008	legation
+Q3917681	embassy
+Q7843791	consulate
+Q372690	consulate general
+Q23891529	honorary consulate
+Q327245	team
+Q15618671	Development Team
+Q18510489	comic group
+Q1141470	double act
+Q27493	working group
+Q7228265	Pontifical Commission
+Q21025364	WikiProject
+Q14605760	Wikipedia:Patrols
+Q1066670	tag team
+Q1122253	Computer emergency response team
+Q7628801	stunt team
+Q10648343	duo
+Q10269077	sertanejo duo
+Q14073567	sibling duo
+Q14756018	twins
+Q2301325	identical twins
+Q216866	conjoined twins
+Q5182143	craniopagus twins
+Q1483	Craniopagus parasiticus
+Q6901315	monoamniotic twins
+Q6901425	monochorionic twins
+Q3269752	vanishing twin
+Q3418125	fraternal twins
+Q6884022	mixed twins
+Q19184926	musical duo
+Q7229089	pop duo
+Q19832242	singing duo
+Q12973014	sports team
+Q213075	Short-handed
+Q657579	Power play
+Q1194951	national sports team
+Q3874020	national youth sports team
+Q21945604	national youth football team
+Q1203196	Germany national youth football team
+Q5552186	Germany women's national youth football team
+Q4140371	Turkey national youth football team
+Q4534645	England national youth football team
+Q4534660	France national youth football team
+Q5401510	Estonia national youth football team
+Q6979740	national under-21 association football team
+Q7208951	Poland national youth football team
+Q23847779	national under-23 football team
+Q23895910	national under-20 football team
+Q23901123	national under-17 football team
+Q23901137	national under-19 football team
+Q23904671	national under-18 football team
+Q23904672	national under-16 football team
+Q23904673	national under-15 football team
+Q4823688	Australia at the Summer Paralympics
+Q6979593	national association football team
+Q23759293	national Olympic football team
+Q23905105	women's national association football team
+Q7961816	Wales national cricket team
+Q21130150	national quidditch team
+Q21944902	A national sports team
+Q1300510	stable
+Q1785271	cycling team
+Q2466826	UCI Women's Teams
+Q15789176	2013 Boels Dolmans Cycling Team season
+Q17513257	2014 Boels Dolmans Cycling Team season
+Q18701965	2015 Boels Dolmans Cycling Team season
+Q20639847	professional cycling team
+Q382927	UCI Professional Continental Team
+Q1756006	continental team
+Q6154783	WorldTeam
+Q20638319	ProTeam
+Q20652655	amateur cycling team
+Q20639848	club cycling team
+Q17156566	Ottignies-Perwez
+Q20155408	Grafton CC
+Q20202211	Roskilde Junior
+Q20606915	Bergen CK
+Q20623020	VC Saint-Lo Pont Hebert Junior
+Q20623923	Andel Velo Sport Junior
+Q20624084	Pays de Dinan
+Q20738667	national cycling team U23
+Q23726798	national cycling team
+Q3967406	Quidditch team
+Q6070836	Quidditch teams in Hogwarts
+Q4498974	ice hockey team
+Q7315281	Reserve teams in Norwegian football
+Q10517054	handball team
+Q13027888	baseball team
+Q13393265	basketball team
+Q21232064	rowing team
+Q22808747	paralympic team
+Q22808963	men's team
+Q23900194	badminton team
+Q23900202	tennis team
+Q24633211	home team
+Q24633216	away team
+Q14645593	rugby union team
+Q15020890	field hockey team
+Q15221215	rugby league team
+Q15770988	water polo team
+Q15896028	defunct sports team
+Q5251724	Defunct Arena Football League teams
+Q15944511	association football team
+Q16632355	futsal team
+Q17376093	cricket team
+Q17516965	bowling team
+Q20074337	motorsports team
+Q20146776	rallying team
+Q20639856	professional sport team
+Q20639857	amateur sport team
+Q336473	aid agency
+Q1618569	charity organisation
+Q362482	operation
+Q83405	factory
+Q198632	brickyard
+Q1402376	field brickworks
+Q227857	sugar refinery
+Q380342	manufactory
+Q3287051	tobacco factory
+Q385422	powder mill
+Q505213	sawmill
+Q637776	dairy
+Q905318	Coke oven
+Q190639	Zentralkokerei
+Q1089246	Studio glass
+Q1412205	armory
+Q1495738	gasworks
+Q1867977	refinery
+Q864683	biorefinery
+Q23706062	oil refinery
+Q1880708	saltworks
+Q3541926	tilery
+Q3973051	Textile mill
+Q4498092	mechanized bakery
+Q5302441	energy generating station
+Q159719	power station
+Q154700	solar power plants in the Mojave Desert
+Q194356	wind farm
+Q1021535	citizens' wind farm
+Q1357601	offshore wind power
+Q200297	thermal power plant
+Q134447	nuclear power plant
+Q558152	heavy water reactor
+Q558181	CANDU reactor
+Q669013	Russian floating nuclear power station
+Q261604	petroleum power station
+Q285927	concentrated solar power station
+Q1875963	Vortex engine
+Q13403028	solar updraft tower
+Q1125947	ocean thermal energy conversion
+Q1427536	gas power station
+Q2628147	Thermal power stations in Russia and Soviet Union
+Q6558431	coal power plant
+Q1003207	photovoltaic power station
+Q1158818	steam-electric power station
+Q900729	combined cycle
+Q1434958	fossil-fuel power station
+Q15621933	gas-fired power plant
+Q1534713	powership
+Q1601458	combined heat and power plant
+Q12311648	wood chip plant
+Q1632765	integrated electric propulsion
+Q5282546	Dispatchable generation
+Q15911738	hydroelectric power station
+Q1411996	run-of-the-river hydro power station
+Q1664208	underground power station
+Q18979989	Peaking power plant
+Q21157145	Coal-fired power plant
+Q7123027	packing house
+Q10832530	ironworks
+Q13883136	foundry
+Q377688	Type foundry
+Q2367628	bell foundry
+Q18587891	Pottery studio
+Q19984037	weaver
+Q21064910	indigo dye factory
+Q197952	corporate group
+Q574050	bank group
+Q3062593	zinc smelting
+Q203605	carpentry
+Q16868432	cabinetwork
+Q17144132	Tantalus
+Q270791	government-owned corporation
+Q835400	Combine
+Q1148315	state-owned enterprise of New Zealand
+Q1389604	unitary enterprise
+Q2324556	state broadcasting
+Q2324797	health establishments
+Q2531989	Volkseigener Betrieb
+Q3591583	établissement public à caractère industriel et commercial
+Q5189488	Crown corporation of Canada
+Q6972269	national development bank
+Q11424358	Japanese Regional Company
+Q427961	metropolis
+Q438711	Alternative trading system
+Q1166205	dark pool
+Q484652	international organization
+Q7178	International Red Cross and Red Crescent Movement
+Q170156	confederation
+Q1747906	Confederation
+Q218819	customs union
+Q245065	intergovernmental organization
+Q1129645	trade bloc
+Q3623811	economic union
+Q1345691	international financial institution
+Q1346006	international sport governing body
+Q1470641	parliamentary assembly
+Q4120211	regional organization
+Q473996	Eurasian Economic Community
+Q4936585	body of the European Union
+Q392918	agency of the European Union
+Q5570909	Global union federation
+Q514989	passenger transport executive
+Q565744	Landeskirche
+Q261362	employment agency
+Q276548	secret society
+Q597897	Nation
+Q628235	Arbeitskreis
+Q650241	financial institution
+Q730038	credit institution
+Q22687	bank
+Q66344	central bank
+Q251927	Public bank
+Q319845	investment bank
+Q665634	Cantonal bank
+Q848507	commercial bank
+Q941185	Private banking
+Q1227557	Direct bank
+Q1921438	merchant bank
+Q2111088	private bank
+Q2593736	offshore bank
+Q2883448	chartered bank
+Q6579042	national bank
+Q7309198	Regional bank
+Q3277997	cooperative banking
+Q745877	credit union
+Q157963	savings bank
+Q2917176	savings bank of Spain
+Q13601825	Sparkasse
+Q17103304	sparebank
+Q449067	Building society
+Q13604004	Landesbausparkasse
+Q568041	Universal bank
+Q896525	Landesbank
+Q1974013	non-bank financial institution
+Q1416431	financial intermediary
+Q1609677	clearing house
+Q2091703	savings and loan association
+Q2324813	state bank
+Q4856259	bankers' clearing house
+Q5266746	development finance institution
+Q3633759	Community development bank
+Q10548615	credit market company
+Q23661568	supermarket bank
+Q672386	Collection agency
+Q681615	syndicate
+Q178790	trade union
+Q1868518	localism
+Q7257291	Public-sector trade union
+Q13227549	syndicate of workers
+Q878249	alliance
+Q465909	airline alliance
+Q744593	Military–industrial complex
+Q1053025	Trialogue of Celle
+Q837416	coalition government
+Q680073	Jamaica coalition
+Q2184704	Grand coalition
+Q930164	conspiracy
+Q1125321	currency union
+Q1127126	military alliance
+Q215669	Allies
+Q2237584	collective security
+Q895526	authority organ
+Q759969	supervisory board
+Q7269458	quasi-judicial body
+Q10983451	Court of Audit
+Q41487	court
+Q32766	constitutional court
+Q981005	Constitutional Court of Italy
+Q75029	District court
+Q5283312	District Courts of Scotland
+Q206634	Court of Common Pleas
+Q341627	court of appeal
+Q480477	Amtsgericht
+Q627718	Employment Tribunal
+Q752080	Court-martial
+Q896060	Sondergericht
+Q1090817	lower court
+Q7252624	Canadian inferior court
+Q1262438	international court
+Q1400030	Federal Court of Australia
+Q1427369	Independent Administrative Senate
+Q1501122	Mixed Courts of Egypt
+Q1569657	Administrative Court
+Q1641572	administrative court
+Q1983405	asume
+Q2065704	district court
+Q2116603	Labour Court
+Q2125157	Dutch court
+Q2577005	superior court
+Q356259	Supreme Court of South Australia
+Q15692657	Canadian superior court
+Q3125101	trial court
+Q1614849	United States district court
+Q17122462	district court
+Q3308934	state court
+Q7603882	state supreme court
+Q8027139	Wisconsin Circuit Court
+Q3509428	Canadian court
+Q6565769	Canadian appellate court
+Q3998652	tribunal of the Roman Curia
+Q4959031	appellate court
+Q190752	supreme court
+Q1641851	United States courts of appeals
+Q3000944	court of appeal
+Q12726126	Courts of Appeal of Romania
+Q16168904	appellate court of South Korea
+Q6311907	circuit court
+Q7689419	tax court
+Q10405657	Administrative and administrative courts of appeal in Sweden
+Q1289455	Administrative courts of appeal in Sweden
+Q10674551	Special court
+Q13384978	Landgericht
+Q15281257	court of appeal
+Q15852753	Administrative Court
+Q15893231	defunct court
+Q19833749	secret court
+Q21851550	Independent Administrative Senate Vienna
+Q188628	board of directors
+Q887530	Board of governors
+Q12496181	Board of Trustees
+Q327333	government agency
+Q22991	list of space agencies
+Q47913	intelligence agency
+Q214183	secret police
+Q192350	ministry
+Q383550	foreign ministry
+Q384341	Ministry of Culture
+Q6866855	Ministry of Education and Culture
+Q691154	Public works ministry
+Q792611	Ministry of Interior
+Q811582	construction ministry
+Q910252	United States federal executive department
+Q917441	environment ministry
+Q1006365	federal ministry
+Q896375	Federal Ministry in Germany
+Q1846372	Federal Public Service
+Q18683469	Bundesministerium
+Q1112537	ministry of Italy
+Q1209180	Diaspora ministry
+Q1241288	Ministry of Economic Affairs
+Q1243341	trade ministry
+Q1769407	Ministry of Trade and Industry
+Q1313096	Ministry of Science
+Q6017200	Ministry of Science and Technology
+Q1364302	Ministry of Agriculture
+Q1413677	justice ministry
+Q4294877	Ministry of Justice
+Q1451816	women's ministry
+Q1519799	Ministry of Health
+Q1526856	ministry of Integration
+Q1659844	Ministry of Information
+Q6867670	ministry of propaganda
+Q1660443	Ministry of the Navy
+Q1711361	ministry of youth
+Q1788820	ministry of defense
+Q1937100	public service ministry
+Q2142766	Religionsministerium
+Q2269756	Ministry of Education
+Q2305901	social affairs ministry
+Q2312714	Ministry of Sports
+Q2399523	Ministry of Technology
+Q2446662	Tourism ministry
+Q2500378	department of the United Kingdom Government
+Q3044788	non-ministerial government department
+Q2516426	Ministry of Transport
+Q127910	Department of Transportation
+Q2520716	public services ministry
+Q2587942	Housing authority
+Q2602778	Ministry of Ecology, Sustainable Development and Energy
+Q21427170	France. Direction générale de la prévention des risques
+Q21704678	France. Direction de l'eau et de la prévention des pollutions et des risques
+Q21704680	France. Direction de la prévention des pollutions et des risques
+Q3143387	Ministry of the Netherlands
+Q3315333	Ministry of City Affairs
+Q3315342	Ministry of Municipal Affairs, Regions and Land Occupancy
+Q3315394	Ministry of Natural Resources and Wildlife
+Q4294702	Ministry of Social Policy
+Q4828720	aviation ministry
+Q5419938	executive department of the government of Puerto Rico
+Q6589202	interior ministry
+Q6866911	Ministry of European Integration
+Q6867185	industry ministry
+Q10330441	Swedish ministry
+Q12813215	Ministry of Labour
+Q14037025	French ministry
+Q15409298	ministry of Japan
+Q15711797	finance ministry
+Q1037511	Ministry of Finance
+Q15847440	Ministry of Public Security
+Q15852771	ministry of veterans affairs
+Q16239032	Minister of the Colonies
+Q17417403	Indonesian ministry
+Q19973795	Energy ministry
+Q19983480	Ministry of Communications
+Q2106202	Postal Services ministry
+Q21503582	Ministry of Foreign Affairs
+Q23929070	bureau of the Hong Kong Special Administrative Region Government
+Q458342	the Crown
+Q480242	statistical service
+Q24054178	statistical office of German states
+Q523058	Prikaz
+Q573607	Tax office
+Q732717	law enforcement agency
+Q782673	Highway patrol
+Q7574898	specialist law enforcement agency
+Q138775	border guard
+Q182290	customs
+Q12603339	Export inspection system
+Q197617	water police
+Q17152819	Wasserschutzpolizei
+Q1930355	railroad police
+Q4698972	airport police
+Q4774348	anti-corruption agency
+Q16874635	traffic police
+Q20858006	federal law enforcement agency of the United States
+Q35535	police
+Q167563	Law enforcement in Germany
+Q314291	Bereitschaftspolizei
+Q651031	Landespolizei
+Q1665535	Polizeibehörde
+Q578015	mounted police
+Q626632	Auxiliary police
+Q1094480	Civil Nuclear Constabulary
+Q16910387	postal police
+Q20821044	federal police
+Q1825410	riot police
+Q2101516	political police
+Q2397164	judiciary police
+Q3394130	General Directorate of National Security
+Q4105833	security police
+Q4158552	transit police
+Q6081679	criminal police
+Q18197265	Criminal Investigation Department
+Q7138172	park police
+Q8100696	special police
+Q14947556	territorial police force
+Q460336	state police
+Q3394132	state police in the United States
+Q1758690	municipal police
+Q784180	Municipal police
+Q1507792	Municipal police
+Q3394118	metropolitan police
+Q6936261	Municipal Police
+Q6936346	Municipal police
+Q17101043	Municipal police
+Q3907564	local police
+Q5177941	county police
+Q7309231	regional police
+Q16546882	religious police
+Q784271	diplomatic service
+Q859482	secretariat
+Q935741	election commission
+Q939616	secret service
+Q956034	Wasser- und Schifffahrtsamt
+Q1005416	federal agency
+Q314024	federal agency
+Q1005420	federal office
+Q1005962	Bundesfinanzdirektion
+Q1005418	federal office
+Q20857065	United States federal agency
+Q1752939	independent agency of the United States government
+Q1122645	government agency of Sweden
+Q1188075	office for the preservation of historical monuments
+Q1225300	dicastery
+Q1365916	Congregation
+Q2518047	Pontifical Council
+Q4002648	office of the Roman Curia
+Q1252707	postal, telegraph and telephone service
+Q1549187	central state administration body
+Q1802122	German state agency
+Q1851579	Secretariat of the Central Committee of the Communist Party of the Soviet Union
+Q1875618	aviation authority
+Q2826641	executive agency
+Q3238445	security agency
+Q3244038	Établissement public à caractère administratif
+Q4329294	regional committee of CPSU
+Q5260216	Department of Corrections
+Q5419928	Executive agencies of the Scottish Government
+Q6134903	undersecretariat
+Q7139410	Parole board
+Q7257707	public bodies of the Scottish Government
+Q7309100	Regional Mobility Authority
+Q7604698	statutory authority
+Q699386	statutory corporation
+Q1796671	Körperschaft des öffentlichen Rechts
+Q15734684	Körperschaft des öffentlichen Rechts
+Q1418640	local government in Germany
+Q4698967	airport authority
+Q10925965	Component Department of the State Council
+Q17050251	etat
+Q17505024	space agency
+Q19828505	Field Operating Agency
+Q19828520	Direct Reporting Unit
+Q19828545	Separate Operating Agency
+Q20850377	revenue service
+Q20853538	federal authority
+Q20857085	state agency of the United States
+Q7603678	state education agency
+Q7603696	state health agency
+Q21834499	Ways and means committee
+Q260239	United States House Committee on Ways and Means
+Q22222786	government program
+Q7551338	Social programs in the United States
+Q17036070	Social programs in Canada
+Q23465252	accident investigation agency
+Q23465247	aviation accident investigation agency
+Q23465260	railway accident investigation agency
+Q926333	Fourth Estate
+Q732948	society of apostolic life
+Q746369	recording studio
+Q1298801	dubbing studio
+Q2470835	radio studio
+Q760102	contract research organization
+Q783794	company
+Q4539	cooperative
+Q562166	housing cooperative
+Q4986589	Building cooperative
+Q7627838	Student housing cooperative
+Q12433076	Asumisoikeusasunto
+Q17038182	borettslag
+Q614084	consumer cooperative
+Q695318	Mutual insurance
+Q5691091	Health insurance cooperative
+Q926196	food cooperative
+Q1109804	European Cooperative Society
+Q1534727	Media cooperative
+Q1939471	Worker cooperative
+Q2996615	agricultural cooperative
+Q823196	Winemaking cooperative
+Q3690006	Social cooperative
+Q4833769	dairy cooperative
+Q5349747	Eingetragene Genossenschaft
+Q7260942	Purchasing cooperative
+Q2746361	Retailers' cooperative
+Q7303388	Recycling cooperative
+Q7902840	Utility cooperative
+Q19688219	shared interest cooperative enterprise
+Q19947256	société de récoltants
+Q162157	chartered company
+Q1797878	joint municipal authority
+Q2990216	Compagnie minière
+Q5154974	Community interest company
+Q5621421	private company
+Q1562410	gōdō gaisha
+Q167037	corporation
+Q396060	Agrargemeinschaft
+Q536390	Self-regulatory organization
+Q829080	professional association
+Q1796670	private law corporation
+Q33685	limited company
+Q18624259	private limited liability company
+Q149789	limited liability company
+Q7454814	Series LLC
+Q16998920	Low-profit limited liability company
+Q460178	Gesellschaft mit beschränkter Haftung
+Q1377470	European Private Company
+Q1518609	Gesellschaft mit beschränkter Haftung
+Q1555574	Besloten vennootschap met beperkte aansprakelijkheid
+Q2624661	Limited liability company
+Q6131060	Sociedad de responsabilidad limitada
+Q6832945	private company limited by shares
+Q10379632	Société à responsabilité limitée
+Q13100008	d.o.o.
+Q15042660	aksjeselskap
+Q19390308	statsaksjeselskap
+Q15091621	société à responsabilité limitée
+Q15646299	společnost s ručením omezeným
+Q15648878	Società a responsabilità limitata
+Q15649019	Unlimited company
+Q15649047	Anpartsselskab
+Q15829892	Gesellschaft mit beschränkter Haftung
+Q1518604	Gesellschaft mit beschränkter Haftung
+Q21763580	Družba z omejeno odgovornostjo
+Q21764098	Druzhestvo s ogranichena otgovornost
+Q16325418	Spoločnosť s ručením obmedzeným
+Q16901839	Societate cu răspundere limitată
+Q16917171	Osaühing
+Q17375963	Besloten vennootschap met beperkte aansprakelijkheid
+Q18411472	Societas unius personae
+Q19343649	Uždaroji akcinė bendrovė
+Q134161	joint-stock company
+Q166280	S.A.
+Q654502	Société par actions simplifiée
+Q3323627	Sociedad Anónima Deportiva
+Q18195767	société anonyme
+Q279014	Societas Europaea
+Q333920	osakeyhtiö
+Q422007	Aktiebolag
+Q422053	Société Anonyme
+Q422069	Limited Company
+Q422074	stock company
+Q693737	Limited
+Q837619	Kommanditgesellschaft auf Aktien
+Q19823288	Kommanditgesellschaft auf Aktien
+Q292704	AG & Co. KGaA
+Q1532883	GmbH & Co. KGaA
+Q2348860	Stiftung & Co. KGaA
+Q20658388	SE & Co. KGaA
+Q875765	Aktiengesellschaft
+Q1436139	Naamloze vennootschap
+Q1480166	kabushiki gaisha
+Q1517904	closed joint-stock company
+Q2624520	Aktieselskab
+Q3742388	S.p.A.
+Q3742494	akciová společnost
+Q3742992	Anonim Şirket
+Q11536157	Spółka akcyjna
+Q13641190	open joint-stock company
+Q14942889	Allmennaksjeselskap
+Q18340464	sociedade anónima
+Q18340467	Sociedade anônima
+Q20746571	public company limited by shares
+Q22084735	Aktiengesellschaft
+Q422062	Aktiengesellschaft
+Q1410298	Segregated portfolio company
+Q2479646	Kapitaalvennootschap
+Q2901333	S corporation
+Q4887441	Benefit corporation
+Q5015128	C corporation
+Q6516200	private company limited by guarantee
+Q7257282	public-benefit corporation
+Q652812	port authority
+Q12880234	Greek port authorities
+Q7015127	New York state public-benefit corporation
+Q10861788	association of legal entities
+Q19895647	Kosher certification agency
+Q728646	partnership
+Q165758	Kommanditgesellschaft
+Q1780029	Kommanditgesellschaft
+Q897103	GmbH & Co. KG
+Q2348856	Stiftung & Co. KG
+Q20658380	SE & Co. KG
+Q20659907	AG & Co. KG
+Q6428384	Kommandittselskap
+Q557880	investor
+Q569616	anonymous association
+Q19862830	Tokumei kumiai
+Q646164	general partnership
+Q7140753	Partnership
+Q909695	limited partnership
+Q6549542	Limited liability limited partnership
+Q6785141	master limited partnership
+Q1521034	Partnership
+Q1588658	limited liability partnership
+Q2054374	Partenreederei
+Q4770808	Ansvarlig selskap
+Q7140754	Partnership
+Q17000076	Gōshi gaisha
+Q11873437	kunnallinen liikelaitos
+Q11900271	valtion liikelaitos
+Q865588	committee
+Q938236	committee
+Q190652	Central Committee
+Q309118	Politburo
+Q842008	Politburo of the Central Committee of the Communist Party of the Soviet Union
+Q1076970	Politburo of the Communist Party of China
+Q831525	Blue-ribbon panel
+Q4686866	advisory board
+Q5153033	committee of the whole
+Q2986700	parliamentary committee
+Q476190	United States congressional committee
+Q1007311	Bundestag committee
+Q2110419	Parliamentary committee
+Q2986702	parliamentary committee (Spain)
+Q2986807	Committees of the European Parliament
+Q6612046	Parliamentary Committees of the United Kingdom
+Q6640494	committees of the Icelandic parliament
+Q7598593	standing committee of the Parliament of Canada
+Q17627205	standing committee of the Senate of Canada
+Q17627207	standing committee of the House of Commons of Canada
+Q7892394	United States congressional subcommittee
+Q10655185	Riksdag committee
+Q10891454	Special committee of the National People's Congress
+Q16261439	committee of the French National Assembly
+Q17627176	committee of the French Senate
+Q17627355	committee of the Chamber of Representatives (Belgium)
+Q4204179	Executive Committee
+Q21814451	executive committee of the District Council of Deputies
+Q6528244	privy council
+Q14740334	Staatscommissie
+Q22967432	place names committee
+Q989470	clan
+Q996839	fraternity
+Q1021096	Bürgergemeinde
+Q1110684	professional association
+Q1865205	bar association
+Q2885550	Bar of Quebec
+Q4857984	bar council
+Q6503534	law society
+Q15994170	writers’ organization
+Q1123526	chamber of commerce
+Q2948359	chamber of commerce in France
+Q1156831	umbrella organization
+Q314862	Studentenwerk
+Q1324355	geopark
+Q1328304	learning organization
+Q1328899	standards organization
+Q659206	Technischer Überwachungsverein
+Q15277759	national standards organisation
+Q1364157	philharmonic society
+Q1470315	front organization
+Q1514395	High IQ	society
+Q1530022	religious organization
+Q34651	Christian Church
+Q9592	Catholic Church
+Q1191920	Roman Catholicism in Croatia
+Q5415686	Evangelical Lutheran Church
+Q265751	Evangelical Lutheran Church in Northern Germany
+Q595269	Estonian Evangelical Lutheran Church
+Q739910	Evangelical Lutheran Church of Latvia
+Q855585	Church of Denmark
+Q1124684	Evangelical Lutheran Church in the Kingdom of the Netherlands
+Q1413245	Church of Iceland
+Q1656611	Evangelical Lutheran Church
+Q18091489	overview of churches with name of patron saint
+Q346575	Evangelical Church
+Q426043	Free church
+Q1135773	Catholic Church in England and Wales
+Q1649443	national church
+Q111161	synod
+Q866210	Synod of Bishops
+Q911924	Holy Synod
+Q3508866	diocesan synod
+Q13414953	religious denomination
+Q1318257	Hindu denomination
+Q3001185	Jewish religious movement
+Q4843068	Bahá'í division
+Q16207601	Chabad offshoot groups
+Q222516	school of Buddhism
+Q879146	Christian denomination
+Q2325038	state church
+Q4903082	Bible Christian Church
+Q12484004	Churches in Indonesia
+Q1192063	Islamic branch
+Q1674143	Islamic organizations in Germany
+Q2061186	religious order
+Q165005	Franciscan
+Q356239	Spiritual Franciscans
+Q12816974	Franciscan protomartyrs
+Q3355750	monastic order
+Q5135744	religious institute
+Q225446	institute of consecrated life
+Q44613	monastery
+Q160742	abbey
+Q708751	imperial abbey
+Q1778235	territorial abbey
+Q19765902	archabbey
+Q1128397	convent
+Q18648725	carmel
+Q9034517	monastery in Spain
+Q10729920	Refugehuis
+Q15823107	Carmelite Monastery
+Q15823129	Carthusian monastery
+Q1243067	Double monastery
+Q1420960	cave monastery
+Q1451876	Frauenstift
+Q2750108	priory
+Q3125051	Meteora
+Q2638480	local church
+Q1572070	youth organization
+Q1302299	youth club
+Q819590	Pioneers Palace
+Q1586412	Anarcho-Syndikalistische Jugend
+Q3537064	National Service Scheme
+Q8059357	youth wing
+Q23728835	Organization of the Scout Movement
+Q1616178	heterarchy
+Q1636604	humane society
+Q1664720	institute
+Q31855	research institute
+Q482329	An-Institut
+Q1005976	Bundesforschungsanstalt
+Q2288140	federal scientific institute
+Q2624320	United States Department of Energy National Laboratories
+Q3351574	Aliah University
+Q4201890	Institute of Russian Academy of Sciences
+Q6733318	Maharashtra Animal and Fishery Sciences University
+Q7315155	research center
+Q3826572	agricultural experiment station
+Q7243198	primate research center
+Q6975046	National Primate Research Center
+Q13582798	Public Scientific and Technical Research Establishment
+Q15916302	Max Planck Institute
+Q20168706	Fraunhofer Institute
+Q22338329	federally funded research and development center
+Q12351584	Esperanto language institute
+Q1666019	pressure group
+Q1752346	assembly
+Q11204	legislature
+Q35749	parliament
+Q667186	cantonal parliament
+Q2319185	Batasang Pambansa
+Q2323591	Rada
+Q2660626	General sejm
+Q1967540	Confederated sejm
+Q6054776	international parliament
+Q12836422	The Parliament of Azerbaijan Democratic Republic
+Q16414412	Ittihad faction members
+Q15304628	legislature of a Canadian province or territory
+Q15816787	parliament of an Australian state or territory
+Q16915645	Tanzanian Parliament
+Q17056134	Indian general election, 2014
+Q17627622	community and regional parliament
+Q621985	Spanish regional parliament
+Q20007287	Reichstag
+Q160208	Reichstag
+Q321246	Reichstag
+Q669970	Imperial Diet
+Q2139822	Diet of Speyer
+Q878525	Reichstag
+Q140247	unicameral legislature
+Q189445	bicameral legislature
+Q583157	regional council
+Q701632	municipal council
+Q191893	municipal council in Finland
+Q1500501	municipal council (Switzerland)
+Q3687298	municipal council (Ticino)
+Q1500505	municipal council (Austria)
+Q2647159	municipal council (France)
+Q2882257	Indian band
+Q2993684	municipal council (Belgium)
+Q3687297	municipal council (Italy)
+Q4263267	municipal council in Sweden
+Q10827272	Ayuntamiento
+Q15261456	communal council in Luxembourg
+Q17014622	municipal council
+Q18711724	Amsterdam municipal council
+Q18711753	Woerden municipal council
+Q18966090	Boxmeer municipal council
+Q20748639	Zoetermeer municipal council
+Q20859380	Mierlo municipal council
+Q20867397	Gorinchem municipal council
+Q20872299	Almere municipal council
+Q20872385	Coevorden municipal council
+Q20888738	Eindhoven municipal council
+Q20891358	Deventer municipal council
+Q20891449	Borger-Odoorn municipal council
+Q20992505	Utrecht municipal council
+Q21013151	The Hague municipal council
+Q21371139	Amersfoort municipal council
+Q21383844	Haarlem municipal council
+Q21384870	Rotterdam municipal council
+Q17353587	Municipal council
+Q2698687	municipal council
+Q1153777	legislative assembly
+Q2867136	legislative assemblies in Canada
+Q2282872	diet
+Q4321471	county council
+Q7417954	Barangay Council
+Q7417956	municipal council of a Philippines municipality
+Q7417960	city council of a Philippines city
+Q7417961	Sangguniang Panlalawigan
+Q7603708	legislature of a constituent state
+Q320501	Landtag
+Q355699	Austrian Landtage
+Q1077701	Regional Council in Italy
+Q3091020	Vidhan Sabha
+Q3270264	U.S. state legislature
+Q4345591	regional parliament of Russia
+Q17680584	legislature of a Mexican state
+Q15258243	historical legislature
+Q3507268	town council
+Q3687385	Provincial Council in Italy
+Q10553309	legislative house
+Q375928	lower house
+Q320289	chamber of deputies
+Q2145277	House of Representatives
+Q9247597	house of commons
+Q18608569	lower house of U.S. state legislature
+Q637846	upper house
+Q2570643	senate
+Q15891112	upper state chamber of a state of the United-States of America
+Q1631392	house of assembly
+Q1969555	national assembly
+Q2145237	assembly of representatives
+Q2794836	house of the people
+Q2994119	legislative council
+Q7165463	people's assembly
+Q1780825	Unemployment funds in Sweden
+Q1785733	environmental organization
+Q1788992	criminal organization
+Q18550	Mafia
+Q125752	American Mafia
+Q817144	Russian mafia
+Q1405176	Corsican mafia
+Q1538436	Albanian mafia
+Q2620910	Israeli mafia
+Q3843055	Chechen mafia
+Q15110728	Azeri mafia
+Q1260006	drug cartel
+Q1899015	conservation organization
+Q1934969	defense contractor
+Q1940786	quasi-autonomous non-governmental organisation
+Q3343298	non-departmental public body
+Q7309207	regional development agency
+Q7192831	public body in Hong Kong
+Q2063700	Chabad house
+Q2088357	musical ensemble
+Q42998	orchestra
+Q2382616	dweilorkest
+Q2470540	chamber ensemble
+Q16825389	Camerata
+Q4863056	Baroque orchestra
+Q8059337	youth orchestra
+Q1711403	youth symphony orchestra
+Q11185609	Gambang kromong
+Q17322915	German Culture Orchestra
+Q19189865	stage orchestra
+Q239582	symphonic orchestra
+Q762048	concert band
+Q19812	Fanfare band
+Q19262815	Harmonie de Vriendschap
+Q858862	Big Five
+Q881942	wind band
+Q979789	trombone choir
+Q1426710	marching band
+Q1078286	military band
+Q1261629	Ottoman military band
+Q1261230	Drum and bugle corps
+Q3085519	pipe band
+Q5309077	Military drum and bugle corps
+Q1090674	string orchestra
+Q1261571	radio orchestra
+Q131186	choir
+Q120544	vocal ensemble
+Q19351429	acapella group
+Q1407666	oratorio choir
+Q1451652	female choir
+Q1538570	gospel choir
+Q1684352	men's chorus
+Q1723154	chamber choir
+Q1753063	children's choir
+Q1776834	boys' choir
+Q3276909	mixed choir
+Q7503076	show choir
+Q11250823	church choir
+Q19347977	overtone choir
+Q207378	big band
+Q215380	band
+Q12302	Bagad
+Q215048	supergroup
+Q814344	backup band
+Q850978	seiyū vocalist group
+Q1164847	dansband
+Q1245536	tuna
+Q2095173	jam band
+Q2491498	pop group
+Q216337	boy band
+Q641066	girl group
+Q7623897	all-female band
+Q11446438	female idol group
+Q2596245	jazz band
+Q3244156	brass band
+Q16154562	British Brass band
+Q5741069	rock band
+Q217360	Florence and the Machine
+Q7575918	Spelmanslag
+Q7628270	studio band
+Q17078348	revivalist artist
+Q18444336	Unit group
+Q19464263	hip hop group
+Q281643	trio
+Q923298	string trio
+Q1414262	piano trio
+Q2016626	power trio
+Q3998922	clarinet-violin-piano trio
+Q5126977	Clarinet-cello-piano trio
+Q5126979	clarinet-viola-piano trio
+Q6168416	jazz trio
+Q7190207	Piano six hands
+Q8564091	flute, viola and harp
+Q290702	Chapel
+Q373712	Octet
+Q386355	Decet
+Q389888	quintet
+Q432536	brass quintet
+Q937364	String quintet
+Q1069564	wind quintet
+Q1746023	Piano quintet
+Q547833	Septet
+Q883323	brass ensemble
+Q1135557	quartet
+Q207338	string quartet
+Q1746025	piano quartet
+Q21747485	Piano Quartet by Mozart
+Q2011052	Saxophone quartet
+Q3098392	Garlic Bread
+Q16155785	woodwind quartet
+Q1928277	Nonet
+Q1944586	sextet
+Q2989770	Cobla
+Q6942541	musical collective
+Q19464251	hip hop collective
+Q7786591	banda
+Q11298102	guitar ensemble
+Q19324498	Fest-Noz group
+Q2101438	political action committee
+Q2300373	national trade union center
+Q4986492	Building Preservation Trust
+Q5133821	Clinical commissioning group
+Q5162950	Conservation authority
+Q2915311	Jewish state
+Q3117735	support group
+Q3689421	destination marketing organization
+Q3719391	music publisher
+Q4146613	state organization
+Q1851172	Orgburo
+Q15708736	public authority
+Q1412224	tribunal
+Q639898	Vehmic court
+Q2659904	government organization
+Q20160772	eHealth platform
+Q6663997	local education agency
+Q7835189	transportation authority
+Q7834360	transit district
+Q22693185	public transport authority in Norway
+Q4260475	medical facility
+Q16917	hospital
+Q46124	sanatorium
+Q210999	psychiatric hospital
+Q608152	hospice
+Q644264	children's hospital
+Q688829	dispensary
+Q837142	nursing home
+Q859247	lazaretto
+Q4284971	private hospital
+Q7257872	public hospital
+Q7443849	secondary hospital
+Q7705274	tertiary referral hospital
+Q11378690	company hospital
+Q12798329	partisan hospital
+Q22914759	women's hospital
+Q958822	maternity hospital
+Q1009272	Bundeswehr hospital
+Q1293141	Bimarestan
+Q1813474	teaching hospital
+Q1929784	poorhouse
+Q2387974	military hospital
+Q3150754	First aid room
+Q3246647	trauma center
+Q718966	Doctor's office
+Q1406569	leper colony
+Q1774898	clinic
+Q5500205	free clinic
+Q15724722	beauty clinic
+Q6451172	morgue
+Q2388270	Tahara house
+Q4287745	medical organization
+Q1394614	Medicine societies of the Iroquois
+Q244091	Zwergen-Bund
+Q358038	Adler-Bund
+Q4430243	social organization
+Q18811582	fraternity
+Q18811583	sorority
+Q3721	fraternities and sororities in North America
+Q161165	nepotism
+Q5193377	cultural institution
+Q7075	library
+Q169793	One-person library
+Q190304	Central specialist libraries
+Q22806	national library
+Q11834910	State public library
+Q28564	public library
+Q856584	library building
+Q2326815	municipal library
+Q212805	digital library
+Q1235234	document repository
+Q1065413	institutional repository
+Q1334294	software repository
+Q5281480	disciplinary repository
+Q24635894	research data repository
+Q355375	Nobility library
+Q380829	Private library
+Q385994	special library
+Q576029	libraries in the ancient world
+Q671735	multimedia library
+Q15834677	Media Library (TV station)
+Q678405	cantonal library
+Q720920	bookmobile
+Q884233	Library for the Blind
+Q1043939	Carnegie library
+Q1076099	School library
+Q1438040	research library
+Q1546583	presidential library
+Q1622062	college library
+Q1769139	Reference library
+Q1815075	Lending library
+Q2061246	Music library
+Q2495568	universal library
+Q2586205	scientific library
+Q856234	academic library
+Q22341583	Brown University Library
+Q3639561	capitular library
+Q3639678	circulating library
+Q6063256	library park
+Q6150991	medical library
+Q6503358	law library
+Q12410165	Torah library
+Q17478798	Medieval Library
+Q20898002	Boat Library
+Q22116012	self-service library
+Q33506	museum
+Q207694	art museum
+Q7094057	online art gallery
+Q14589453	ceramics museum
+Q15635761	black cube art museum
+Q17132744	Diocesan Museum
+Q667018	wax museum
+Q740437	pinacotheca
+Q957433	glyptotheque
+Q3768550	plaster cast gallery
+Q1200701	design museum
+Q1747681	artist museum
+Q5639512	hair museum
+Q218735	customs museum
+Q420962	heritage railway
+Q575727	museum ship
+Q3456301	Ship replica
+Q588140	science museum
+Q3499307	science center
+Q614316	private museum
+Q756102	open-air museum
+Q636819	Archaeological open-air museum
+Q5435556	farm museum
+Q787934	automobile museum
+Q819426	mining museum
+Q842478	children's museum
+Q866133	university museum
+Q962734	migration museum
+Q1146002	cabinet of curiosities
+Q672603	studiolo
+Q1191610	sex museum
+Q1225034	virtual museum
+Q1232974	numismatic collection
+Q1307560	Jewish museum
+Q1549731	interpretation centre
+Q1595639	local museum
+Q15924433	Bangkok local museum
+Q1798450	ecomuseum
+Q1863818	maritime museum
+Q1865249	literary museum
+Q1970365	natural history museum
+Q2066674	mill museum
+Q2106220	postal museum
+Q2275045	musée de France
+Q2310465	toy museum
+Q2327632	city museum
+Q2398990	technology museum
+Q1093436	computer museum
+Q2516357	transport museum
+Q1614140	tramways museum
+Q4828724	aviation museum
+Q18704634	railway museum
+Q2772772	military museum
+Q4801148	artillery museum
+Q7308408	regimental museum
+Q3329412	archaeological museum
+Q3330843	musée de la ville de Paris
+Q3445465	museum road
+Q3618768	antiquarium
+Q4305978	Donetsk Museum
+Q4306191	Museum of Sergei Prokofiev in village Krasnoe
+Q5436782	fashion museum
+Q17438516	musical instrument museum
+Q19890860	agricultural museum
+Q5465500	food museum
+Q14928320	chocolate museum
+Q5603559	green museum
+Q5739135	heritage centre
+Q6659501	living museum
+Q6887172	Mobile museums
+Q7157526	peace museum
+Q7209480	police museum
+Q10416961	working life museum
+Q10571947	County museum
+Q10624527	biographical museum
+Q11197854	torture museum
+Q16735822	history museum
+Q2087181	historic house museum
+Q17000324	sports museum
+Q17431399	national museum
+Q660549	National Museums of Thailand
+Q148319	planetarium
+Q1759299	orrery
+Q2980154	book club
+Q7083294	book café
+Q20897549	art institution
+Q576342	salon
+Q687920	reading society
+Q1329623	cultural center
+Q77115	community centre
+Q1103285	clubhouse
+Q1435490	People's Houses
+Q2190251	arts centre
+Q3469910	performing arts venue
+Q2814066	comedy club
+Q8719053	music venue
+Q622425	nightclub
+Q336078	Sex club
+Q1684522	jazz club
+Q3504364	superclub
+Q1060829	concert hall
+Q247560	Le Zénith
+Q478679	café-chantant
+Q15206070	poppodium
+Q3083079	live house
+Q16889960	winter circus
+Q24354	theater
+Q3982209	Italian Theater
+Q4951589	Box house
+Q11459155	small theater
+Q19757	Roman theatre
+Q153562	opera house
+Q203847	Zimmertheater
+Q336514	sylvan theater
+Q1058828	Off-Broadway
+Q54831	amphitheatre
+Q7362268	Roman amphitheatre
+Q11900212	Photography centre
+Q2281788	public aquarium
+Q4438121	sports organization
+Q623109	sports league
+Q1370066	Minor league
+Q6631808	baseball league
+Q15991290	Professional sport league
+Q1441324	franchise
+Q15991303	association football league
+Q490700	Soviet Top League
+Q604925	Campeonato Baiano
+Q975886	Campeonato Paraense
+Q2469206	Campeonato Cearense
+Q237181	Armenian Premier League
+Q324867	La Liga
+Q17387315	Bundesliga
+Q18536323	basketball league
+Q19521495	Russian Men's Volleyball Superleague
+Q847017	sports club
+Q31532	farm team
+Q1236324	cantera
+Q548520	Gaelic Athletic Association
+Q1269063	Dynamo Sports Club
+Q1855011	yacht club
+Q2071567	flying club
+Q2142568	Alpine Club
+Q4792966	Armed Forces
+Q4931504	boat club
+Q7372078	rowing club
+Q19969538	women’s rowing club
+Q15720476	volleyball team
+Q17270000	football club
+Q476028	association football club
+Q7088994	Olympiacos F.C. in European football
+Q14752149	amateur football team
+Q17156793	American football team
+Q1201517	Detroit American football teams
+Q17271186	Canadian football club
+Q17374546	Australian rules football club
+Q20379308	swim club
+Q743554	HZ Zian
+Q1914596	Aqua-Novio'94
+Q2002807	ZV De Zaan
+Q2038557	One Team Swimming
+Q2103937	ZVL Leiden
+Q2316023	Dommelbaarzen
+Q2327644	GZC Donk
+Q2334069	HZC De Robben
+Q2444513	Alphense Zwemclub
+Q2456329	ABS Bathmen
+Q2660704	Het Ravijn Nijverdal
+Q2937771	BZC Brandenburg
+Q3307831	Polar Bears
+Q8183153	Amersfoortse Zwem en Polo Club
+Q13509935	d'Elft
+Q18655416	De Ganze
+Q19915193	Vivax
+Q23022928	auto racing club
+Q23308176	curling club
+Q2485448	sports governing body
+Q183288	National Olympic Committee
+Q17059355	football association
+Q6646973	Lists of curling clubs
+Q7940969	Voluntary Sports Societies of the Soviet Union
+Q19698046	swim club
+Q24040733	mixed martial arts organization
+Q4830453	business enterprise
+Q11371	internet service provider
+Q621601	Application service provider
+Q11707	restaurant
+Q30022	café
+Q137746	cha chaan teng
+Q261335	Viennese coffee house
+Q1045860	Kissaten
+Q2785359	cat café
+Q4236467	Turkish coffee-house
+Q256020	inn
+Q562930	ryokan
+Q688852	Grotto
+Q966002	coaching inn
+Q1001427	Budike
+Q131183	cabaret
+Q1166158	dark cabaret
+Q3120628	guinguette
+Q7260400	punk cabaret
+Q367914	bed and breakfast
+Q443767	Mess
+Q866742	bistro
+Q868580	Chinese restaurant
+Q3234959	Cantonese restaurant
+Q895022	Bouillon
+Q925352	revolving restaurant
+Q951791	roadhouse
+Q996547	Bridge restaurant
+Q19845051	rest area Dorno
+Q1072166	tea house
+Q1206714	cantina
+Q1226318	diner
+Q1259350	drive-in restaurant
+Q1501212	pizzeria
+Q7297101	Ray's Pizza
+Q7677913	take and bake pizzeria
+Q18654742	pizza chain
+Q1581509	brasserie
+Q1751429	fast food restaurant
+Q1819078	Automat
+Q1970543	Osteria
+Q2883726	Hookah lounge
+Q2914283	Tearoom
+Q3109696	Steakhouse
+Q3231410	delicatessen
+Q4959807	Breastaurant
+Q5195228	curry house
+Q5307737	drinking establishment
+Q154250	tavern
+Q175836	Thermopolium
+Q187456	bar
+Q808744	piano bar
+Q1043639	gay bar
+Q1493728	Irish pub
+Q1711595	Juke joint
+Q24455030	whisky bar
+Q212198	pub
+Q5526883	Gastropub
+Q7257246	Pub chain
+Q7800977	tied house
+Q16186061	Tiki bar
+Q616100	speakeasy
+Q857909	beer garden
+Q858012	beer hall
+Q1193068	Izakaya
+Q3397950	Popina
+Q5459929	floating restaurant
+Q5690945	Health food restaurant
+Q8463304	cafeteria
+Q15733260	Lunch counter
+Q18534555	self-service restaurant
+Q18560057	tea house
+Q15849663	energy company
+Q1341478	Energy company
+Q15871359	power producer
+Q15968577	design studio
+Q16274795	shipbuilding company
+Q16481737	Swedish business enterprise
+Q17326725	business group
+Q8869	Verlagsgruppe
+Q18388277	technology company
+Q19644607	pharmaceutical company
+Q19720069	furniture manufacturer
+Q19852230	Foreign-Capital Enterprise
+Q21980538	commercial business
+Q23670565	Professional services firm
+Q23700958	public relations agency
+Q112046	transmission system operator
+Q129238	startup company
+Q20983877	unicorn
+Q131734	brewery
+Q1251750	distillery
+Q2003705	Rutte
+Q6839471	microdistillery
+Q10373548	whisky distillery
+Q2072541	Bavaria Brewery
+Q5487333	microbrewery
+Q133744	tour operator
+Q156362	winery
+Q161726	multinational corporation
+Q1660312	major label
+Q190928	shipyard
+Q452020	Submarine pen
+Q2126194	Rijkswerf
+Q206361	concern
+Q778575	conglomerate
+Q482517	Chaebol
+Q216931	advertising agency
+Q967140	Media Agency
+Q219577	holding company
+Q2512624	bank holding company
+Q4356518	Regional Bell Operating Company
+Q221096	public-private partnership
+Q290000	shell corporation
+Q291240	car rental
+Q847201	carsharing
+Q331803	sales assistant
+Q468755	Colonization Societies
+Q489209	joint venture
+Q507619	chain store
+Q18043413	supermarket chain
+Q18534542	restaurant chain
+Q18509232	fast food restaurant chain
+Q613142	law firm
+Q4950459	boutique law firm
+Q20797471	Corporated law firm
+Q622439	small and medium enterprises
+Q19720188	small publisher
+Q19720190	medium size publisher
+Q658255	subsidiary company
+Q721067	professional wrestling promotion
+Q726870	brick and mortar company
+Q740752	transport company
+Q249556	railway company
+Q521458	railway infrastructure company
+Q17102188	train operating company
+Q17377208	train operating company
+Q670113	fixed-base operator
+Q1468664	logistics provider
+Q1807108	shipping line
+Q19363981	tanker shipping company
+Q1875615	air carrier
+Q46970	airline
+Q1327032	Major carrier
+Q2440569	regional airline
+Q5001854	Business class airline
+Q6517271	Legacy carrier
+Q7142591	passenger airline
+Q190915	low-cost airline
+Q607958	charter airline
+Q721639	flag carrier
+Q1057026	cargo airline
+Q10438042	bus company
+Q15712205	intercity bus company
+Q17118229	school bus contractor
+Q18386893	passenger line
+Q778274	Angel investor
+Q786820	automobile manufacturer
+Q15648574	racecar constructor
+Q21748148	Formula One constructor
+Q811930	building contractor
+Q15887806	construction and real estate company
+Q814468	accommodation provider
+Q842609	sole proprietorship
+Q10329582	Formal freelancer
+Q16969092	enkeltpersonforetak
+Q19278985	sole proprietorship in Germany
+Q891723	public company
+Q498289	dual-listed company
+Q5225895	public limited company
+Q936518	aerospace manufacturer
+Q946499	cruise line
+Q1047437	Copyright collective
+Q1057214	private military company
+Q1058914	software house
+Q210167	video game developer
+Q1071015	social enterprise
+Q1116826	Private security company
+Q1133938	trust
+Q1194970	dot-com company
+Q1252971	food maker
+Q274393	bakery
+Q20022806	chocolate company
+Q1321781	investment company
+Q1331793	media company
+Q15943455	broadcast station
+Q1616075	television station
+Q561068	specialty channel
+Q752106	legislature broadcaster
+Q1787375	children's interest channel
+Q5001853	business channel
+Q5287666	Documentary channel
+Q6054765	international news channel
+Q2961832	national broadcast channel
+Q19963413	media conglomerate
+Q20739124	entertainment company
+Q20679540	movie theater chain
+Q20739125	Pornographic Entertainment Company
+Q20819922	opera company
+Q2085381	publisher
+Q3579158	social game editor
+Q7554349	software publisher
+Q1137109	video game publisher
+Q16011789	indie games editor
+Q15728610	Esperanto publisher
+Q19720191	large publisher
+Q149985	self-publishing company
+Q479716	university press
+Q1114515	comics publishing company
+Q1320047	book publishing company
+Q1568650	Self-publishing
+Q1661080	small press
+Q1792356	art publisher
+Q1917775	music publisher
+Q18127	record label
+Q1542343	independent record label
+Q7095719	open-source record label
+Q2608849	imprint
+Q2442401	record company
+Q11396960	production company
+Q1762059	film production company
+Q735427	Poverty Row
+Q10689397	TV production company
+Q192283	news agency
+Q368290	film distributor
+Q375336	film studio
+Q1107679	animation studio
+Q1395324	family business
+Q1416636	non-banking financial company
+Q2143354	assurer
+Q4230006	asset management company
+Q6899283	Money services business
+Q20107444	Bitcoin exchange
+Q1466031	funeral home
+Q1520069	Bottling company
+Q4752700	Anchor bottler
+Q1589009	privately held company
+Q1660104	real estate company
+Q697852	Real estate investment trust
+Q1757263	moving company
+Q1774587	hospital network
+Q1951366	public utility
+Q1266169	telephone company
+Q363589	local exchange carrier
+Q5156358	competitive local exchange carrier
+Q13405549	incumbent local exchange carrier
+Q1326624	electric utility
+Q1956113	parent company
+Q2005696	commercial vehicle manufacturer
+Q2089936	consulting company
+Q20031260	IT consulting company
+Q2169973	Service provider
+Q1641122	Online service provider
+Q2401749	telecommunication company
+Q1941618	mobile network operator
+Q1058891	mobile virtual network operator
+Q6887204	mobile phone operator
+Q2516083	point of sale
+Q76470	outlet store
+Q213441	shop
+Q16406	tobacconist
+Q153551	Charity shop
+Q200764	bookstore
+Q582794	used bookstore
+Q6017407	independent bookstore
+Q428044	infoshop
+Q216107	department store
+Q217107	travel agency
+Q220142	Pet store
+Q221618	sex shop
+Q260569	Garden centre
+Q811530	hardware store
+Q864440	health food store
+Q865693	gift shop
+Q1007870	art gallery
+Q3325736	Artist-run initiative
+Q16038801	contemporary art gallery
+Q16294764	Spätkauf
+Q16889679	home-improvement center
+Q24284215	musical instrument store
+Q24649023	Online-Store
+Q1068824	boutique
+Q1123813	concept stores
+Q1131628	Copy shop
+Q1311064	ice cream parlor
+Q1529413	Glaziery
+Q1756711	video rental shop
+Q1931925	coffee shop
+Q2243978	record shop
+Q2925872	second-hand shop
+Q3267025	antique shop
+Q3574069	Confectionery store
+Q3814081	application store
+Q10431511	flower shop
+Q13584407	grocery store
+Q180846	supermarket
+Q297410	Asda
+Q326715	Lotte Mart
+Q430289	ABC-áruház
+Q466918	Cactus
+Q487494	Tesco
+Q653793	Asian supermarket
+Q688825	Trader Joe's
+Q6698032	Lucky Stores
+Q7284643	Rainbow Grocery Cooperative
+Q7543916	Smart & Final
+Q8068546	Zehrs Markets
+Q11286632	Izumiya
+Q12581126	GS Supermarket
+Q17502722	Dirk van den Broek
+Q721810	Iceland
+Q771734	Waitrose
+Q1108172	Coles Supermarkets
+Q1508234	Safeway Inc.
+Q1653985	Albert Heijn
+Q1809448	Whole Foods Market
+Q1879631	C1000
+Q2181426	Leader Price
+Q2262314	Jumbo
+Q3342407	No Frills
+Q5465300	Food Basics
+Q5517749	Gala
+Q2024419	Online grocer
+Q2549140	store
+Q2518331	Offshore company
+Q2538889	arms manufacturer
+Q702135	Glock Ges.m.b.H.
+Q2512222	Vektor
+Q22814849	Glock Inc.
+Q2995256	rail vehicle manufacturer
+Q3062125	farming business
+Q613739	Estancia
+Q3300038	Matériel de traction électrique
+Q3380824	trading company
+Q24636431	Proctor Acura
+Q24636678	Proctor Subaru
+Q261428	Discount store
+Q786803	car dealership
+Q13107184	community pharmacy
+Q11503660	Shinseido Pharmacy
+Q24632918	Proctor Honda
+Q3402645	service company
+Q352450	agency
+Q1144447	modeling agency
+Q6864113	Mine clearance agency
+Q13434535	escort agency
+Q3590882	automotive supplier
+Q20032039	tire manucfaturer
+Q3661311	fashion house
+Q4387609	architectural firm
+Q5154231	communications service provider
+Q5169293	copywriting agency
+Q5172517	Corporation
+Q5603499	green company
+Q6500733	printer
+Q7257732	public electricity supplier
+Q7361709	convenience store
+Q17051667	Mama shop
+Q17453461	Tante-Emma-Laden
+Q7830259	Township and Village Enterprises
+Q8073775	zombie company
+Q10422442	Auction house
+Q11290050	day spa
+Q11753232	launch service provider
+Q14941854	oil company
+Q14942280	petrochemical company
+Q15081030	motorcycle manufacturer
+Q15081032	historical motorcycle manufacturer
