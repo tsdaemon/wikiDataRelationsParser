@@ -26,6 +26,6 @@ P451	partner
 P40	child
 P43	stepfather
 P44	stepmother
-P1038	relative	P1037
+P1038	relative	P1039
 P1290	godparent
 P366	use

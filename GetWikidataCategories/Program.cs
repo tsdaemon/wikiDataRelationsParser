@@ -55,10 +55,10 @@ WHERE {{
 
         private static void GetAllSubclasses(string cat, Dictionary<string, string> list)
         {
-            var result = _api.Get(WD_CAT_QUERY, cat);
+            var result = _api.Get(string.Format(WD_CAT_QUERY, cat));
             foreach (var r in result.Results.Bindings)
             {
-                var id = r["s"].GetIdValue();
+                var id = r["s"].Value;
                 var label = r["sLabel"].Value;
                 if (!list.ContainsKey(id))
                 {

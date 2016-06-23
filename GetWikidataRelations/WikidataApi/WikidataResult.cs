@@ -23,16 +23,5 @@ namespace GetWikidataRelations.WikidataApi
     {
         public string Type { get; set; }
         public string Value { get; set; }
-
-        public string GetIdValue()
-        {
-            switch (Type)
-            {
-                case "uri":
-                    return Value.Split('/').Last();
-                default:
-                    return Value;
-            }
-        }
     }
 }

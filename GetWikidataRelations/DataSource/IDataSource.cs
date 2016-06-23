@@ -8,8 +8,8 @@ namespace GetWikidataRelations.DataSource
     {
         void SaveTriplets(IEnumerable<Triplet> values);
 
-        List<UnitOfWork> GetWork(string id);
-        void SaveWork(IEnumerable<UnitOfWork> config);
+        Unit GetWork(string id);
+        void SaveWork(Unit work);
 
         List<Property> GetProperties(string id);
         List<Category> GetCategories(string id);

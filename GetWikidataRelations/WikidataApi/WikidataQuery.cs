@@ -8,14 +8,14 @@ namespace GetWikidataRelations.WikidataApi
 {
     public class WikidataQuery
     {
-        const string WD_ENDPOINT = "https://query.wikidata.org/sparql?query={0}&format=json";
+        const string WD_ENDPOINT = "https://query.wikidata.org/sparql?format=json&query=";
 
-        public Wikidata Get(string query, params object[] args)
+        public Wikidata Get(string query)
         {
             try
             {
-                query = Uri.EscapeDataString(string.Format(query, args));
-                var url = string.Format(WD_ENDPOINT, query);
+                query = Uri.EscapeDataString(query);
+                var url = WD_ENDPOINT + query;
                 var request = WebRequest.CreateHttp(url);
                 using (var reader = new StreamReader(request.GetResponse().GetResponseStream(), Encoding.UTF8))
                 {

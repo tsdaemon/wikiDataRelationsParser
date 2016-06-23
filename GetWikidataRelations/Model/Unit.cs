@@ -1,19 +1,22 @@
 ﻿using System.Collections.Generic;
-using MongoDB.Bson;
 
 namespace GetWikidataRelations.Model
 {
-    public class UnitOfWork
+    public class UnitPart
     {
-        public ObjectId Id { get; set; }
-        public string SectionId { get; set; }
-
-        public Category Category { get; set; }
-        public Property Property { get; set; }
+        public string Category { get; set; }
+        public string Property { get; set; }
+        public string Qualifier { get; set; }
 
         public long Offset { get; set; }
 
         public bool Started { get; set; }
         public bool Done { get; set; }
+    }
+
+    public class Unit
+    {
+        public string Id { get; set; }
+        public List<UnitPart> Parts { get; set; }
     }
 }

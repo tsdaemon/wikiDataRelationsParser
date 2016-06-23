@@ -18,9 +18,11 @@ namespace ReloadConfigFromFile
             var db = new MongoClient("mongodb://127.0.0.1:27017/").GetDatabase("wikidata");
             var properties = db.GetCollection<Property>("property");
             var categories = db.GetCollection<Category>("category");
-            var units = db.GetCollection<UnitOfWork>("unit");
+            var units = db.GetCollection<UnitPart>("unit");
 
             units.DeleteMany(f => true);
+            properties.DeleteMany(f => true);
+            categories.DeleteMany(f => true);
 
             foreach (var id in ids)
             {
@@ -32,25 +34,37 @@ namespace ReloadConfigFromFile
                     categories.InsertMany(stream.ReadToEnd()
                         .Split('\n')
                         .Where(s => !(string.IsNullOrEmpty(s) || s[0] == '#'))
-                        .Select(s => new Category
-                                {
-                                    SectionId = id,
-                                    Title = s.Trim().Split('\t')[1],
-                                    WikidataId = s.Trim().Split('\t')[0]
-                                }));
+                        .Select(s =>
+                        {
+                            var vv = s.Trim().Split('\t');
+                            var title = vv.Length > 1 ? vv[1] : null;
+                            return new Category
+                            {
+                                SectionId = id,
+                                Title = title,
+                                WikidataId = vv[0]
+                            };
+                        }));
                 }
                 using (var stream = new StreamReader(File.OpenRead(propertiesFile)))
                 {
                     properties.InsertMany(stream.ReadToEnd()
                         .Split('\n')
                         .Where(s => !(string.IsNullOrEmpty(s) || s[0] == '#'))
-                        .Select(s => new Property
+                        .Select(s =>
                         {
-                            SectionId = id,
-                            Title = s.Trim().Split('\t')[1],
-                            WikidataId = s.Trim().Split('\t')[0],
-                            Qualifier = s.Trim().Split('\t')[2]
-                        }));
+                            var vv = s.Trim().Split('\t');
+                            var qualifier = vv.Length > 2 ? vv[2] : null;
+                            var title = vv.Length > 1 ? vv[1] : null;
+                            return new Property
+                            {
+                                SectionId = id,
+                                Title = title,
+                                WikidataId = vv[0],
+                                Qualifier = qualifier
+                            };
+                        }))
+                ;
                 }
             }
 

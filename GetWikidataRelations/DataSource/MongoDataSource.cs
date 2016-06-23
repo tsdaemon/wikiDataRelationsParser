@@ -12,13 +12,13 @@ namespace GetWikidataRelations.DataSource
         private IMongoCollection<Property> _properties;
         private IMongoCollection<Category> _categories;
         private IMongoCollection<Triplet> _triplets;
-        private IMongoCollection<UnitOfWork> _units;
+        private IMongoCollection<Unit> _units;
 
-        public MongoDataSource(string url, string database)
+        public MongoDataSource(string host, int port, string database)
         {
-            _data = new MongoClient(url).GetDatabase(database);
+            _data = new MongoClient(new MongoClientSettings { UseSsl = false, Server = new MongoServerAddress(host, port) }).GetDatabase(database);
             _triplets = _data.GetCollection<Triplet>("triplet");
-            _units = _data.GetCollection<UnitOfWork>("unit");
+            _units = _data.GetCollection<Unit>("unit");
             _properties = _data.GetCollection<Property>("property");
             _categories = _data.GetCollection<Category>("category");
         }
@@ -28,17 +28,20 @@ namespace GetWikidataRelations.DataSource
             _triplets.InsertManyAsync(documents);
         }
 
-        public List<UnitOfWork> GetWork(string id)
+        public Unit GetWork(string id)
         {
-            return _units.Find(u => u.SectionId == id).ToList();
+            return _units.Find(u => u.Id == id).FirstOrDefault();
         }
 
-        public void SaveWork(IEnumerable<UnitOfWork> units)
+        public void SaveWork(Unit work)
         {
-            foreach (var unit in units)
+            if (_units.Find(f => f.Id == work.Id).Any())
             {
-                var unit1 = unit;
-                _units.FindOneAndReplaceAsync(u => u.Id == unit1.Id, unit);
+                _units.ReplaceOne(f => f.Id == work.Id, work);
+            }
+            else
+            {
+                _units.InsertOne(work);
             }
         }
 

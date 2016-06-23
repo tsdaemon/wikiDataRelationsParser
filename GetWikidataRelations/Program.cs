@@ -10,7 +10,7 @@ namespace GetWikidataRelations
         static void Main(string[] args)
         {
             Console.WriteLine("Starting aggregation of wikidata relations.");
-            var dataSource = new MongoDataSource("mongodb://127.0.0.1:27017/","wikidata");
+            var dataSource = new MongoDataSource("127.0.0.1", 27017, "wikidata");
             var pools = new[]
             {
                 new Worker("person", 16, dataSource),
