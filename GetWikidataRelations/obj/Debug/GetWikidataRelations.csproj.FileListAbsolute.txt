@@ -6,3 +6,8 @@ C:\Users\Anatoliy\documents\Projects\GetWikidataRelations\GetWikidataRelations\o
 C:\Users\Anatoliy\documents\Projects\GetWikidataRelations\GetWikidataRelations\obj\Debug\GetWikidataRelations.pdb
 C:\Users\Anatoliy\documents\Projects\GetWikidataRelations\GetWikidataRelations\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Anatoliy\documents\Projects\GetWikidataRelations\GetWikidataRelations\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Anatoliy\documents\Projects\GetWikidataRelations\GetWikidataRelations\bin\Debug\MongoDB.Bson.dll
+C:\Users\Anatoliy\documents\Projects\GetWikidataRelations\GetWikidataRelations\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\Anatoliy\documents\Projects\GetWikidataRelations\GetWikidataRelations\bin\Debug\MongoDB.Driver.dll
+C:\Users\Anatoliy\documents\Projects\GetWikidataRelations\GetWikidataRelations\bin\Debug\MongoDB.Bson.xml
+C:\Users\Anatoliy\documents\Projects\GetWikidataRelations\GetWikidataRelations\bin\Debug\MongoDB.Driver.xml

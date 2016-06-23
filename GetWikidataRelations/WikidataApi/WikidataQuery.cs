@@ -19,7 +19,8 @@ namespace GetWikidataRelations.WikidataApi
                 var request = WebRequest.CreateHttp(url);
                 using (var reader = new StreamReader(request.GetResponse().GetResponseStream(), Encoding.UTF8))
                 {
-                    return JsonConvert.DeserializeObject<Wikidata>(reader.ReadToEnd());
+                    var result = reader.ReadToEnd();
+                    return JsonConvert.DeserializeObject<Wikidata>(result);
                 }
             }
             catch

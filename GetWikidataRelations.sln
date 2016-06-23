@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetWikidataRelations", "Get
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetWikidataCategories", "GetWikidataCategories\GetWikidataCategories.csproj", "{F173DD4E-F735-4580-B7F2-742D00CC374A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReloadConfigFromFile", "ReloadConfigFromFile\ReloadConfigFromFile.csproj", "{E9E12F82-9DA2-4374-9D02-2619E281566E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F173DD4E-F735-4580-B7F2-742D00CC374A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F173DD4E-F735-4580-B7F2-742D00CC374A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F173DD4E-F735-4580-B7F2-742D00CC374A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9E12F82-9DA2-4374-9D02-2619E281566E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9E12F82-9DA2-4374-9D02-2619E281566E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9E12F82-9DA2-4374-9D02-2619E281566E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9E12F82-9DA2-4374-9D02-2619E281566E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
