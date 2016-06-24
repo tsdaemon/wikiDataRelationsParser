@@ -1,7 +1,5 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 using GetWikidataRelations.Model;
-using GetWikidataRelations.WikidataApi;
 using MongoDB.Driver;
 
 namespace GetWikidataRelations.DataSource
@@ -25,7 +23,14 @@ namespace GetWikidataRelations.DataSource
 
         public void SaveTriplets(IEnumerable<Triplet> documents)
         {
-            _triplets.InsertManyAsync(documents);
+            try
+            {
+                _triplets.InsertManyAsync(documents);
+            }
+            catch
+            {
+                
+            }
         }
 
         public Unit GetWork(string id)
@@ -35,13 +40,20 @@ namespace GetWikidataRelations.DataSource
 
         public void SaveWork(Unit work)
         {
-            if (_units.Find(f => f.Id == work.Id).Any())
+            try
             {
-                _units.ReplaceOne(f => f.Id == work.Id, work);
+                if (_units.Find(f => f.Id == work.Id).Any())
+                {
+                    _units.ReplaceOne(f => f.Id == work.Id, work);
+                }
+                else
+                {
+                    _units.InsertOne(work);
+                }
             }
-            else
+            catch
             {
-                _units.InsertOne(work);
+                
             }
         }
 
