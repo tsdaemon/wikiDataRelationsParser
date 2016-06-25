@@ -1,0 +1,1 @@
+﻿db.triplet.update({ Positions: { $ne: null } }, { $set: { Positions: null } }, { multi: true })
