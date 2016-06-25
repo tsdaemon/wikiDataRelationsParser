@@ -41,43 +41,34 @@ namespace UploadRelationPositions
                 FirstLineHasColumnNames = true
             };
             CsvContext cc = new CsvContext();
-            using (var f = new StreamReader(File.OpenRead(PositionsFilePath),Encoding.UTF8))
+            var lines =
+                cc.Read<PositionLine>(PositionsFilePath, inputFileDescription);
+
+            var positionsSet = 0;
+            foreach (var line in lines.Skip(offset))
             {
-                var positionsSet = 0;
-                var linesBroken = 0;
-                var en = GetLines(f).Skip(offset + 1);
-                foreach (var line in en)
+                var objectWiki = line.ObjectWiki;
+                var subjectWiki = line.SubjectWiki;
+
+                foreach (var t in triplets.Find(t => t.ObjectWikiName == objectWiki && t.SubjectWikiName == subjectWiki).ToEnumerable())
                 {
-                    var values = Regex.Split(line, @"""\s*,\s*""");
-                    if (values.Length != 6)
+                    if (t.Positions == null) t.Positions = new List<Position>();
+                    t.Positions.Add(new Position
                     {
-                        Console.WriteLine("Line broken: {0}", line);
-                        linesBroken++;
-                        continue;
-                    }
-
-                    var objectWiki = values[0];
-                    var subjectWiki = values[2];
-
-                    foreach (var t in triplets.Find(t => t.ObjectWikiName == objectWiki && t.SubjectWikiName == subjectWiki).ToEnumerable())
+                        Anchor = string.IsNullOrEmpty(line.Anchor) ? line.SubjectWiki : line.Anchor,
+                        End = line.End,
+                        Start = line.Start
+                    });
+                    triplets.ReplaceOne(t2 => t.Id == t2.Id, t);
+                    positionsSet++;
+                }
+                offset++;
+                if (offset % 1000 == 0)
+                {
+                    Console.WriteLine("{0}/{1} done, positions set {2}", offset, count, positionsSet);
+                    using (var o = new StreamWriter(File.Open(OffsetFilePath,FileMode.Create)))
                     {
-                        t.Positions.Add(new Position
-                        {
-                            Anchor = string.IsNullOrEmpty(values[3]) ? values[2] : values[3],
-                            End = int.Parse(values[5]),
-                            Start = int.Parse(values[4])
-                        });
-                        triplets.ReplaceOne(t2 => t.Id == t2.Id, t);
-                        positionsSet++;
-                    }
-                    offset++;
-                    if (offset % 1000 == 0)
-                    {
-                        Console.WriteLine("{0}/{1} done, positions set {2}, broken lines {3}", offset, count, positionsSet, linesBroken);
-                        using (var o = new StreamWriter(File.Open(OffsetFilePath,FileMode.Create)))
-                        {
-                            o.Write(offset);
-                        }
+                        o.Write(offset);
                     }
                 }
             }
