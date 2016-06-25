@@ -10,5 +10,7 @@ namespace GetWikidataRelations.Model
         public string SectionId { get; set; }
         public string Category { get; set; }
         public Dictionary<string, string> WikiResult { get; set; }
+        public string ObjectWikiName { get; set; }
+        public string SubjectWikiName { get; set; }
     }
 }

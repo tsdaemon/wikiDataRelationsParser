@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetWikidataCategories", "Ge
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReloadConfigFromFile", "ReloadConfigFromFile\ReloadConfigFromFile.csproj", "{E9E12F82-9DA2-4374-9D02-2619E281566E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UploadRelationPositions", "UploadRelationPositions\UploadRelationPositions.csproj", "{4965A315-356A-438B-A250-10623B344571}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParseTripletsIds", "ParseTripletsIds\ParseTripletsIds.csproj", "{F1D78DD4-0D93-43DB-9271-567DD6D533DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{E9E12F82-9DA2-4374-9D02-2619E281566E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9E12F82-9DA2-4374-9D02-2619E281566E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9E12F82-9DA2-4374-9D02-2619E281566E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4965A315-356A-438B-A250-10623B344571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4965A315-356A-438B-A250-10623B344571}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4965A315-356A-438B-A250-10623B344571}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4965A315-356A-438B-A250-10623B344571}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1D78DD4-0D93-43DB-9271-567DD6D533DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1D78DD4-0D93-43DB-9271-567DD6D533DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1D78DD4-0D93-43DB-9271-567DD6D533DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1D78DD4-0D93-43DB-9271-567DD6D533DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

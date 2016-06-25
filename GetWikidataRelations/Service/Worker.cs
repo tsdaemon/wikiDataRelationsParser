@@ -122,12 +122,20 @@ LIMIT 1000 OFFSET {3}";
 
         private void ProcessResult(string property, string category, Wikidata result)
         {
-            var documents = result.Results.Bindings.Select(r => new Triplet
+            var documents = result.Results.Bindings.Select(r =>
             {
-                Property = property,
-                Category = category,
-                SectionId = _id,
-                WikiResult = r.ToDictionary(k => k.Key, k => k.Value.Value)
+                var wikiresult = r.ToDictionary(k => k.Key, k => k.Value.Value);
+                var objectWikiName = Uri.UnescapeDataString(wikiresult["objectWiki"].Split('/').Last());
+                var subjectWikiName = Uri.UnescapeDataString(wikiresult["subjectWiki"].Split('/').Last());
+                return new Triplet
+                {
+                    Property = property,
+                    Category = category,
+                    SectionId = _id,
+                    WikiResult = wikiresult,
+                    ObjectWikiName = objectWikiName,
+                    SubjectWikiName = subjectWikiName
+                };
             });
 
             _io.SaveTriplets(documents);
