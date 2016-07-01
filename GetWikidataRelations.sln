@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UploadRelationPositions", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParseTripletsIds", "ParseTripletsIds\ParseTripletsIds.csproj", "{F1D78DD4-0D93-43DB-9271-567DD6D533DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UploadRelationPositionsIntersect", "UploadRelationPositionsIntersect\UploadRelationPositionsIntersect.csproj", "{727C62B2-A496-4734-B77B-55C618466A77}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{F1D78DD4-0D93-43DB-9271-567DD6D533DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1D78DD4-0D93-43DB-9271-567DD6D533DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1D78DD4-0D93-43DB-9271-567DD6D533DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{727C62B2-A496-4734-B77B-55C618466A77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{727C62B2-A496-4734-B77B-55C618466A77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{727C62B2-A496-4734-B77B-55C618466A77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{727C62B2-A496-4734-B77B-55C618466A77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
