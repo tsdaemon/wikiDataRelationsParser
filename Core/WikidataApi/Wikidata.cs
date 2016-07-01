@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 
-namespace GetWikidataRelations.WikidataApi
+namespace Core.WikidataApi
 {
     public class Wikidata
     {

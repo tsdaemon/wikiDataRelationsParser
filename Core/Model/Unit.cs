@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace GetWikidataRelations.Model
+namespace Core.Model
 {
     public class UnitPart
     {

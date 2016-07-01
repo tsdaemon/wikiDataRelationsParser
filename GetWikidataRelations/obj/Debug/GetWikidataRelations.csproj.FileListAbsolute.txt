@@ -11,3 +11,6 @@ C:\Users\Anatoliy\documents\Projects\GetWikidataRelations\GetWikidataRelations\b
 C:\Users\Anatoliy\documents\Projects\GetWikidataRelations\GetWikidataRelations\bin\Debug\MongoDB.Driver.dll
 C:\Users\Anatoliy\documents\Projects\GetWikidataRelations\GetWikidataRelations\bin\Debug\MongoDB.Bson.xml
 C:\Users\Anatoliy\documents\Projects\GetWikidataRelations\GetWikidataRelations\bin\Debug\MongoDB.Driver.xml
+C:\Users\Anatoliy\documents\Projects\GetWikidataRelations\GetWikidataRelations\bin\Debug\Core.dll
+C:\Users\Anatoliy\documents\Projects\GetWikidataRelations\GetWikidataRelations\bin\Debug\LINQtoCSV.dll
+C:\Users\Anatoliy\documents\Projects\GetWikidataRelations\GetWikidataRelations\bin\Debug\Core.pdb

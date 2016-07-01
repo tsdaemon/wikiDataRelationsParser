@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
-using GetWikidataRelations.Model;
+using Core.Model;
+using Core.Wikifile;
 using LINQtoCSV;
 using MongoDB.Driver;
 

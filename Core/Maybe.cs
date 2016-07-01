@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace GetWikidataRelations
+namespace Core
 {
     public static class Maybe
     {

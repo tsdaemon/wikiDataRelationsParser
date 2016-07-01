@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using GetWikidataRelations.Model;
+using Core.Model;
 using MongoDB.Driver;
 
 namespace ReloadConfigFromFile

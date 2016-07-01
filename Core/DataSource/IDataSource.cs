@@ -1,8 +1,7 @@
 ﻿using System.Collections.Generic;
-using GetWikidataRelations.Model;
-using GetWikidataRelations.WikidataApi;
+using Core.Model;
 
-namespace GetWikidataRelations.DataSource
+namespace Core.DataSource
 {
     public interface IDataSource
     {

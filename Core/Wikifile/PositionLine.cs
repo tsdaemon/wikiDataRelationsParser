@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using LINQtoCSV;
+﻿using LINQtoCSV;
 
-namespace UploadRelationPositions
+namespace Core.Wikifile
 {
-    class PositionLine
+    public class PositionLine
     {
         [CsvColumn(FieldIndex = 1, Name = "title")]
         public string ObjectWiki { get; set; }

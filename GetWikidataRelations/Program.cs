@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
-using GetWikidataRelations.DataSource;
-using GetWikidataRelations.Service;
+using Core.DataSource;
+using Core.Service;
 
 namespace GetWikidataRelations
 {

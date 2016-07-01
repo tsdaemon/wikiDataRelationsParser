@@ -58,9 +58,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\GetWikidataRelations\GetWikidataRelations.csproj">
-      <Project>{c8ae84b5-fa04-47f0-ad0f-a8ab3f6a71bb}</Project>
-      <Name>GetWikidataRelations</Name>
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Project>{88d4f41f-7071-49ee-9b3b-a96cff43ebf8}</Project>
+      <Name>Core</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using MongoDB.Bson;
 
-namespace GetWikidataRelations.Model
+namespace Core.Model
 {
     public class Triplet
     {

@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using GetWikidataRelations.DataSource;
-using GetWikidataRelations.Model;
-using GetWikidataRelations.WikidataApi;
+using Core.DataSource;
+using Core.Model;
+using Core.WikidataApi;
 
-namespace GetWikidataRelations.Service
+namespace Core.Service
 {
     public class Worker
     {
@@ -120,7 +120,7 @@ LIMIT 1000 OFFSET {3}";
             }
         }
 
-        private void ProcessResult(string property, string category, Wikidata result)
+        private void ProcessResult(string property, string category, WikidataApi.Wikidata result)
         {
             var documents = result.Results.Bindings.Select(r =>
             {

@@ -4,7 +4,7 @@ using System.Net;
 using System.Text;
 using Newtonsoft.Json;
 
-namespace GetWikidataRelations.WikidataApi
+namespace Core.WikidataApi
 {
     public class WikidataQuery
     {

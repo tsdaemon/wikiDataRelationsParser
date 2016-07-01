@@ -53,24 +53,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataSource\MongoDataSource.cs" />
-    <Compile Include="Maybe.cs" />
-    <Compile Include="DataSource\IDataSource.cs" />
-    <Compile Include="Model\Category.cs" />
-    <Compile Include="Model\Property.cs" />
-    <Compile Include="Model\Triplet.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WikidataApi\WikidataQuery.cs" />
-    <Compile Include="WikidataApi\WikidataResult.cs" />
-    <Compile Include="Model\Unit.cs" />
-    <Compile Include="Service\Worker.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Project>{88d4f41f-7071-49ee-9b3b-a96cff43ebf8}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

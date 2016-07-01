@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using GetWikidataRelations.Model;
+using Core.Model;
 using MongoDB.Driver;
 
-namespace GetWikidataRelations.DataSource
+namespace Core.DataSource
 {
     public class MongoDataSource : IDataSource
     {

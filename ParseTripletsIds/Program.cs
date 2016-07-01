@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Linq;
-using GetWikidataRelations.Model;
+using Core.Model;
 using MongoDB.Driver;
 
 namespace ParseTripletsIds
