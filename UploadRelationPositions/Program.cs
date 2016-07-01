@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using Core;
 using Core.Model;
 using Core.Wikifile;
 using LINQtoCSV;
@@ -22,7 +23,7 @@ namespace UploadRelationPositions
             // estimate lines count in file
             using (var f = new StreamReader(File.OpenRead(PositionsFilePath)))
             {
-                count = GetLines(f).Skip(1).Count();
+                count = f.GetLines().Skip(1).Count();
             }
             // read offset
             var offset = 0;
@@ -46,15 +47,15 @@ namespace UploadRelationPositions
             var positionsSet = 0;
             foreach (var line in lines.Skip(offset))
             {
-                var objectWiki = line.ObjectWiki;
-                var subjectWiki = line.SubjectWiki;
+                var objectWiki = line.WikiTitle;
+                var subjectWiki = line.EntityName;
 
                 foreach (var t in triplets.Find(t => t.ObjectWikiName == objectWiki && t.SubjectWikiName == subjectWiki).ToEnumerable())
                 {
                     if (t.Positions == null) t.Positions = new List<Position>();
                     t.Positions.Add(new Position
                     {
-                        Anchor = string.IsNullOrEmpty(line.Anchor) ? line.SubjectWiki : line.Anchor,
+                        Anchor = string.IsNullOrEmpty(line.Anchor) ? line.EntityName : line.Anchor,
                         End = line.End,
                         Start = line.Start
                     });
@@ -70,14 +71,6 @@ namespace UploadRelationPositions
                         o.Write(offset);
                     }
                 }
-            }
-        }
-
-        public static IEnumerable<string> GetLines(StreamReader reader)
-        {
-            while (!reader.EndOfStream)
-            {
-                yield return reader.ReadLine();
             }
         }
     }

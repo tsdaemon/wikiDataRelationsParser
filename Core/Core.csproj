@@ -56,6 +56,8 @@
   <ItemGroup>
     <Compile Include="DataSource\IDataSource.cs" />
     <Compile Include="DataSource\MongoDataSource.cs" />
+    <Compile Include="Wikifile\WikidumpReader.cs" />
+    <Compile Include="EnumerableHelper.cs" />
     <Compile Include="Model\Category.cs" />
     <Compile Include="Model\Property.cs" />
     <Compile Include="Model\Triplet.cs" />
