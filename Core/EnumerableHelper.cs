@@ -17,13 +17,13 @@ namespace Core
         }
 
         public static IEnumerable<IGrouping<TKey,T>>  
-            GroupBySequentually<T, TKey>(this IEnumerable<T> source, Func<T, TKey> selector) where TKey : class
+            GroupBySequentually<T, TKey>(this IEnumerable<T> source, Func<T, TKey> selector) where TKey : struct
         {
             Grouping<TKey, T> currentGroup = null;
             foreach (var s in source)
             {
                 var key = selector(s);
-                if (currentGroup != null && currentGroup.Key != key)
+                if (currentGroup != null && !currentGroup.Key.Equals(key))
                 {
                     yield return currentGroup;
                     currentGroup = new Grouping<TKey, T>(key);

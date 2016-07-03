@@ -44,6 +44,9 @@ namespace Core.Model
         public long ArticleId { get; set; }
         public Position ObjectPosition { get; set; }
         public Position SubjectPosition { get; set; }
+
+        public int Start { get; set; }
+        public int End { get; set; }
         public string Text { get; set; }
 
         public override bool Equals(object obj)

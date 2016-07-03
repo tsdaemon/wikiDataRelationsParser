@@ -9,9 +9,10 @@ namespace Core.Wikifile
     public class WikidumpReader : IDisposable
     {
         private StreamReader _reader;
-        private long CurrentWikiId;
+        private string CurrentWikiTitle;
         private string CurrentText;
-        private Regex xmlTag = new Regex("<(\\w+)>(.+)");
+        private Regex xmlTag = new Regex("<(\\w+)>(.+)</(\\w+)>");
+        private Regex xmlStartTag = new Regex("<(\\w+)[\\w\\s\\:\"\\=\\\\]+>(.+)");
         private Regex xmlEndTag = new Regex("(.+)</(\\w+)>");
 
         public WikidumpReader(string file)
@@ -19,24 +20,27 @@ namespace Core.Wikifile
             _reader = new StreamReader(File.OpenRead(file));
         }
 
-        public string ExtractArticleText(long id)
+        public string ExtractArticleText(string title)
         {
-            if (id != CurrentWikiId)
+            if (title != CurrentWikiTitle)
             {
+                var builder = new StringBuilder();
                 while (true)
                 {
                     var line = _reader.ReadLine();
                     if (xmlTag.IsMatch(line))
                     {
                         var match = xmlTag.Match(line);
-                        if (match.Groups.Count == 2)
+                        if (match.Groups.Count > 2)
                         {
-                            var tag = match.Groups[0].Value;
-                            if (tag == "id")
+                            var tag = match.Groups[1].Value;
+                            if (tag == "title")
                             {
-                                var id2 = long.Parse(match.Groups[1].Value);
-                                if (id2 == id)
+                                var title2 = match.Groups[2].Value;
+                                if (title2.Equals(title))
                                 {
+                                    builder.Append("  <page>\n");
+                                    builder.Append(line + "\n");
                                     break;
                                 }
                             }
@@ -48,15 +52,15 @@ namespace Core.Wikifile
                 while (true)
                 {
                     var line = _reader.ReadLine();
-                    if (xmlTag.IsMatch(line))
+                    if (xmlStartTag.IsMatch(line))
                     {
-                        var match = xmlTag.Match(line);
-                        if (match.Groups.Count == 2)
+                        var match = xmlStartTag.Match(line);
+                        if (match.Groups.Count > 2)
                         {
-                            var tag = match.Groups[0].Value;
+                            var tag = match.Groups[1].Value;
                             if (tag == "text")
                             {
-                                text.Append(match.Groups[1].Value);
+                                text.Append(match.Groups[2].Value);
                                 break;
                             }
                         }
@@ -69,22 +73,22 @@ namespace Core.Wikifile
                     if (xmlEndTag.IsMatch(line))
                     {
                         var match = xmlEndTag.Match(line);
-                        if (match.Groups.Count == 2)
+                        if (match.Groups.Count > 2)
                         {
-                            var tag = match.Groups[1].Value;
+                            var tag = match.Groups[2].Value;
                             if (tag == "text")
                             {
-                                text.Append(match.Groups[0].Value);
+                                text.Append("\n" + match.Groups[1].Value);
                                 break;
                             }
                         }
                     }
                     else
                     {
-                        text.Append(line);
+                        text.Append("\n" + line);
                     }
                 }
-                CurrentWikiId = id;
+                CurrentWikiTitle = title;
                 CurrentText = text.ToString();
             }
             return CurrentText;

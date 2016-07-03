@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Core;
 using Core.Model;
 using Core.Wikifile;
@@ -33,7 +30,7 @@ namespace UploadRelationPositionsIntersect
             var positionsSet = 0;
             using (var wikiFile = new WikidumpReader(WikidumpPath))
             {
-                foreach (var g in lines.Skip(offset).GroupBySequentually(l => l.WikiTitle))
+                foreach (var g in lines.Skip(offset).GroupBySequentually(l => l.PageId))
                 {
                     var values = g.ToArray();
                     // go through all entity combinations
@@ -47,9 +44,17 @@ namespace UploadRelationPositionsIntersect
                             {
                                 foreach (var t in triplets.Find(t => t.ObjectWikiName == entity1.EntityName
                                                                      && t.SubjectWikiName == entity2.EntityName)
-                                    .ToEnumerable())
+                                                        .ToEnumerable())
                                 {
                                     ProcessTriplet(t, entity1, entity2, triplets, wikiFile);
+                                    positionsSet++;
+                                }
+                                foreach (var t in triplets.Find(t => t.ObjectWikiName == entity2.EntityName
+                                                                     && t.SubjectWikiName == entity1.EntityName)
+                                                        .ToEnumerable())
+                                {
+                                    ProcessTriplet(t, entity2, entity1, triplets, wikiFile);
+                                    positionsSet++;
                                 }
                                 offset = IncrementOffset(offset, count, positionsSet);
                             }
@@ -74,7 +79,16 @@ namespace UploadRelationPositionsIntersect
             };
             if (t.ArticlePositions.Contains(position)) return;
 
-            var text = reader.ExtractArticleText(object_.PageId);
+            var text = reader.ExtractArticleText(object_.WikiTitle);
+            var startPosition = object_.Start < subject.Start ? object_.Start : subject.Start;
+            var endPosition = object_.End > subject.End ? object_.End : subject.End;
+
+            int newStart;
+            int newEnd;
+            position.Text = TextHelper.ExtractTextWithSentenceWindow(text, startPosition, endPosition, out newStart,
+                out newEnd);
+            position.Start = newStart;
+            position.End = newEnd;
 
             t.ArticlePositions.Add(position);
             triplets.ReplaceOne(t2 => t2.Id == t.Id, t);
