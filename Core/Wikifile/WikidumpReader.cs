@@ -12,6 +12,7 @@ namespace Core.Wikifile
         private string CurrentWikiTitle;
         private string CurrentText;
         private Regex xmlTag = new Regex("<(\\w+)>(.+)</(\\w+)>");
+        private Regex xmlStartTag = new Regex("<(\\w+)[\\w\\s\\:\"\\=\\\\]+>(.+)");
         private Regex xmlEndTag = new Regex("(.+)</(\\w+)>");
 
         public WikidumpReader(string file)
@@ -38,10 +39,29 @@ namespace Core.Wikifile
                                 var title2 = match.Groups[2].Value;
                                 if (title2.Equals(title))
                                 {
-                                    builder.Append("  <page>\r\n");
-                                    builder.Append(line + "\r\n");
+                                    builder.Append("  <page>\n");
+                                    builder.Append(line + "\n");
                                     break;
                                 }
+                            }
+                        }
+                    }
+                }
+
+                var text = new StringBuilder();
+                while (true)
+                {
+                    var line = _reader.ReadLine();
+                    if (xmlStartTag.IsMatch(line))
+                    {
+                        var match = xmlStartTag.Match(line);
+                        if (match.Groups.Count > 2)
+                        {
+                            var tag = match.Groups[1].Value;
+                            if (tag == "text")
+                            {
+                                text.Append(match.Groups[2].Value);
+                                break;
                             }
                         }
                     }
@@ -50,23 +70,26 @@ namespace Core.Wikifile
                 while (true)
                 {
                     var line = _reader.ReadLine();
-                    builder.Append(line + "\r\n");
                     if (xmlEndTag.IsMatch(line))
                     {
                         var match = xmlEndTag.Match(line);
                         if (match.Groups.Count > 2)
                         {
                             var tag = match.Groups[2].Value;
-                            if (tag == "page")
+                            if (tag == "text")
                             {
+                                text.Append("\n" + match.Groups[1].Value);
                                 break;
                             }
                         }
                     }
+                    else
+                    {
+                        text.Append("\n" + line);
+                    }
                 }
-
                 CurrentWikiTitle = title;
-                CurrentText = builder.ToString();
+                CurrentText = text.ToString();
             }
             return CurrentText;
         }
