@@ -2,6 +2,7 @@
 using System.IO;
 using System.Text;
 using System.Text.RegularExpressions;
+using System.Web;
 
 namespace Core.Wikifile
 {
@@ -24,7 +25,6 @@ namespace Core.Wikifile
         {
             if (title != CurrentWikiTitle)
             {
-                var builder = new StringBuilder();
                 while (true)
                 {
                     var line = _reader.ReadLine();
@@ -39,8 +39,6 @@ namespace Core.Wikifile
                                 var title2 = match.Groups[2].Value;
                                 if (title2.Equals(title))
                                 {
-                                    builder.Append("  <page>\n");
-                                    builder.Append(line + "\n");
                                     break;
                                 }
                             }
@@ -89,7 +87,7 @@ namespace Core.Wikifile
                     }
                 }
                 CurrentWikiTitle = title;
-                CurrentText = text.ToString();
+                CurrentText = HttpUtility.HtmlDecode(text.ToString());
             }
             return CurrentText;
         }

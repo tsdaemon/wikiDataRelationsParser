@@ -48,6 +48,7 @@ namespace Core.Model
         public int Start { get; set; }
         public int End { get; set; }
         public string Text { get; set; }
+        public int Distance { get; set; }
 
         public override bool Equals(object obj)
         {

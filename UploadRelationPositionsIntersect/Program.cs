@@ -89,6 +89,7 @@ namespace UploadRelationPositionsIntersect
                 out newEnd);
             position.Start = newStart;
             position.End = newEnd;
+            position.Distance = newEnd - newStart;
 
             t.ArticlePositions.Add(position);
             triplets.ReplaceOne(t2 => t2.Id == t.Id, t);
