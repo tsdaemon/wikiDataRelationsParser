@@ -15,10 +15,12 @@ namespace Core.Wikifile
         private Regex xmlTag = new Regex("<(\\w+)>(.+)</(\\w+)>");
         private Regex xmlStartTag = new Regex("<(\\w+)[\\w\\s\\:\"\\=\\\\]+>(.+)");
         private Regex xmlEndTag = new Regex("(.+)</(\\w+)>");
+        private string _file;
 
         public WikidumpReader(string file)
         {
-            _reader = new StreamReader(File.OpenRead(file));
+            _file = file;
+            _reader = openReader(file);
         }
 
         public string ExtractArticleText(string title)
@@ -28,6 +30,12 @@ namespace Core.Wikifile
                 while (true)
                 {
                     var line = _reader.ReadLine();
+                    if (line == null)
+                    {
+                        _reader.Dispose();
+                        _reader = openReader(_file);
+                        continue;
+                    }
                     if (xmlTag.IsMatch(line))
                     {
                         var match = xmlTag.Match(line);
@@ -90,6 +98,11 @@ namespace Core.Wikifile
                 CurrentText = HttpUtility.HtmlDecode(text.ToString());
             }
             return CurrentText;
+        }
+
+        protected StreamReader openReader(string file)
+        {
+            return new StreamReader(File.OpenRead(file));
         }
 
         public void Dispose()

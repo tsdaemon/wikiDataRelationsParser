@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
+using System.Threading;
 using Core;
 using Core.Model;
 using Core.Wikifile;
@@ -12,6 +14,8 @@ namespace UploadRelationPositionsIntersect
 {
     class Program
     {
+        private static Stopwatch _time;
+        private static int _startOffset;
         const string PositionsFilePath = "D:\\DRIVE\\ukr-ner\\linkz.csv\\linkz.csv";
         const string WikidumpPath = "D:\\DB\\ukwiki\\ukwiki-20160601-pages-articles.xml";
 
@@ -24,10 +28,13 @@ namespace UploadRelationPositionsIntersect
             var triplets = db.GetCollection<Triplet>("triplet");
             var count = GetLinesCount(PositionsFilePath, CountFilePath);
             var offset = GetOffset(OffsetFilePath);
+            _startOffset = offset;
 
             var lines = PrepareCsvReader(PositionsFilePath);
 
             var positionsSet = 0;
+            _time = new Stopwatch();
+            _time.Start();
             using (var wikiFile = new WikidumpReader(WikidumpPath))
             {
                 foreach (var g in lines.Skip(offset).GroupBySequentually(l => l.PageId))
@@ -43,23 +50,24 @@ namespace UploadRelationPositionsIntersect
                             if (entity1.EntityName != entity2.EntityName)
                             {
                                 foreach (var t in triplets.Find(t => t.ObjectWikiName == entity1.EntityName
-                                                                     && t.SubjectWikiName == entity2.EntityName)
-                                                        .ToEnumerable())
+                                                                        && t.SubjectWikiName == entity2.EntityName)
+                                    .ToEnumerable())
                                 {
                                     ProcessTriplet(t, entity1, entity2, triplets, wikiFile);
                                     positionsSet++;
                                 }
                                 foreach (var t in triplets.Find(t => t.ObjectWikiName == entity2.EntityName
-                                                                     && t.SubjectWikiName == entity1.EntityName)
-                                                        .ToEnumerable())
+                                                                        && t.SubjectWikiName == entity1.EntityName)
+                                    .ToEnumerable())
                                 {
                                     ProcessTriplet(t, entity2, entity1, triplets, wikiFile);
                                     positionsSet++;
                                 }
-                                offset = IncrementOffset(offset, count, positionsSet);
+
                             }
                         }
                     }
+                    offset = IncrementOffset(offset, values.Length, count, positionsSet);
                 }
             }
         }
@@ -67,7 +75,8 @@ namespace UploadRelationPositionsIntersect
         private static void ProcessTriplet(Triplet t, 
             PositionLine object_, 
             PositionLine subject,
-            IMongoCollection<Triplet> triplets, WikidumpReader reader)
+            IMongoCollection<Triplet> triplets, 
+            WikidumpReader reader)
         {
             if (t.ArticlePositions == null) t.ArticlePositions = new List<AnotherArticlePosition>();
             var position = new AnotherArticlePosition
@@ -92,19 +101,25 @@ namespace UploadRelationPositionsIntersect
             position.Distance = newEnd - newStart;
 
             t.ArticlePositions.Add(position);
-            triplets.ReplaceOne(t2 => t2.Id == t.Id, t);
+            try
+            {
+                triplets.ReplaceOne(t2 => t2.Id == t.Id, t);
+            }
+            catch
+            {
+                
+            }
         }
 
-        private static int IncrementOffset(int offset, int count, int positionsSet)
+        private static int IncrementOffset(int offset, int processed, int count, int positionsSet)
         {
-            offset++;
-            if (offset%1000 == 0)
+            offset += processed;
+            var time = _time.Elapsed;
+            var estimation = TimeSpan.FromMilliseconds(_time.ElapsedMilliseconds*(count/(offset - _startOffset)));
+            Console.WriteLine("{0}/{1} done, elapsed {2}, estimation {3}, positions set {4}", offset, count, time.ToString(@"hh\:mm\:ss"), estimation.ToString(@"dd\:hh"), positionsSet);
+            using (var o = new StreamWriter(File.Open(OffsetFilePath, FileMode.Create)))
             {
-                Console.WriteLine("{0}/{1} done, positions set {2}", offset, count, positionsSet);
-                using (var o = new StreamWriter(File.Open(OffsetFilePath, FileMode.Create)))
-                {
-                    o.Write(offset);
-                }
+                o.Write(offset);
             }
             return offset;
         }
