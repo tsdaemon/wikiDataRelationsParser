@@ -1,0 +1,2 @@
+﻿db.triplet.update({}, { $unset: { "WikiResult.objectLabel": "", "WikiResult.subjectLabel": "" } }, { multy: true });
+db.triplet.ensureIndex({ 'ObjectWikiName': 1, 'SubjectWikiName': 1, 'Property': 1 }, { unique: true, dropDups: true })

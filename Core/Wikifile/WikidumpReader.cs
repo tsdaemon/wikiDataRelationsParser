@@ -25,6 +25,7 @@ namespace Core.Wikifile
 
         public string ExtractArticleText(string title)
         {
+            var readed = 0;
             if (title != CurrentWikiTitle)
             {
                 while (true)
@@ -32,6 +33,12 @@ namespace Core.Wikifile
                     var line = _reader.ReadLine();
                     if (line == null)
                     {
+                        readed++;
+                        if (readed == 2)
+                        {
+                            // nothing to do there
+                            return null;
+                        }
                         _reader.Dispose();
                         _reader = openReader(_file);
                         continue;

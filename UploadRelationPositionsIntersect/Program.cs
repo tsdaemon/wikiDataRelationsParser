@@ -6,6 +6,7 @@ using System.Linq;
 using System.Threading;
 using Core;
 using Core.Model;
+using Core.Service;
 using Core.Wikifile;
 using LINQtoCSV;
 using MongoDB.Driver;
@@ -16,6 +17,10 @@ namespace UploadRelationPositionsIntersect
     {
         private static Stopwatch _time;
         private static int _startOffset;
+        private static IMongoCollection<Triplet> _triplets;
+        private static Dictionary<string, Triplet[]> _tripletsInMemory;
+        private static AsyncSaver _asyncSaver;
+
         const string PositionsFilePath = "D:\\DRIVE\\ukr-ner\\linkz.csv\\linkz.csv";
         const string WikidumpPath = "D:\\DB\\ukwiki\\ukwiki-20160601-pages-articles.xml";
 
@@ -25,7 +30,13 @@ namespace UploadRelationPositionsIntersect
         static void Main(string[] args)
         {
             var db = new MongoClient("mongodb://127.0.0.1:27017/").GetDatabase("wikidata");
-            var triplets = db.GetCollection<Triplet>("triplet");
+            _triplets = db.GetCollection<Triplet>("triplet");
+            _tripletsInMemory = _triplets.Find(r => true)
+                                         .ToEnumerable()
+                                         .GroupBy(t => t.ObjectWikiName + t.SubjectWikiName)
+                                         .ToDictionary(t => t.Key, t => t.ToArray());
+            _asyncSaver = new AsyncSaver(_triplets);
+
             var count = GetLinesCount(PositionsFilePath, CountFilePath);
             var offset = GetOffset(OffsetFilePath);
             _startOffset = offset;
@@ -49,21 +60,22 @@ namespace UploadRelationPositionsIntersect
                             var entity2 = values[j];
                             if (entity1.EntityName != entity2.EntityName)
                             {
-                                foreach (var t in triplets.Find(t => t.ObjectWikiName == entity1.EntityName
-                                                                        && t.SubjectWikiName == entity2.EntityName)
-                                    .ToEnumerable())
+                                if (_tripletsInMemory.ContainsKey(entity1.EntityName + entity2.EntityName))
                                 {
-                                    ProcessTriplet(t, entity1, entity2, triplets, wikiFile);
-                                    positionsSet++;
+                                    foreach (var t in _tripletsInMemory[entity1.EntityName + entity2.EntityName])
+                                    {
+                                        ProcessTriplet(t, entity1, entity2, wikiFile);
+                                        positionsSet++;
+                                    }
                                 }
-                                foreach (var t in triplets.Find(t => t.ObjectWikiName == entity2.EntityName
-                                                                        && t.SubjectWikiName == entity1.EntityName)
-                                    .ToEnumerable())
+                                if (_tripletsInMemory.ContainsKey(entity2.EntityName + entity1.EntityName))
                                 {
-                                    ProcessTriplet(t, entity2, entity1, triplets, wikiFile);
-                                    positionsSet++;
+                                    foreach (var t in _tripletsInMemory[entity2.EntityName + entity1.EntityName])
+                                    {
+                                        ProcessTriplet(t, entity2, entity1, wikiFile);
+                                        positionsSet++;
+                                    }
                                 }
-
                             }
                         }
                     }
@@ -75,7 +87,6 @@ namespace UploadRelationPositionsIntersect
         private static void ProcessTriplet(Triplet t, 
             PositionLine object_, 
             PositionLine subject,
-            IMongoCollection<Triplet> triplets, 
             WikidumpReader reader)
         {
             if (t.ArticlePositions == null) t.ArticlePositions = new List<AnotherArticlePosition>();
@@ -89,6 +100,7 @@ namespace UploadRelationPositionsIntersect
             if (t.ArticlePositions.Contains(position)) return;
 
             var text = reader.ExtractArticleText(object_.WikiTitle);
+            if (text == null) return;
             var startPosition = object_.Start < subject.Start ? object_.Start : subject.Start;
             var endPosition = object_.End > subject.End ? object_.End : subject.End;
 
@@ -101,14 +113,8 @@ namespace UploadRelationPositionsIntersect
             position.Distance = newEnd - newStart;
 
             t.ArticlePositions.Add(position);
-            try
-            {
-                triplets.ReplaceOne(t2 => t2.Id == t.Id, t);
-            }
-            catch
-            {
-                
-            }
+            
+            _asyncSaver.Save(t);
         }
 
         private static int IncrementOffset(int offset, int processed, int count, int positionsSet)
