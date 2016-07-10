@@ -57,6 +57,7 @@
   <ItemGroup>
     <Compile Include="DataSource\IDataSource.cs" />
     <Compile Include="DataSource\MongoDataSource.cs" />
+    <Compile Include="ExceptionHelper.cs" />
     <Compile Include="PathHelper.cs" />
     <Compile Include="Service\AsyncSaver.cs" />
     <Compile Include="TextHelper.cs" />

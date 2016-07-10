@@ -21,6 +21,10 @@ namespace Core.Model
             Positions = new List<Position>();
             ArticlePositions = new List<AnotherArticlePosition>();
         }
+        public override bool Equals(object obj)
+        {
+            return (obj as Triplet).Id == Id;
+        }
     }
 
     public class Position

@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Concurrent;
+using System.Linq;
 using System.Threading;
 using Core.Model;
+using MongoDB.Bson;
 using MongoDB.Driver;
 
 namespace Core.Service
@@ -11,11 +13,13 @@ namespace Core.Service
         private IMongoCollection<Triplet> _triplets;
         private ConcurrentQueue<Triplet> _queue;
         private Thread _thread;
+        private ConcurrentDictionary<ObjectId, int> _dictionary;
 
         public AsyncSaver(IMongoCollection<Triplet> triplets)
         {
             _triplets = triplets;
             _queue = new ConcurrentQueue<Triplet>();
+            _dictionary = new ConcurrentDictionary<ObjectId, int>();
 
             _thread = new Thread(Go);
             _thread.Start();
@@ -24,7 +28,9 @@ namespace Core.Service
         public void Save(Triplet t)
         {
             _queue.Enqueue(t);
+            _dictionary.AddOrUpdate(t.Id, 1, (id,inc) => inc++);
         }
+
 
         public void Dispose()
         {
@@ -39,22 +45,39 @@ namespace Core.Service
         {
             while (true)
             {
-                while (_queue.IsEmpty)
+                var next = GetNext();
+                try
                 {
+                    _triplets.ReplaceOne(t => t.Id == next.Id, next);
+                }
+                catch (Exception ex)
+                {
+                    ExceptionHelper.OutputException(ex);
+                }
+            }
+        }
 
-                }
+        private Triplet GetNext()
+        {
+            while (_queue.IsEmpty)
+            {
+                Thread.Sleep(100);
+            }
+            
+            while(true)
+            {
                 Triplet retValue;
-                if(_queue.TryDequeue(out retValue))
+                if (_queue.TryDequeue(out retValue))
                 {
-                    try
+                    var inQueue = _dictionary[retValue.Id];
+                    inQueue--;
+                    var update = _dictionary.TryUpdate(retValue.Id, inQueue, inQueue + 1);
+                    if (update && inQueue == 0)
                     {
-                        _triplets.ReplaceOne(t => t.Id == retValue.Id, retValue);
-                    }
-                    catch
-                    {
-                        
+                        return retValue;
                     }
                 }
+                if (_queue.IsEmpty) Thread.Sleep(100);
             }
         }
     }
