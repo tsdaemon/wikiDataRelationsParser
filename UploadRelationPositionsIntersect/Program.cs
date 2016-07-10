@@ -18,7 +18,6 @@ namespace UploadRelationPositionsIntersect
         private static Stopwatch _time;
         private static int _startOffset;
         private static IMongoCollection<Triplet> _triplets;
-        private static Dictionary<string, Triplet[]> _tripletsInMemory;
         private static AsyncSaver _asyncSaver;
 
         const string PositionsFilePath = "D:\\DRIVE\\ukr-ner\\linkz.csv\\linkz.csv";
@@ -30,12 +29,8 @@ namespace UploadRelationPositionsIntersect
 
         static void Main(string[] args)
         {
-            var db = new MongoClient("mongodb://127.0.0.1:27017/").GetDatabase("wikidata");
+            var db = new MongoClient(new MongoClientSettings { Server = new MongoServerAddress("127.0.0.1", 27017),ServerSelectionTimeout = new TimeSpan(0,3,0) }).GetDatabase("wikidata");
             _triplets = db.GetCollection<Triplet>("triplet");
-            _tripletsInMemory = _triplets.Find(r => true)
-                                         .ToEnumerable()
-                                         .GroupBy(t => t.ObjectWikiName + t.SubjectWikiName)
-                                         .ToDictionary(t => t.Key, t => t.ToArray());
             _asyncSaver = new AsyncSaver(_triplets);
 
             var count = GetLinesCount(PositionsFilePath, CountFilePath);
@@ -61,22 +56,23 @@ namespace UploadRelationPositionsIntersect
                             var entity2 = values[j];
                             if (entity1.EntityName != entity2.EntityName)
                             {
-                                if (_tripletsInMemory.ContainsKey(entity1.EntityName + entity2.EntityName))
+                                foreach (var t in _triplets
+                                    .Find(t => t.ObjectWikiName == entity1.EntityName && t.SubjectWikiName == entity2.EntityName)
+                                    .ToEnumerable())
                                 {
-                                    foreach (var t in _tripletsInMemory[entity1.EntityName + entity2.EntityName])
-                                    {
-                                        ProcessTriplet(t, entity1, entity2, wikiFile);
-                                        positionsSet++;
-                                    }
+
+                                    ProcessTriplet(t, entity1, entity2, wikiFile);
+                                    positionsSet++;
                                 }
-                                if (_tripletsInMemory.ContainsKey(entity2.EntityName + entity1.EntityName))
+                               
+                                foreach (var t in _triplets
+                                    .Find(t => t.ObjectWikiName == entity2.EntityName && t.SubjectWikiName == entity1.EntityName)
+                                    .ToEnumerable())
                                 {
-                                    foreach (var t in _tripletsInMemory[entity2.EntityName + entity1.EntityName])
-                                    {
-                                        ProcessTriplet(t, entity2, entity1, wikiFile);
-                                        positionsSet++;
-                                    }
+                                    ProcessTriplet(t, entity2, entity1, wikiFile);
+                                    positionsSet++;
                                 }
+                                
                             }
                         }
                     }
