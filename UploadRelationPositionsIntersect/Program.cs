@@ -22,7 +22,8 @@ namespace UploadRelationPositionsIntersect
         private static AsyncSaver _asyncSaver;
 
         const string PositionsFilePath = "D:\\DRIVE\\ukr-ner\\linkz.csv\\linkz.csv";
-        const string WikidumpPath = "D:\\DB\\ukwiki\\ukwiki-20160601-pages-articles.xml";
+        //const string WikidumpPath = "D:\\DB\\ukwiki\\ukwiki-20160601-pages-articles.xml";
+        const string WikidumpPath = "C:\\DB\\uk-wiki\\";
 
         const string OffsetFilePath = "offset.txt";
         const string CountFilePath = "count.txt";
@@ -46,7 +47,7 @@ namespace UploadRelationPositionsIntersect
             var positionsSet = 0;
             _time = new Stopwatch();
             _time.Start();
-            using (var wikiFile = new WikidumpReader(WikidumpPath))
+            using (var wikiFile = new WikidumpFromFilesReader(WikidumpPath))
             {
                 foreach (var g in lines.Skip(offset).GroupBySequentually(l => l.PageId))
                 {
@@ -87,7 +88,7 @@ namespace UploadRelationPositionsIntersect
         private static void ProcessTriplet(Triplet t, 
             PositionLine object_, 
             PositionLine subject,
-            WikidumpReader reader)
+            IWikidumpReader reader)
         {
             if (t.ArticlePositions == null) t.ArticlePositions = new List<AnotherArticlePosition>();
             var position = new AnotherArticlePosition
@@ -99,7 +100,7 @@ namespace UploadRelationPositionsIntersect
             };
             if (t.ArticlePositions.Contains(position)) return;
 
-            var text = reader.ExtractArticleText(object_.WikiTitle);
+            var text = reader.ExtractArticleText(object_.PageId);
             if (text == null) return;
             var startPosition = object_.Start < subject.Start ? object_.Start : subject.Start;
             var endPosition = object_.End > subject.End ? object_.End : subject.End;

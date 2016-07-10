@@ -48,7 +48,7 @@ namespace Core.Service
                 {
                     try
                     {
-                        _triplets.ReplaceOneAsync(t => t.Id == retValue.Id, retValue);
+                        _triplets.ReplaceOne(t => t.Id == retValue.Id, retValue);
                     }
                     catch
                     {

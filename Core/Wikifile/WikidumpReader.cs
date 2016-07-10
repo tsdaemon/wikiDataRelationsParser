@@ -7,7 +7,7 @@ using System.Web;
 namespace Core.Wikifile
 {
     // reads only in forward direction
-    public class WikidumpReader : IDisposable
+    public class WikidumpReader : IDisposable, IWikidumpReader
     {
         private StreamReader _reader;
         private string CurrentWikiTitle;
@@ -105,6 +105,11 @@ namespace Core.Wikifile
                 CurrentText = HttpUtility.HtmlDecode(text.ToString());
             }
             return CurrentText;
+        }
+
+        public string ExtractArticleText(long pageid)
+        {
+            throw new NotImplementedException();
         }
 
         protected StreamReader openReader(string file)

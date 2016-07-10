@@ -36,6 +36,19 @@ namespace Core
             }
             yield return currentGroup;
         }
+
+        public static int CollectionCount<T>(this IList<T> list, Func<T, bool> predicate)
+        {
+            var count = 0;
+            for (var i = 0; i < list.Count; i++)
+            {
+                if (predicate(list[i]))
+                {
+                    count++;
+                }
+            }
+            return count;
+        }
     }
 
     public class Grouping<TKey, T> : IGrouping<TKey, T>
