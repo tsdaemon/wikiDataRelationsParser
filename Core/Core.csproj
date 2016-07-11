@@ -55,6 +55,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bson\TripletBsonSerializer.cs" />
     <Compile Include="DataSource\IDataSource.cs" />
     <Compile Include="DataSource\MongoDataSource.cs" />
     <Compile Include="ExceptionHelper.cs" />
