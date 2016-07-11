@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Concurrent;
-using System.Linq;
 using System.Threading;
 using Core.Model;
 using MongoDB.Bson;
@@ -69,12 +68,20 @@ namespace Core.Service
                 Triplet retValue;
                 if (_queue.TryDequeue(out retValue))
                 {
-                    var inQueue = _dictionary[retValue.Id];
-                    inQueue--;
-                    var update = _dictionary.TryUpdate(retValue.Id, inQueue, inQueue + 1);
-                    if (update && inQueue == 0)
+                    int inQueue;
+                    if (!_dictionary.TryGetValue(retValue.Id, out inQueue))
                     {
                         return retValue;
+                    }
+                    else
+                    {
+                        inQueue--;
+                        var update = _dictionary.TryUpdate(retValue.Id, inQueue, inQueue + 1);
+
+                        if (update && inQueue == 0)
+                        {
+                            return retValue;
+                        }
                     }
                 }
                 if (_queue.IsEmpty) Thread.Sleep(100);
