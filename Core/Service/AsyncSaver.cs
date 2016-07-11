@@ -10,24 +10,21 @@ namespace Core.Service
     public class AsyncSaver : IDisposable
     {
         private IMongoCollection<Triplet> _triplets;
-        private ConcurrentQueue<Triplet> _queue;
+        private ConcurrentQueue<Tuple<ObjectId, AnotherArticlePosition>> _queue;
         private Thread _thread;
-        private ConcurrentDictionary<ObjectId, int> _dictionary;
 
         public AsyncSaver(IMongoCollection<Triplet> triplets)
         {
             _triplets = triplets;
-            _queue = new ConcurrentQueue<Triplet>();
-            _dictionary = new ConcurrentDictionary<ObjectId, int>();
+            _queue = new ConcurrentQueue<Tuple<ObjectId, AnotherArticlePosition>>();
 
             _thread = new Thread(Go);
             _thread.Start();
         }
 
-        public void Save(Triplet t)
+        public void Save(Triplet t, AnotherArticlePosition position)
         {
-            _queue.Enqueue(t);
-            _dictionary.AddOrUpdate(t.Id, 1, (id,inc) => inc++);
+            _queue.Enqueue(Tuple.Create(t.Id, position));
         }
 
 
@@ -47,7 +44,9 @@ namespace Core.Service
                 var next = GetNext();
                 try
                 {
-                    _triplets.ReplaceOne(t => t.Id == next.Id, next);
+                    var filter = Builders<Triplet>.Filter.Eq(t => t.Id, next.Item1);
+                    var update = Builders<Triplet>.Update.Push(x => x.ArticlePositions, next.Item2);
+                    _triplets.UpdateOneAsync(filter, update);
                 }
                 catch (Exception ex)
                 {
@@ -56,7 +55,7 @@ namespace Core.Service
             }
         }
 
-        private Triplet GetNext()
+        private Tuple<ObjectId, AnotherArticlePosition> GetNext()
         {
             while (_queue.IsEmpty)
             {
@@ -65,24 +64,10 @@ namespace Core.Service
             
             while(true)
             {
-                Triplet retValue;
+                Tuple<ObjectId, AnotherArticlePosition> retValue;
                 if (_queue.TryDequeue(out retValue))
                 {
-                    int inQueue;
-                    if (!_dictionary.TryGetValue(retValue.Id, out inQueue))
-                    {
-                        return retValue;
-                    }
-                    else
-                    {
-                        inQueue--;
-                        var update = _dictionary.TryUpdate(retValue.Id, inQueue, inQueue + 1);
-
-                        if (update && inQueue == 0)
-                        {
-                            return retValue;
-                        }
-                    }
+                    return retValue;
                 }
                 if (_queue.IsEmpty) Thread.Sleep(100);
             }

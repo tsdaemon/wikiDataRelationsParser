@@ -32,10 +32,7 @@ namespace UploadRelationPositionsIntersect
         {
             var db = new MongoClient("mongodb://127.0.0.1:27017/").GetDatabase("wikidata");
             _triplets = db.GetCollection<Triplet>("triplet");
-            _tripletsInMemory = _triplets.Find(r => true)
-                                         .ToEnumerable()
-                                         .GroupBy(t => t.ObjectWikiName + t.SubjectWikiName)
-                                         .ToDictionary(t => t.Key, t => t.ToArray());
+            _tripletsInMemory = GetTripletsCache(_triplets);
             _asyncSaver = new AsyncSaver(_triplets);
 
             var count = GetLinesCount(PositionsFilePath, CountFilePath);
@@ -85,6 +82,18 @@ namespace UploadRelationPositionsIntersect
             }
         }
 
+        private static Dictionary<string, Triplet[]> GetTripletsCache(IMongoCollection<Triplet> triplets)
+        {
+            var fields = Builders<Triplet>.Projection.Exclude(t => t.ArticlePositions[-1].Text);
+            return _triplets
+                .Find(r => true)
+                .Project(fields)
+                .As<Triplet>()
+                .ToEnumerable()
+                .GroupBy(t => t.ObjectWikiName + t.SubjectWikiName)
+                .ToDictionary(t => t.Key, t => t.ToArray());
+        }
+
         private static void ProcessTriplet(Triplet t, 
             PositionLine object_, 
             PositionLine subject,
@@ -113,9 +122,7 @@ namespace UploadRelationPositionsIntersect
             position.End = newEnd;
             position.Distance = newEnd - newStart;
 
-            t.ArticlePositions.Add(position);
-            
-            _asyncSaver.Save(t);
+            _asyncSaver.Save(t, position);
         }
 
         private static int IncrementOffset(int offset, int processed, int count, int positionsSet)
