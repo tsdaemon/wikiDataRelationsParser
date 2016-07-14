@@ -7,7 +7,7 @@ using MongoDB.Driver;
 
 namespace Core.Service
 {
-    public class AsyncSaver : IDisposable
+    public class AsyncSaver
     {
         private IMongoCollection<Triplet> _triplets;
         private ConcurrentQueue<Tuple<ObjectId, AnotherArticlePosition>> _queue;
@@ -25,16 +25,6 @@ namespace Core.Service
         public void Save(Triplet t, AnotherArticlePosition position)
         {
             _queue.Enqueue(Tuple.Create(t.Id, position));
-        }
-
-
-        public void Dispose()
-        {
-            while (_queue.Count > 0)
-            {
-                Thread.Sleep(100);
-            }
-            _thread.Abort();
         }
 
         private void Go()

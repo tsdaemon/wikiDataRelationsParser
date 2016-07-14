@@ -56,6 +56,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algo\AlgoBase.cs" />
+    <Compile Include="Algo\AlgoEvent.cs" />
+    <Compile Include="Algo\AlgoInDb.cs" />
+    <Compile Include="Algo\AlgoInMemory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
