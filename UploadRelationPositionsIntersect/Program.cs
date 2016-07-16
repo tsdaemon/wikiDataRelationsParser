@@ -23,6 +23,7 @@ namespace UploadRelationPositionsIntersect
 
         const string OffsetFilePath = "offset.txt";
         const string CountFilePath = "count.txt";
+        private static int _positionsSet;
 
         static void Main(string[] args)
         {
@@ -33,13 +34,17 @@ namespace UploadRelationPositionsIntersect
 
             _count = GetLinesCount(PositionsFilePath, CountFilePath);
             _offset = GetOffset(OffsetFilePath);
+            _positionsSet = 0;
             _startOffset = _offset;
             _timer = new Stopwatch();
             
             using (var wikiFile = new WikidumpFromFilesReader(WikidumpPath))
             {
-                var algo = new AlgoInDb(asyncSaver, wikiFile, triplets, PositionsFilePath);
+                var algo = new AlgoInMemory(asyncSaver, wikiFile, triplets, PositionsFilePath);
+
+                _timer.Start();
                 algo.OnProcessed += algo_OnProcessed;
+                algo.Process(_offset);
             }
             
         }
@@ -47,13 +52,14 @@ namespace UploadRelationPositionsIntersect
         static void algo_OnProcessed(AlgoProcessedEvent ev)
         {
             _offset += ev.LinesDone;
-            Report(_offset, ev.LinesDone, _count, ev.PositionsSet);
+            _positionsSet += ev.PositionsSet;
+            Report(_offset, _offset-_startOffset, _count, _positionsSet);
         }
 
         private static void Report(int offset, int processed, int count, int positionsSet)
         {
             var time = _timer.Elapsed;
-            var estimation = TimeSpan.FromMilliseconds(_timer.ElapsedMilliseconds*(count/(offset - _startOffset)));
+            var estimation = TimeSpan.FromMilliseconds(_timer.ElapsedMilliseconds * ((count - offset) / processed));
             Console.WriteLine("{0}/{1} done, elapsed {2}, estimation {3}, positions set {4}", offset, count, time.ToString(@"hh\:mm\:ss"), estimation.ToString(@"dd\:hh"), positionsSet);
             using (var o = new StreamWriter(File.Open(OffsetFilePath, FileMode.Create)))
             {
