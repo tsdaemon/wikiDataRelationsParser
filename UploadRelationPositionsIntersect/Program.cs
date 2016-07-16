@@ -19,7 +19,8 @@ namespace UploadRelationPositionsIntersect
         private static Stopwatch _timer;
 
         const string PositionsFilePath = "D:\\DRIVE\\ukr-ner\\linkz.csv\\linkz.csv";
-        const string WikidumpPath = "C:\\DB\\uk-wiki\\";
+        //const string WikidumpPath = "C:\\DB\\uk-wiki\\";
+        const string WikidumpPath = "C:\\DB\\ukwiki-20160601-pages-articles.xml";
 
         const string OffsetFilePath = "offset.txt";
         const string CountFilePath = "count.txt";
@@ -37,8 +38,8 @@ namespace UploadRelationPositionsIntersect
             _positionsSet = 0;
             _startOffset = _offset;
             _timer = new Stopwatch();
-            
-            using (var wikiFile = new WikidumpFromFilesReader(WikidumpPath))
+
+            using (var wikiFile = new WikidumpReader(WikidumpPath))
             {
                 var algo = new AlgoInMemory(asyncSaver, wikiFile, triplets, PositionsFilePath);
 

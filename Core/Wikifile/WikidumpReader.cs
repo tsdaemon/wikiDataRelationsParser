@@ -1,21 +1,20 @@
 ﻿using System;
 using System.IO;
 using System.Text;
-using System.Text.RegularExpressions;
 using System.Web;
+using System.Xml;
 
 namespace Core.Wikifile
 {
     // reads only in forward direction
     public class WikidumpReader : IDisposable, IWikidumpReader
     {
-        private StreamReader _reader;
+        private XmlReader _reader;
         private string CurrentWikiTitle;
+        private int CurrentWikiId;
         private string CurrentText;
-        private Regex xmlTag = new Regex("<(\\w+)>(.+)</(\\w+)>");
-        private Regex xmlStartTag = new Regex("<(\\w+)[\\w\\s\\:\"\\=\\\\]+>(.+)");
-        private Regex xmlEndTag = new Regex("(.+)</(\\w+)>");
         private string _file;
+        private int _parsed;
 
         public WikidumpReader(string file)
         {
@@ -25,96 +24,59 @@ namespace Core.Wikifile
 
         public string ExtractArticleText(string title)
         {
-            var readed = 0;
+            _parsed = 0;
             if (title != CurrentWikiTitle)
             {
-                while (true)
+                while (title != CurrentWikiTitle && CheckEnd())
                 {
-                    var line = _reader.ReadLine();
-                    if (line == null)
-                    {
-                        readed++;
-                        if (readed == 2)
-                        {
-                            // nothing to do there
-                            return null;
-                        }
-                        _reader.Dispose();
-                        _reader = openReader(_file);
-                        continue;
-                    }
-                    if (xmlTag.IsMatch(line))
-                    {
-                        var match = xmlTag.Match(line);
-                        if (match.Groups.Count > 2)
-                        {
-                            var tag = match.Groups[1].Value;
-                            if (tag == "title")
-                            {
-                                var title2 = match.Groups[2].Value;
-                                if (title2.Equals(title))
-                                {
-                                    break;
-                                }
-                            }
-                        }
-                    }
-                }
+                    _reader.ReadToFollowing("page");
 
-                var text = new StringBuilder();
-                while (true)
-                {
-                    var line = _reader.ReadLine();
-                    if (xmlStartTag.IsMatch(line))
-                    {
-                        var match = xmlStartTag.Match(line);
-                        if (match.Groups.Count > 2)
-                        {
-                            var tag = match.Groups[1].Value;
-                            if (tag == "text")
-                            {
-                                text.Append(match.Groups[2].Value);
-                                break;
-                            }
-                        }
-                    }
+                    _reader.ReadToDescendant("title");
+                    CurrentWikiTitle = _reader.ReadElementContentAsString();
                 }
-
-                while (true)
-                {
-                    var line = _reader.ReadLine();
-                    if (xmlEndTag.IsMatch(line))
-                    {
-                        var match = xmlEndTag.Match(line);
-                        if (match.Groups.Count > 2)
-                        {
-                            var tag = match.Groups[2].Value;
-                            if (tag == "text")
-                            {
-                                text.Append("\n" + match.Groups[1].Value);
-                                break;
-                            }
-                        }
-                    }
-                    else
-                    {
-                        text.Append("\n" + line);
-                    }
-                }
-                CurrentWikiTitle = title;
-                CurrentText = HttpUtility.HtmlDecode(text.ToString());
+                _reader.ReadToFollowing("text");
+                CurrentText = _reader.ReadElementContentAsString();
             }
             return CurrentText;
         }
 
         public string ExtractArticleText(long pageid)
         {
-            throw new NotImplementedException();
+            _parsed = 0;
+            if (pageid != CurrentWikiId)
+            {
+                while (pageid != CurrentWikiId && CheckEnd())
+                {
+                    _reader.ReadToFollowing("page");
+
+                    _reader.ReadToDescendant("id");
+                    CurrentWikiId = _reader.ReadElementContentAsInt();
+                }
+                _reader.ReadToFollowing("text");
+                CurrentText = _reader.ReadElementContentAsString();
+            }
+            return CurrentText;
         }
 
-        protected StreamReader openReader(string file)
+        private bool CheckEnd()
         {
-            return new StreamReader(File.OpenRead(file));
+            if (_reader.EOF)
+            {
+                _reader = openReader(_file);
+                if (_parsed > 0)
+                    return false;
+                else
+                {
+                    _parsed++;
+                    return true;
+                }
+            }
+            return true;
+        }
+
+        private XmlReader openReader(string file)
+        {
+            return XmlReader.Create(new StreamReader(File.OpenRead(file), Encoding.UTF8), new XmlReaderSettings {});
         }
 
         public void Dispose()
