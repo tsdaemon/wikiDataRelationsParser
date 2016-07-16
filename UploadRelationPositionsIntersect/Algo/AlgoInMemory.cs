@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Core;
 using Core.Model;
 using Core.Service;
 using Core.Wikifile;
@@ -10,7 +9,7 @@ namespace UploadRelationPositionsIntersect.Algo
 {
     public class AlgoInMemory : AlgoBase
     {
-        private Dictionary<string, Triplet[]> _tripletsInMemory;
+        private Dictionary<string, TripletMini[]> _tripletsInMemory;
 
         public AlgoInMemory(AsyncSaver saver, IWikidumpReader wikiReader, IMongoCollection<Triplet> triplets, string positionsPath) 
             : base(saver, wikiReader, triplets, positionsPath)
@@ -18,33 +17,41 @@ namespace UploadRelationPositionsIntersect.Algo
             _tripletsInMemory = GetTripletsCache();
         }
 
-        protected override void ProcessPair(PositionLine entity1, PositionLine entity2)
+        protected override int ProcessPair(PositionLine entity1, PositionLine entity2)
         {
-            if (_tripletsInMemory.ContainsKey(entity1.EntityName + entity2.EntityName))
+            var p = 0;
+            TripletMini[] array;
+
+            if (_tripletsInMemory.TryGetValue(entity1.EntityName + entity2.EntityName, out array))
             {
-                foreach (var t in _tripletsInMemory[entity1.EntityName + entity2.EntityName])
+                foreach (var t in array)
                 {
-                    ProcessTriplet(t, entity1, entity2, _wikiReader);
-                    _positionsSet++;
+                    ProcessTriplet(t.Id, entity1, entity2, _wikiReader);
+                    p++;
                 }
             }
-            if (_tripletsInMemory.ContainsKey(entity2.EntityName + entity1.EntityName))
+
+            if (_tripletsInMemory.TryGetValue(entity2.EntityName + entity1.EntityName, out array))
             {
-                foreach (var t in _tripletsInMemory[entity2.EntityName + entity1.EntityName])
+                foreach (var t in array)
                 {
-                    ProcessTriplet(t, entity2, entity1, _wikiReader);
-                    _positionsSet++;
+                    ProcessTriplet(t.Id, entity2, entity1, _wikiReader);
+                    p++;
                 }
             }
+            return p;
         }
 
-        private Dictionary<string, Triplet[]> GetTripletsCache()
+        private Dictionary<string, TripletMini[]> GetTripletsCache()
         {
-            var fields = Builders<Triplet>.Projection.Exclude(t => t.ArticlePositions[-1].Text);
+            var fields = Builders<Triplet>.Projection
+                .Include(t => t.Id)
+                .Include(t => t.ObjectWikiName)
+                .Include(t => t.SubjectWikiName);
             return _triplets
                 .Find(r => true)
                 .Project(fields)
-                .As<Triplet>()
+                .As<TripletMini>()
                 .ToEnumerable()
                 .GroupBy(t => t.ObjectWikiName + t.SubjectWikiName)
                 .ToDictionary(t => t.Key, t => t.ToArray());

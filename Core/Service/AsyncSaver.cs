@@ -22,9 +22,9 @@ namespace Core.Service
             _thread.Start();
         }
 
-        public void Save(Triplet t, AnotherArticlePosition position)
+        public void Save(ObjectId id, AnotherArticlePosition position)
         {
-            _queue.Enqueue(Tuple.Create(t.Id, position));
+            _queue.Enqueue(Tuple.Create(id, position));
         }
 
         private void Go()

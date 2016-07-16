@@ -1,14 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Core;
 using Core.Model;
 using Core.Service;
 using Core.Wikifile;
 using LINQtoCSV;
+using MongoDB.Bson;
 using MongoDB.Driver;
 
 namespace UploadRelationPositionsIntersect.Algo
@@ -19,7 +16,6 @@ namespace UploadRelationPositionsIntersect.Algo
         protected IWikidumpReader _wikiReader;
         protected IMongoCollection<Triplet> _triplets;
         protected IEnumerable<PositionLine> _positions;
-        protected int _positionsSet;
 
         protected AlgoBase(AsyncSaver saver, 
             IWikidumpReader wikiReader, 
@@ -34,11 +30,11 @@ namespace UploadRelationPositionsIntersect.Algo
 
         public void Process(int offset)
         {
-            var linesDone = 0;
-            _positionsSet = 0;
+            
             foreach (var g in _positions.Skip(offset).GroupBySequentually(l => l.PageId))
             {
                 var values = g.ToArray();
+                var positionsSet = 0;
                 for (var i = 0; i < values.Length; i++)
                 {
                     for (var j = i + 1; j < values.Length; j++)
@@ -47,13 +43,12 @@ namespace UploadRelationPositionsIntersect.Algo
                         var entity2 = values[j];
                         if (entity1.EntityName != entity2.EntityName)
                         {
-                            ProcessPair(entity1, entity2);
+                            positionsSet += ProcessPair(entity1, entity2);
                         }
                     }
                 }
 
-                linesDone += values.Length;
-                ProcessOffset(linesDone, _positionsSet);
+                ProcessOffset(values.Length, positionsSet);
             }
         }
 
@@ -61,7 +56,7 @@ namespace UploadRelationPositionsIntersect.Algo
 
         public event Processed OnProcessed;
 
-        protected abstract void ProcessPair(PositionLine entity1, PositionLine entity2);
+        protected abstract int ProcessPair(PositionLine entity1, PositionLine entity2);
 
         protected void ProcessOffset(int done, int positions)
         {
@@ -87,12 +82,11 @@ namespace UploadRelationPositionsIntersect.Algo
             return cc.Read<PositionLine>(file, inputFileDescription);
         }
 
-        protected void ProcessTriplet(Triplet t,
+        protected void ProcessTriplet(ObjectId id,
             PositionLine object_,
             PositionLine subject,
             IWikidumpReader reader)
         {
-            if (t.ArticlePositions == null) t.ArticlePositions = new List<AnotherArticlePosition>();
             var position = new AnotherArticlePosition
             {
                 ArticleTitle = object_.WikiTitle,
@@ -100,7 +94,6 @@ namespace UploadRelationPositionsIntersect.Algo
                 ObjectPosition = object_.ToPosition(),
                 SubjectPosition = subject.ToPosition()
             };
-            if (t.ArticlePositions.Contains(position)) return;
 
             var text = reader.ExtractArticleText(object_.PageId);
             if (text == null) return;
@@ -115,7 +108,7 @@ namespace UploadRelationPositionsIntersect.Algo
             position.End = newEnd;
             position.Distance = newEnd - newStart;
 
-            _saver.Save(t, position);
+            _saver.Save(id, position);
         }
     }
 }

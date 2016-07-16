@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
 
 namespace Core.Model
 {
@@ -26,6 +27,14 @@ namespace Core.Model
         {
             return (obj as Triplet).Id == Id;
         }
+    }
+
+    [BsonIgnoreExtraElements]
+    public class TripletMini
+    {
+        public ObjectId Id { get; set; }
+        public string ObjectWikiName { get; set; }
+        public string SubjectWikiName { get; set; }
     }
 
     public class Position

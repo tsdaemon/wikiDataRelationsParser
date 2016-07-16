@@ -12,14 +12,15 @@ namespace UploadRelationPositionsIntersect.Algo
         {
         }
 
-        protected override void ProcessPair(PositionLine entity1, PositionLine entity2)
+        protected override int ProcessPair(PositionLine entity1, PositionLine entity2)
         {
+            var p = 0;
             foreach (var t in _triplets
                 .Find(t => t.ObjectWikiName == entity1.EntityName && t.SubjectWikiName == entity2.EntityName)
                 .ToEnumerable())
             {
-                ProcessTriplet(t, entity1, entity2, _wikiReader);
-                _positionsSet++;
+                ProcessTriplet(t.Id, entity1, entity2, _wikiReader);
+                p++;
 
             }
 
@@ -27,10 +28,11 @@ namespace UploadRelationPositionsIntersect.Algo
                 .Find(t => t.ObjectWikiName == entity2.EntityName && t.SubjectWikiName == entity1.EntityName)
                 .ToEnumerable())
             {
-                ProcessTriplet(t, entity2, entity1, _wikiReader);
-                _positionsSet++;
+                ProcessTriplet(t.Id, entity2, entity1, _wikiReader);
+                p++;
 
             }
+            return p;
         }
     }
 }
