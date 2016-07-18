@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Concurrent;
+using System.Collections.Generic;
+using System.Linq;
 using System.Threading;
 using Core.Model;
 using MongoDB.Bson;
@@ -9,14 +11,18 @@ namespace Core.Service
 {
     public class AsyncSaver
     {
+        public int InQueue { get { return _dic.Count; } }
+
         private IMongoCollection<Triplet> _triplets;
-        private ConcurrentQueue<Tuple<ObjectId, AnotherArticlePosition>> _queue;
+        private ConcurrentDictionary<ObjectId, List<AnotherArticlePosition>> _dic;
         private Thread _thread;
+
+        private static readonly Object obj = new object();
 
         public AsyncSaver(IMongoCollection<Triplet> triplets)
         {
             _triplets = triplets;
-            _queue = new ConcurrentQueue<Tuple<ObjectId, AnotherArticlePosition>>();
+            _dic = new ConcurrentDictionary<ObjectId, List<AnotherArticlePosition>>();
 
             _thread = new Thread(Go);
             _thread.Start();
@@ -24,7 +30,14 @@ namespace Core.Service
 
         public void Save(ObjectId id, AnotherArticlePosition position)
         {
-            _queue.Enqueue(Tuple.Create(id, position));
+            lock (obj)
+            {
+                _dic.AddOrUpdate(id, new List<AnotherArticlePosition> {position}, (i, ls) =>
+                {
+                    ls.Add(position);
+                    return ls;
+                });
+            }
         }
 
         private void Go()
@@ -35,7 +48,7 @@ namespace Core.Service
                 try
                 {
                     var filter = Builders<Triplet>.Filter.Eq(t => t.Id, next.Item1);
-                    var update = Builders<Triplet>.Update.Push(x => x.ArticlePositions, next.Item2);
+                    var update = Builders<Triplet>.Update.PushEach(x => x.ArticlePositions, next.Item2);
                     _triplets.UpdateOneAsync(filter, update);
                 }
                 catch (Exception ex)
@@ -45,22 +58,31 @@ namespace Core.Service
             }
         }
 
-        private Tuple<ObjectId, AnotherArticlePosition> GetNext()
+        private Tuple<ObjectId, AnotherArticlePosition[]> GetNext()
         {
-            while (_queue.IsEmpty)
+            while (_dic.IsEmpty)
             {
                 Thread.Sleep(100);
             }
             
             while(true)
             {
-                Tuple<ObjectId, AnotherArticlePosition> retValue;
-                if (_queue.TryDequeue(out retValue))
+                lock (obj)
                 {
-                    return retValue;
+                    var nextId = _dic.Keys.FirstOrDefault();
+                    List<AnotherArticlePosition> list;
+                    if (nextId != default(ObjectId) && _dic.TryRemove(nextId, out list))
+                    {
+                        return new Tuple<ObjectId, AnotherArticlePosition[]>(nextId, list.ToArray());
+                    }
                 }
-                if (_queue.IsEmpty) Thread.Sleep(100);
+                if (CheckEmpty(_dic)) Thread.Sleep(100);
             }
+        }
+
+        private bool CheckEmpty(ConcurrentDictionary<ObjectId, List<AnotherArticlePosition>> dic)
+        {
+            return _dic.Values.All(l => !l.Any());
         }
     }
 }

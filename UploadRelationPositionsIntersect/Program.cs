@@ -25,13 +25,14 @@ namespace UploadRelationPositionsIntersect
         const string OffsetFilePath = "offset.txt";
         const string CountFilePath = "count.txt";
         private static int _positionsSet;
+        private static AsyncSaver _asyncSaver;
 
         static void Main(string[] args)
         {
             var db = new MongoClient("mongodb://127.0.0.1:27017/").GetDatabase("wikidata");
             var triplets = db.GetCollection<Triplet>("triplet");
             
-            var asyncSaver = new AsyncSaver(triplets);
+            _asyncSaver = new AsyncSaver(triplets);
 
             _count = GetLinesCount(PositionsFilePath, CountFilePath);
             _offset = GetOffset(OffsetFilePath);
@@ -41,7 +42,7 @@ namespace UploadRelationPositionsIntersect
 
             using (var wikiFile = new WikidumpReader(WikidumpPath))
             {
-                var algo = new AlgoInMemory(asyncSaver, wikiFile, triplets, PositionsFilePath);
+                var algo = new AlgoInMemory(_asyncSaver, wikiFile, triplets, PositionsFilePath);
 
                 _timer.Start();
                 algo.OnProcessed += algo_OnProcessed;
@@ -59,9 +60,8 @@ namespace UploadRelationPositionsIntersect
 
         private static void Report(int offset, int processed, int count, int positionsSet)
         {
-            var time = _timer.Elapsed;
             var estimation = TimeSpan.FromMilliseconds(_timer.ElapsedMilliseconds * ((count - offset) / processed));
-            Console.WriteLine("{0}/{1} done, elapsed {2}, estimation {3}, positions set {4}", offset, count, time.ToString(@"hh\:mm\:ss"), estimation.ToString(@"dd\:hh"), positionsSet);
+            Console.WriteLine("{0} done, estimation {1}, positions set {2}, in saving queue {3}", offset, estimation.ToString(@"dd\:hh"), positionsSet, _asyncSaver.InQueue);
             try
             {
                 using (var o = new StreamWriter(File.Open(OffsetFilePath, FileMode.Create)))
