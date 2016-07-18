@@ -62,9 +62,16 @@ namespace UploadRelationPositionsIntersect
             var time = _timer.Elapsed;
             var estimation = TimeSpan.FromMilliseconds(_timer.ElapsedMilliseconds * ((count - offset) / processed));
             Console.WriteLine("{0}/{1} done, elapsed {2}, estimation {3}, positions set {4}", offset, count, time.ToString(@"hh\:mm\:ss"), estimation.ToString(@"dd\:hh"), positionsSet);
-            using (var o = new StreamWriter(File.Open(OffsetFilePath, FileMode.Create)))
+            try
             {
-                o.Write(offset);
+                using (var o = new StreamWriter(File.Open(OffsetFilePath, FileMode.Create)))
+                {
+                    o.Write(offset);
+                }
+            }
+            catch
+            {
+                
             }
         }
 
