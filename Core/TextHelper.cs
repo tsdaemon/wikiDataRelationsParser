@@ -12,7 +12,7 @@
             while (newStart > 1)
             {
                 var twoChar = text.Substring(newStart - 2, 2);
-                if (twoChar == ". " || twoChar.Contains("\n")) break;
+                if (twoChar == ". " || twoChar[1] == '\n') break;
 
                 newStart--;
             }
@@ -22,7 +22,7 @@
             while (newEnd < text.Length - 2)
             {
                 var twoChar = text.Substring(newEnd, 2);
-                if (twoChar == ". " || twoChar.Contains("\n")) break;
+                if (twoChar == ". " || twoChar[0] == '\n') break;
 
                 newEnd++;
             }

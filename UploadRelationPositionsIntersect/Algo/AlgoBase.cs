@@ -65,10 +65,7 @@ namespace UploadRelationPositionsIntersect.Algo
                 LinesDone = done,
                 PositionsSet = positions
             };
-            if (OnProcessed != null)
-            {
-                OnProcessed(ev);
-            }
+            OnProcessed?.Invoke(ev);
         }
 
         private IEnumerable<PositionLine> PrepareCsvReader(string file)

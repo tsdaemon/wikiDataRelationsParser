@@ -9,5 +9,7 @@ namespace Core.Model
         public string WikidataId { get; set; }
         public string Title { get; set; }
         public string Qualifier { get; set; }
+        public string ReadTitleUk { get; set; }
+        public bool Used { get; set; }
     }
 }

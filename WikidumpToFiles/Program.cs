@@ -12,22 +12,27 @@ namespace WikidumpToFiles
 {
     class Program
     {
-        const string WikidumpPath = "D:\\DB\\ukwiki\\ukwiki-20160601-pages-articles.xml";
-        const string OutputPath = "C:\\DB\\uk-wiki\\";
         static void Main(string[] args)
         {
-            using (var reader = XmlReader.Create(new StreamReader(File.OpenRead(WikidumpPath), Encoding.UTF8), new XmlReaderSettings {}))
+            var config = new PathConfiguration();
+            var mainPath = config.GetPath("articles\\");
+            if (!Directory.Exists(mainPath))
+            {
+                Directory.CreateDirectory(mainPath);
+            }
+
+            using (var reader = XmlReader.Create(new StreamReader(File.OpenRead(config.WikipediaPath), Encoding.UTF8), new XmlReaderSettings {}))
             {
                 var done = 0;
                 var doneDictionary = new Dictionary<string, bool>();
-                while (!reader.EOF)
+                while (done < 20)
                 {
                     reader.ReadToFollowing("page");
                     if (reader.EOF) break;
 
                     reader.ReadToDescendant("id");
                     if (reader.EOF) break;
-                    var fileName = OutputPath +  PathHelper.EncodeFilePathPart(reader.ReadElementContentAsString()) + ".txt";
+                    var fileName = config.GetPath("articles\\" + PathHelper.EncodeFilePathPart(reader.ReadElementContentAsString()) + ".txt");
 
                     reader.ReadToFollowing("text");
                     if (reader.EOF) break;

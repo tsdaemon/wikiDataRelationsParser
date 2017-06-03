@@ -18,9 +18,7 @@ namespace UploadRelationPositionsIntersect
         private static int _offset;
         private static Stopwatch _timer;
 
-        const string PositionsFilePath = "D:\\DRIVE\\ukr-ner\\linkz.csv\\linkz.csv";
-        //const string WikidumpPath = "C:\\DB\\uk-wiki\\";
-        const string WikidumpPath = "C:\\DB\\ukwiki-20160601-pages-articles.xml";
+        const string PositionsFilePath = "links.csv";
 
         const string OffsetFilePath = "offset.txt";
         const string CountFilePath = "count.txt";
@@ -31,16 +29,18 @@ namespace UploadRelationPositionsIntersect
         {
             var db = new MongoClient("mongodb://127.0.0.1:27017/").GetDatabase("wikidata");
             var triplets = db.GetCollection<Triplet>("triplet");
+
+            var config = new PathConfiguration();
             
             _asyncSaver = new AsyncSaver(triplets);
 
-            _count = GetLinesCount(PositionsFilePath, CountFilePath);
-            _offset = GetOffset(OffsetFilePath);
+            _count = GetLinesCount(config.GetPath(PositionsFilePath), config.GetPath(CountFilePath));
+            _offset = GetOffset(config.GetPath(OffsetFilePath));
             _positionsSet = 0;
             _startOffset = _offset;
             _timer = new Stopwatch();
 
-            using (var wikiFile = new WikidumpReader(WikidumpPath))
+            using (var wikiFile = new WikidumpReader(config.WikipediaPath))
             {
                 var algo = new AlgoInMemory(_asyncSaver, wikiFile, triplets, PositionsFilePath);
 
@@ -56,23 +56,24 @@ namespace UploadRelationPositionsIntersect
             _offset += ev.LinesDone;
             _positionsSet += ev.PositionsSet;
             Report(_offset, _offset-_startOffset, _count, _positionsSet);
+
+            try
+            {
+                using (var o = new StreamWriter(File.Open(OffsetFilePath, FileMode.Create)))
+                {
+                    o.Write(_offset);
+                }
+            }
+            catch
+            {
+
+            }
         }
 
         private static void Report(int offset, int processed, int count, int positionsSet)
         {
             var estimation = TimeSpan.FromMilliseconds(_timer.ElapsedMilliseconds * ((count - offset) / processed));
             Console.WriteLine("{0} done, estimation {1}, positions set {2}, in saving queue {3}", offset, estimation.ToString(@"dd\:hh"), positionsSet, _asyncSaver.InQueue);
-            try
-            {
-                using (var o = new StreamWriter(File.Open(OffsetFilePath, FileMode.Create)))
-                {
-                    o.Write(offset);
-                }
-            }
-            catch
-            {
-                
-            }
         }
 
         // estimate lines count in file or read from saved file
