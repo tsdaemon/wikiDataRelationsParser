@@ -18,7 +18,6 @@ namespace UploadRelationPositionsIntersect
         private static int _offset;
         private static Stopwatch _timer;
 
-        const string PositionsFilePath = "links.csv";
 
         const string OffsetFilePath = "offset.txt";
         const string CountFilePath = "count.txt";
@@ -34,7 +33,7 @@ namespace UploadRelationPositionsIntersect
             
             _asyncSaver = new AsyncSaver(triplets);
 
-            _count = GetLinesCount(config.GetPath(PositionsFilePath), config.GetPath(CountFilePath));
+            _count = GetLinesCount(config.PositionsPath, config.GetPath(CountFilePath));
             _offset = GetOffset(config.GetPath(OffsetFilePath));
             _positionsSet = 0;
             _startOffset = _offset;
@@ -42,7 +41,7 @@ namespace UploadRelationPositionsIntersect
 
             using (var wikiFile = new WikidumpReader(config.WikipediaPath))
             {
-                var algo = new AlgoInMemory(_asyncSaver, wikiFile, triplets, PositionsFilePath);
+                var algo = new AlgoInMemory(_asyncSaver, wikiFile, triplets, config.PositionsPath);
 
                 _timer.Start();
                 algo.OnProcessed += algo_OnProcessed;

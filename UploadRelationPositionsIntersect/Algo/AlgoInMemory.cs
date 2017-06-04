@@ -48,11 +48,12 @@ namespace UploadRelationPositionsIntersect.Algo
                 .Include(t => t.Id)
                 .Include(t => t.ObjectWikiName)
                 .Include(t => t.SubjectWikiName);
+
             return _triplets
                 .Find(r => true)
                 .Project(fields)
                 .As<TripletMini>()
-                .ToEnumerable()
+                .ToList()
                 .GroupBy(t => t.ObjectWikiName + t.SubjectWikiName)
                 .ToDictionary(t => t.Key, t => t.ToArray());
         }

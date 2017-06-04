@@ -5,7 +5,7 @@ namespace PreprocessArticleTexts.Rules
 {
     public class ForbiddenSymbolsRule : IPreprocessRule
     {
-        private Regex symbols = new Regex(@"\n|=|→");
+        private Regex symbols = new Regex(@"=|→");
 
         public void Preprocess(TripletTrain result)
         {

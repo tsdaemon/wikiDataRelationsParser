@@ -25,14 +25,18 @@ namespace PreprocessArticleTexts
                 new GenerateIdRule(),
 
                 new ForbiddenSymbolsRule(),
+                new MoreThenOneLineBreakRule(),
 
                 new RemoveTemplateRule(),
                 new RemoveListRule(),
 
                 new ReplaceLinksRule(),
-                
+                new ReplaceSpaceRule(),
+
                 new RemoveMarkupRule(),
-                new RemoveMarkupRule()
+                new RemoveMarkupRule(),
+
+                new TrimRule()
             };
 
             var service = new PreprocessService(rules, properties, triplets, tripletsTrain);

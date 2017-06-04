@@ -9,8 +9,8 @@ namespace GetWikiArticle
         {
             using (var reader = new WikidumpReader("H:\\ukr-ner\\ukwiki-20160601-pages-articles.xml"))
             {
-                var article = reader.ExtractArticleText("Нумідія");
-                using (var streamWriter = new StreamWriter(File.OpenWrite("../../../Core.Tests/Нумідія.txt")))
+                var article = reader.ExtractArticleText("Україна");
+                using (var streamWriter = new StreamWriter(File.OpenWrite("..\\..\\..\\..\\Core.Tests\\Ukraine.txt")))
                 {
                     streamWriter.Write(article);
                 }

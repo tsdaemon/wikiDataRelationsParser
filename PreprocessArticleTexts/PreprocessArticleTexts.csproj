@@ -31,6 +31,26 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="MongoDB.Bson, Version=2.4.3.23, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MongoDB.Bson.2.4.3\lib\net45\MongoDB.Bson.dll</HintPath>
@@ -59,14 +79,17 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Rules\GenerateIdRule.cs" />
     <Compile Include="Rules\ForbiddenSymbolsRule.cs" />
+    <Compile Include="Rules\MoreThenOneLineBreakRule.cs" />
     <Compile Include="Rules\RemoveTemplateRule.cs" />
     <Compile Include="Rules\RemoveListRule.cs" />
     <Compile Include="Rules\IPreprocessRule.cs" />
     <Compile Include="Rules\ReplaceLinksRule.cs" />
     <Compile Include="Rules\RemoveMarkupRule.cs" />
+    <Compile Include="Rules\ReplaceSpaceRule.cs" />
+    <Compile Include="Rules\TrimRule.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="Rules\App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

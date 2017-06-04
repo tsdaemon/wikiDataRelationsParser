@@ -13,7 +13,7 @@ namespace DumpRelationTexts
 
             var triplets = db.GetCollection<TripletTrain>("triplet_train");
 
-            var train = triplets.Find(t => t.HasRelation == null).Limit(1000).ToList();
+            var train = triplets.Find(t => t.Label == RelationLabel.Unknown).Limit(1000).ToList();
 
             // serialize JSON to a string and then write string to a file
             File.WriteAllText(@"dump.json", JsonConvert.SerializeObject(train));

@@ -1,1 +1,1 @@
-﻿db.triplet.update({ ArticlePositions: { $ne: null } }, { $set: { ArticlePositions: null } }, { multi: true })
+﻿db.triplet.update({ ArticlePositions: { $ne: null } }, { $unset: { ArticlePositions: "" } }, { multi: true })

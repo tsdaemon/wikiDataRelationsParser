@@ -31,7 +31,11 @@ namespace PreprocessArticleTexts
                     var tr = new TripletTrain
                     {
                         Object = t.SubjectWikiName,
+                        ObjectAnchor = p.SubjectPosition.Anchor,
+
                         Subject = t.ObjectWikiName,
+                        SubjectAnchor = p.ObjectPosition.Anchor,
+
                         Predicate = _properties.First(pr => pr.WikidataId == t.Property).ReadTitleUk,
                         Text = p.Text,
                         WikipediaLink = "https://uk.wikipedia.org/wiki/" + p.ArticleTitle,
@@ -53,8 +57,6 @@ namespace PreprocessArticleTexts
                     }
 
                     _tripletsTrain.InsertOneAsync(tr);
-
-                    // _tripletsTrain.ReplaceOneAsync(ttr => ttr.Id == tr.Id, tr, new UpdateOptions {IsUpsert=true});
                 }
             });
         }

@@ -14,7 +14,11 @@ namespace Core.Model
 
         public string Object { get; set; }
 
+        public string ObjectAnchor { get; set; }
+
         public string Subject { get; set; }
+
+        public string SubjectAnchor { get; set; }
 
         public string WikipediaLink { get; set; }
 
@@ -22,6 +26,14 @@ namespace Core.Model
 
         public string Text { get; set; }
 
-        public bool? HasRelation { get; set; }
+        public RelationLabel Label { get; set; }
+    }
+
+    public enum RelationLabel
+    {
+        Unknown,
+        NoRelation,
+        WeakRelation,
+        Relation
     }
 }
