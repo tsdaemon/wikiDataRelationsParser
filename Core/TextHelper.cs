@@ -175,12 +175,12 @@ namespace Core
 
             if (endings.Contains(token1[token1.Length - 1]))
             {
-                var stopToken = Regex.Match(token1, @"[.!?…»]").Value;
+                var stopToken = token1.Length > 1 ? token1[token1.Length - 2] : default(char);
 
                 if (token2[0].IsUpper()
-                    && !stopToken[0].IsUpper()
+                    && !stopToken.IsUpper()
                     && !(token1[token1.Length - 1] != '.' ||
-                         stopToken[0] == '(' ||
+                         stopToken == '(' ||
                          abbrs.Contains(token1)))
                 {
                     return true;

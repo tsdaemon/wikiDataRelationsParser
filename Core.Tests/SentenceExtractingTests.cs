@@ -126,5 +126,19 @@ namespace Core.Tests
 
             Assert.AreEqual(expectedText, actualText);
         }
+
+        [Test]
+        public void Ugoslavia_Test()
+        {
+            var text = readFile("Ukraine");
+
+            int start = 4249, end = 93139, newStart, newEnd;
+
+            var actualText = TextHelper.ExtractTextWithSentenceWindow(text, start, end, out newStart, out newEnd);
+
+            var expectedText = readFile("Ugoslavia_test");
+
+            Assert.AreEqual(expectedText, actualText);
+        }
     }
 }

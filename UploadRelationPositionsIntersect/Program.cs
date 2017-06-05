@@ -47,7 +47,7 @@ namespace UploadRelationPositionsIntersect
                 algo.OnProcessed += algo_OnProcessed;
                 algo.Process(_offset);
             }
-            
+            _asyncSaver.Join();
         }
 
         static void algo_OnProcessed(AlgoProcessedEvent ev)
@@ -72,7 +72,7 @@ namespace UploadRelationPositionsIntersect
         private static void Report(int offset, int processed, int count, int positionsSet)
         {
             var estimation = TimeSpan.FromMilliseconds(_timer.ElapsedMilliseconds * ((count - offset) / processed));
-            Console.WriteLine("{0} done, estimation {1}, positions set {2}, in saving queue {3}", offset, estimation.ToString(@"dd\:hh"), positionsSet, _asyncSaver.InQueue);
+            Console.WriteLine($"{offset}/{count} done, estimation {estimation:dd\\:hh}, positions set {positionsSet}, in saving queue { _asyncSaver.InQueue}");
         }
 
         // estimate lines count in file or read from saved file

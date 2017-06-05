@@ -84,5 +84,14 @@ namespace Core.Service
         {
             return _dic.Values.All(l => !l.Any());
         }
+
+        public void Join()
+        {
+            while (true)
+            {
+                if (CheckEmpty(_dic)) break;
+                Thread.Sleep(1000);
+            }
+        }
     }
 }
