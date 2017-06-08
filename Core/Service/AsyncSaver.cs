@@ -11,21 +11,20 @@ namespace Core.Service
 {
     public class AsyncSaver
     {
-        public int InQueue { get { return _dic.Count; } }
+        public int InQueue => _dic.Count;
 
         private IMongoCollection<Triplet> _triplets;
         private ConcurrentDictionary<ObjectId, List<AnotherArticlePosition>> _dic;
-        private Thread _thread;
 
-        private static readonly Object obj = new object();
+        private static readonly object obj = new object();
 
         public AsyncSaver(IMongoCollection<Triplet> triplets)
         {
             _triplets = triplets;
             _dic = new ConcurrentDictionary<ObjectId, List<AnotherArticlePosition>>();
 
-            _thread = new Thread(Go);
-            _thread.Start();
+            var thread = new Thread(Go);
+            thread.Start();
         }
 
         public void Save(ObjectId id, AnotherArticlePosition position)
@@ -37,6 +36,14 @@ namespace Core.Service
                     ls.Add(position);
                     return ls;
                 });
+            }
+        }
+
+        public void Join()
+        {
+            while (!CheckEmpty())
+            {
+                Thread.Sleep(1000);
             }
         }
 
@@ -70,28 +77,18 @@ namespace Core.Service
                 lock (obj)
                 {
                     var nextId = _dic.Keys.FirstOrDefault();
-                    List<AnotherArticlePosition> list;
-                    if (nextId != default(ObjectId) && _dic.TryRemove(nextId, out list))
+                    if (nextId != default(ObjectId) && _dic.TryRemove(nextId, out List<AnotherArticlePosition> list))
                     {
                         return new Tuple<ObjectId, AnotherArticlePosition[]>(nextId, list.ToArray());
                     }
                 }
-                if (CheckEmpty(_dic)) Thread.Sleep(100);
+                if (CheckEmpty()) Thread.Sleep(100);
             }
         }
 
-        private bool CheckEmpty(ConcurrentDictionary<ObjectId, List<AnotherArticlePosition>> dic)
+        private bool CheckEmpty()
         {
             return _dic.Values.All(l => !l.Any());
-        }
-
-        public void Join()
-        {
-            while (true)
-            {
-                if (CheckEmpty(_dic)) break;
-                Thread.Sleep(1000);
-            }
         }
     }
 }

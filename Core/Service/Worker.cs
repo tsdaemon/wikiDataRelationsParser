@@ -46,7 +46,7 @@ namespace Core.Service
                 _io.SaveWork(_unit);
             }
             // start processing
-            ParallelLoopResult result = new ParallelLoopResult();
+            var result = new ParallelLoopResult();
             var t = new Thread(() => result = Parallel.ForEach(_unit.Parts.Where(u => !u.Done),
                 new ParallelOptions {MaxDegreeOfParallelism = _workers},
                 Do));
@@ -120,7 +120,7 @@ LIMIT 1000 OFFSET {3}";
             }
         }
 
-        private void ProcessResult(string property, string category, WikidataApi.Wikidata result)
+        private void ProcessResult(string property, string category, Wikidata result)
         {
             var documents = result.Results.Bindings.Select(r =>
             {

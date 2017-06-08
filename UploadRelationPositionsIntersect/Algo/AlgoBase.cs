@@ -30,11 +30,12 @@ namespace UploadRelationPositionsIntersect.Algo
 
         public void Process(int offset)
         {
-            
+            var positionsSet = 0;
+
             foreach (var g in _positions.Skip(offset).GroupBySequentually(l => l.PageId))
             {
                 var values = g.ToArray();
-                var positionsSet = 0;
+                
                 for (var i = 0; i < values.Length; i++)
                 {
                     for (var j = i + 1; j < values.Length; j++)

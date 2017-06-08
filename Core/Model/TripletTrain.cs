@@ -12,6 +12,8 @@ namespace Core.Model
 
         public string Predicate { get; set; }
 
+        public string PredicateId { get; set; }
+
         public string Object { get; set; }
 
         public string ObjectAnchor { get; set; }

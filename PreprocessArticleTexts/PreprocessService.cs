@@ -23,7 +23,7 @@ namespace PreprocessArticleTexts
 
         public void PreprocessTrain()
         {
-            var triplets = _triplets.Find(t => true).Limit(1000).ToCursor();
+            var triplets = _triplets.Find(t => t.ArticlePositions != null).Limit(1000).ToCursor();
             triplets.ForEachAsync(t =>
             {
                 foreach (var p in t.ArticlePositions)
@@ -37,6 +37,8 @@ namespace PreprocessArticleTexts
                         SubjectAnchor = p.ObjectPosition.Anchor,
 
                         Predicate = _properties.First(pr => pr.WikidataId == t.Property).ReadTitleUk,
+                        PredicateId = t.Property,
+
                         Text = p.Text,
                         WikipediaLink = "https://uk.wikipedia.org/wiki/" + p.ArticleTitle,
                         WikipediaTitle = p.ArticleTitle

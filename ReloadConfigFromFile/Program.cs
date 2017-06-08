@@ -63,8 +63,7 @@ namespace ReloadConfigFromFile
                                 WikidataId = vv[0],
                                 Qualifier = qualifier
                             };
-                        }))
-                ;
+                        }));
                 }
             }
 
