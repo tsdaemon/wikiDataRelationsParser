@@ -77,15 +77,24 @@
     <Compile Include="PreprocessService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rules\RemoveUselessPredicates.cs" />
     <Compile Include="Rules\GenerateIdRule.cs" />
     <Compile Include="Rules\ForbiddenSymbolsRule.cs" />
+    <Compile Include="Rules\LevenshteinDistanceRule.cs" />
+    <Compile Include="Rules\MaxTextLengthRule.cs" />
+    <Compile Include="Rules\RemoveDuplicatesRule.cs" />
+    <Compile Include="Rules\RemoveImageRule.cs" />
+    <Compile Include="Rules\RemoveTableRule.cs" />
+    <Compile Include="Rules\SentenceLengthConstraints.cs" />
     <Compile Include="Rules\MoreThenOneLineBreakRule.cs" />
     <Compile Include="Rules\RemoveTemplateRule.cs" />
     <Compile Include="Rules\RemoveListRule.cs" />
     <Compile Include="Rules\IPreprocessRule.cs" />
     <Compile Include="Rules\ReplaceLinksRule.cs" />
     <Compile Include="Rules\RemoveMarkupRule.cs" />
+    <Compile Include="Rules\ReplaceWeirdCharactersRule.cs" />
     <Compile Include="Rules\ReplaceSpaceRule.cs" />
+    <Compile Include="Rules\CheckObjectAndSubjectStillHereRule.cs" />
     <Compile Include="Rules\TrimRule.cs" />
   </ItemGroup>
   <ItemGroup>

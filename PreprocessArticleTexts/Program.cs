@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Reflection;
-using System.Threading;
 using Core.Model;
 using MongoDB.Driver;
 using PreprocessArticleTexts.Rules;
@@ -22,13 +20,19 @@ namespace PreprocessArticleTexts
 
             var rules = new List<IPreprocessRule>
             {
+                new RemoveUselessPredicates(),
+
                 new GenerateIdRule(),
+
+                new RemoveDuplicatesRule(),
 
                 new ForbiddenSymbolsRule(),
                 new MoreThenOneLineBreakRule(),
 
                 new RemoveTemplateRule(),
                 new RemoveListRule(),
+                new RemoveTableRule(),
+                new RemoveImageRule(),
 
                 new ReplaceLinksRule(),
                 new ReplaceSpaceRule(),
@@ -36,12 +40,20 @@ namespace PreprocessArticleTexts
                 new RemoveMarkupRule(),
                 new RemoveMarkupRule(),
 
-                new TrimRule()
+                new ReplaceWeirdCharactersRule(),
+
+                new SentenceLengthConstraints(30,2000),
+
+                new CheckObjectAndSubjectStillHereRule(),
+
+                new TrimRule(),
             };
+            var removeStats = rules.Select(r => r.GetType().Name).Distinct().ToDictionary(s => s, s => 0);
 
             var service = new PreprocessService(rules, properties, triplets, tripletsTrain);
-            service.PreprocessTrain();
-            Console.WriteLine("Almost done. Wait till async finished");
+            var added = service.PreprocessTrain(removeStats);
+            added.Wait();
+            Console.WriteLine($"Added {added.Result} records");
             Console.ReadKey();
         }
     }

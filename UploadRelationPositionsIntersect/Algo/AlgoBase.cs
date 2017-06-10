@@ -80,7 +80,7 @@ namespace UploadRelationPositionsIntersect.Algo
             return cc.Read<PositionLine>(file, inputFileDescription);
         }
 
-        protected void ProcessTriplet(ObjectId id,
+        protected bool ProcessTriplet(ObjectId id,
             PositionLine object_,
             PositionLine subject,
             IWikidumpReader reader)
@@ -94,7 +94,7 @@ namespace UploadRelationPositionsIntersect.Algo
             };
 
             var text = reader.ExtractArticleText(object_.PageId);
-            if (text == null) return;
+            if (text == null) return false;
             var startPosition = object_.Start < subject.Start ? object_.Start : subject.Start;
             var endPosition = object_.End > subject.End ? object_.End : subject.End;
 
@@ -102,11 +102,15 @@ namespace UploadRelationPositionsIntersect.Algo
             int newEnd;
             position.Text = TextHelper.ExtractTextWithSentenceWindow(text, startPosition, endPosition, out newStart,
                 out newEnd);
+            // do not save with line break
+            if (position.Text.Contains('\n') || position.Text.Contains('\r')) return false;
+
             position.Start = newStart;
             position.End = newEnd;
             position.Distance = newEnd - newStart;
 
             _saver.Save(id, position);
+            return true;
         }
     }
 }

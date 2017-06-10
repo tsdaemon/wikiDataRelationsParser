@@ -52,17 +52,25 @@ namespace UploadRelationPositionsIntersect
             Console.ReadKey();
         }
 
+        private static int _lastOffset = 0;
         static void algo_OnProcessed(AlgoProcessedEvent ev)
         {
             _offset += ev.LinesDone;
             Report(_offset, _offset-_startOffset, _count, ev.PositionsSet);
 
+            if(_offset - _lastOffset>1000)
             try
             {
+                _lastOffset = _offset;
+                
                 using (var o = new StreamWriter(File.Open(_config.GetPath(OffsetFilePath), FileMode.Create)))
                 {
                     o.Write(_offset);
                 }
+
+                Console.ForegroundColor = ConsoleColor.DarkBlue;
+                Console.WriteLine("Offset saved");
+                Console.ForegroundColor = ConsoleColor.White;
             }
             catch
             {

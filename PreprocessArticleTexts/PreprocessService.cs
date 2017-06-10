@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using Core.Model;
 using MongoDB.Driver;
 using PreprocessArticleTexts.Rules;
@@ -21,10 +22,11 @@ namespace PreprocessArticleTexts
             _tripletsTrain = tripletsTrain;
         }
 
-        public void PreprocessTrain()
+        public async Task<int> PreprocessTrain(Dictionary<string, int> stats)
         {
-            var triplets = _triplets.Find(t => t.ArticlePositions != null).Limit(1000).ToCursor();
-            triplets.ForEachAsync(t =>
+            var counter = 0;
+            var triplets = _triplets.Find(t => t.ArticlePositions != null).ToCursor();
+            await triplets.ForEachAsync(async t =>
             {
                 foreach (var p in t.ArticlePositions)
                 {
@@ -49,6 +51,7 @@ namespace PreprocessArticleTexts
                         rule.Preprocess(tr);
                         if (string.IsNullOrEmpty(tr.Text))
                         {
+                            stats[rule.GetType().Name] += 1;
                             break;
                         }
                     }
@@ -58,9 +61,11 @@ namespace PreprocessArticleTexts
                         continue;
                     }
 
-                    _tripletsTrain.InsertOneAsync(tr);
+                    counter++;
+                    await _tripletsTrain.InsertOneAsync(tr);
                 }
             });
+            return counter;
         }
     }
 }

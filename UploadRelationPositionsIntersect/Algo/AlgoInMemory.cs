@@ -26,8 +26,8 @@ namespace UploadRelationPositionsIntersect.Algo
             {
                 foreach (var t in array)
                 {
-                    ProcessTriplet(t.Id, entity1, entity2, _wikiReader);
-                    p++;
+                    if(ProcessTriplet(t.Id, entity1, entity2, _wikiReader))
+                        p++;
                 }
             }
 
@@ -35,8 +35,8 @@ namespace UploadRelationPositionsIntersect.Algo
             {
                 foreach (var t in array)
                 {
-                    ProcessTriplet(t.Id, entity2, entity1, _wikiReader);
-                    p++;
+                    if(ProcessTriplet(t.Id, entity2, entity1, _wikiReader))
+                        p++;
                 }
             }
             return p;

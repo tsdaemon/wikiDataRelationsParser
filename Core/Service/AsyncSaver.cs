@@ -18,13 +18,16 @@ namespace Core.Service
 
         private static readonly object obj = new object();
 
-        public AsyncSaver(IMongoCollection<Triplet> triplets)
+        public AsyncSaver(IMongoCollection<Triplet> triplets, int threads = 10)
         {
             _triplets = triplets;
             _dic = new ConcurrentDictionary<ObjectId, List<AnotherArticlePosition>>();
 
-            var thread = new Thread(Go);
-            thread.Start();
+            for (var i = 0; i < threads; i++)
+            {
+                var thread = new Thread(Go);
+                thread.Start();
+            }
         }
 
         public void Save(ObjectId id, AnotherArticlePosition position)
@@ -56,7 +59,8 @@ namespace Core.Service
                 {
                     var filter = Builders<Triplet>.Filter.Eq(t => t.Id, next.Item1);
                     var update = Builders<Triplet>.Update.PushEach(x => x.ArticlePositions, next.Item2);
-                    _triplets.UpdateOneAsync(filter, update);
+                    var task = _triplets.UpdateOneAsync(filter, update);
+                    task.Wait();
                 }
                 catch (Exception ex)
                 {
