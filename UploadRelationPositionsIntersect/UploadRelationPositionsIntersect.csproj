@@ -99,7 +99,7 @@
   <ItemGroup>
     <Content Include="clear.js" />
     <Content Include="clearData.js" />
-    <Content Include="CopyToOtherCollection.js" />
+    <Content Include="copyToOtherCollection.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

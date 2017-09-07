@@ -15,8 +15,7 @@ namespace PreprocessArticleTexts.Rules
         public void Preprocess(TripletTrain result)
         {
             var hash =
-            (result.Object + result.ObjectAnchor + result.Subject + result.SubjectAnchor + result.PredicateId +
-             result.Text).GetHashCode();
+            (result.Object + result.Subject + result.PredicateId + result.Text).GetHashCode();
             if (tripletHashes.Contains(hash))
             {
                 result.Text = null;
